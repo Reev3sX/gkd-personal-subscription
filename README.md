@@ -2,7 +2,7 @@
 
 把多个规则库整合为一个固定订阅地址，并按计划自动获取更新。
 
-本项目发布目标：[Reev3sX/gkd-personal-subscription](https://github.com/Reev3sX/gkd-personal-subscription)。在 GKD 的订阅页面添加：
+本项目已发布：[Reev3sX/gkd-personal-subscription](https://github.com/Reev3sX/gkd-personal-subscription)。在 GKD 的订阅页面添加：
 
 ```text
 https://raw.githubusercontent.com/Reev3sX/gkd-personal-subscription/main/dist/gkd.json5
@@ -45,7 +45,7 @@ GitHub 的定时任务可能延迟；公开仓库连续 60 天无活动时，定
 
 ## 发布为自己的地址
 
-本地构建已通过检查。上方地址是本次发布目标；以下步骤用于日后迁移到其他仓库，云端运行是否通过以 Actions 记录为准。
+本地构建和首次 GitHub Actions 运行均已通过检查，在线订阅已回读验证。以下步骤用于日后迁移到其他仓库，后续云端运行状态以 Actions 记录为准。
 
 1. 在自己的 GitHub 账号下创建仓库，默认分支使用 `main`。下面的匿名订阅地址方案需要公开仓库。
 2. 上传本目录中的文件，包括 `.github/workflows/update.yml`、`package-lock.json`、`state.json` 和 `dist/`；不要上传 `node_modules/`。普通网页拖拽可能漏掉隐藏目录，建议使用 Git 或 GitHub Desktop 提交完整目录。
