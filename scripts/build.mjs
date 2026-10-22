@@ -115,7 +115,7 @@ export function merge(config, inputs, previousState = { next: 1, keys: {} }) {
     if (primary) {
       categories.push(...(data.categories ?? []).map(category => ({ ...category, key: keyFor(['category', source.key, category.key]) })));
     } else {
-      // A separate prefix prevents the primary categories/global exclusions from capturing disabled supplements.
+      // A separate prefix keeps supplement switches independent of the primary categories/global exclusions.
       categories.push({ key: keyFor(['category', source.key]), name: `补充·${source.name}` });
     }
     const lists = (data.apps ?? []).map(app => ({ app, groups: app.groups }));
@@ -134,7 +134,7 @@ export function merge(config, inputs, previousState = { next: 1, keys: {} }) {
         if (original.scopeKeys != null) group.scopeKeys = array(original.scopeKeys).map(k => mapped.get(k));
         if (!primary) {
           group.name = `补充·${source.name}｜${original.name}`;
-          group.enable = false;
+          group.enable = true;
         }
         if (app) {
           if (!apps.has(app.id)) apps.set(app.id, { ...structuredClone(app), groups: [] });

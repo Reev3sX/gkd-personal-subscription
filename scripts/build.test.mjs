@@ -20,19 +20,19 @@ test('validates source boundaries and rejects broken references', () => {
   assert.throws(() => validateSubscription(subscription(1, [group(1)], { version: -1 })), /Invalid version/);
 });
 
-test('preserves primary settings and isolates disabled supplement categories', () => {
+test('preserves primary settings and enables supplements independently of upstream defaults', () => {
   const primary = subscription(1, [group(7, '开屏广告-主库', { enable: true, matchTime: 9000 })], {
     categories: [{ key: 3, name: '开屏广告', enable: true }],
     globalGroups: [group(2, '开屏广告-全局', { disableIfAppGroupMatch: '开屏广告' })],
   });
-  const supplement = subscription(2, [group(7, '开屏广告-补充', { matchTime: 5000, enable: true })], {
-    globalGroups: [group(4, '其他全局')], categories: [{ key: 0, name: '开屏广告', enable: true }],
+  const supplement = subscription(2, [group(7, '开屏广告-补充', { matchTime: 5000, enable: false })], {
+    globalGroups: [group(4, '其他全局')], categories: [{ key: 0, name: '开屏广告', enable: false }],
   });
   const original = structuredClone([primary, supplement]);
   const result = merge(config(), [primary, supplement]);
   const [main, added] = appGroups(result);
   assert.deepEqual({ ...main, key: 7 }, primary.apps[0].groups[0]);
-  assert.equal(added.enable, false);
+  assert.equal(added.enable, true);
   assert.equal(added.name, '补充·Source 1｜开屏广告-补充');
   assert(!added.name.startsWith('开屏广告'));
   assert.equal(result.subscription.categories[1].name, '补充·Source 1');

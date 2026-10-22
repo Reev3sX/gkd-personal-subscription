@@ -2,7 +2,7 @@
   "id": 1846372051,
   "name": "个人 GKD 聚合订阅",
   "author": "Reev3sX（聚合；规则来自 Lin-arm、aoguai、yanmuq）",
-  "version": 2,
+  "version": 3,
   "checkUpdateUrl": "./gkd.version.json5",
   "categories": [
     {
@@ -5862,7 +5862,7 @@
           "key": 2633,
           "name": "补充·奥怪｜通知提示-消息中心-系统通知请求",
           "desc": "关闭消息推送开启提示",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "actionMaximum": 1,
           "resetMatch": "app",
@@ -7901,7 +7901,7 @@
               "snapshotUrls": "https://i.gkd.li/i/28419645"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -8771,12 +8771,12 @@
               "snapshotUrls": "https://i.gkd.li/i/13325125"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2561,
           "name": "补充·奥怪｜功能类-文件即将过期提示",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "matchTime": 10000,
           "actionMaximum": 1,
@@ -8793,7 +8793,7 @@
         {
           "key": 2562,
           "name": "补充·奥怪｜功能类-自动点击原图",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "actionMaximum": 1,
           "activityIds": "com.alibaba.android.dingtalk.photoui.activitys.AlbumActivity",
@@ -8811,7 +8811,7 @@
         {
           "key": 2563,
           "name": "补充·奥怪｜更新提示",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "matchTime": 10000,
           "actionMaximum": 1,
@@ -8832,7 +8832,7 @@
         {
           "key": 2564,
           "name": "补充·奥怪｜功能类-扫码自动登录桌面版",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "matchTime": 10000,
           "actionMaximum": 1,
@@ -9029,7 +9029,7 @@
           "key": 2512,
           "name": "补充·奥怪｜功能类-自动签到",
           "desc": "自动点击签到按钮并关闭签到后的弹窗",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "matchTime": 10000,
           "actionMaximum": 1,
@@ -9071,7 +9071,7 @@
           "key": 2513,
           "name": "补充·奥怪｜全屏广告-活动弹窗",
           "desc": "关闭全屏活动弹窗广告",
-          "enable": false,
+          "enable": true,
           "activityIds": "com.alicloud.databox.MainActivity",
           "rules": [
             {
@@ -9094,7 +9094,7 @@
           "key": 2514,
           "name": "补充·奥怪｜功能类-时光设备间-自动点击",
           "desc": "自动点击“开心收下”",
-          "enable": false,
+          "enable": true,
           "activityIds": "com.alipay.mobile.nebulax.integration.mpaas.activity.NebulaActivity$Main",
           "actionMaximum": 1,
           "matchTime": 10000,
@@ -9105,7 +9105,7 @@
           "key": 2515,
           "name": "补充·奥怪｜更新提示",
           "desc": "关闭应用更新提示弹窗",
-          "enable": false,
+          "enable": true,
           "matchTime": 10000,
           "actionMaximum": 1,
           "resetMatch": "app",
@@ -9122,7 +9122,7 @@
           "key": 2516,
           "name": "补充·奥怪｜通知提示-顶端横幅”",
           "desc": "出现在首页、备份盘、资源库",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "fastQuery": true,
           "activityIds": [
@@ -9155,7 +9155,7 @@
         {
           "key": 2517,
           "name": "补充·奥怪｜功能类-自动授权",
-          "enable": false,
+          "enable": true,
           "desc": "包括扫码登录",
           "actionMaximum": 1,
           "resetMatch": "app",
@@ -9172,7 +9172,7 @@
           "key": 2518,
           "name": "补充·奥怪｜全屏广告-[容量使用超限]提示",
           "desc": "点击关闭",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": ".MainActivity",
           "rules": [
@@ -9201,7 +9201,7 @@
               "snapshotUrls": "https://i.gkd.li/i/15433289"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -9430,12 +9430,12 @@
             }
           ],
           "order": -10,
-          "enable": false
+          "enable": true
         },
         {
           "key": 2738,
           "name": "补充·奥怪｜权限提示-通知权限",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "fastQuery": true,
           "matchTime": 10000,
@@ -10167,7 +10167,7 @@
         {
           "name": "补充·言木七｜权限控制-相机允许本次",
           "key": 2811,
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "actionMaximum": 1,
           "priorityTime": 1000,
@@ -10191,7 +10191,7 @@
         {
           "name": "补充·言木七｜权限控制-位置允许本次",
           "key": 2812,
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "actionMaximum": 1,
           "order": -10,
@@ -10230,7 +10230,7 @@
               "snapshotUrls": "https://i.gkd.li/i/23588107"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "name": "补充·言木七｜权限控制-拒绝默认浏览器请求",
@@ -10247,7 +10247,7 @@
               "snapshotUrls": "https://i.gkd.li/i/28758818"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -10567,7 +10567,7 @@
           "key": 2743,
           "name": "补充·奥怪｜全屏广告-广告弹窗",
           "desc": "关闭主题资源页面的广告弹窗",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.android.thememanager.ThemeResourceTabActivity",
           "rules": "ImageView[id=\"com.android.thememanager:id/cancel\"][desc=\"关闭\"]",
@@ -10837,7 +10837,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -11489,7 +11489,7 @@
           "key": 2571,
           "name": "补充·奥怪｜功能类-截屏分享",
           "desc": "关闭截屏后的分享弹窗",
-          "enable": false,
+          "enable": true,
           "activityIds": "com.autonavi.map.activity.NewMapActivity",
           "rules": "[text=\"分享截图至\"] < ViewGroup < ViewGroup + @ViewGroup[clickable=true] > ImageView",
           "snapshotUrls": "https://i.gkd.li/import/13473388"
@@ -11498,7 +11498,7 @@
           "key": 2572,
           "name": "补充·奥怪｜通知提示-地图横条广告",
           "desc": "关闭地图页面的横条广告和弹窗提示",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "fastQuery": true,
           "activityIds": "com.autonavi.map.activity.NewMapActivity",
@@ -11521,7 +11521,7 @@
           "key": 2573,
           "name": "补充·奥怪｜全屏广告-广告弹窗",
           "desc": "关闭欢迎弹窗、签到弹窗和加油优惠券弹窗",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.autonavi.map.activity.NewMapActivity",
           "rules": [
@@ -11594,13 +11594,13 @@
               "snapshotUrls": "https://i.gkd.li/i/18627401"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2575,
           "name": "补充·奥怪｜权限提示-授权蓝牙",
           "desc": "关闭室内定位蓝牙授权提示",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "matchTime": 10000,
           "actionMaximum": 1,
@@ -11951,12 +11951,12 @@
               "snapshotUrls": "https://i.gkd.li/i/22616267"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2525,
           "name": "补充·奥怪｜全屏广告-各类弹窗广告",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -12001,7 +12001,7 @@
           "key": 2526,
           "name": "补充·奥怪｜权限提示-通知权限",
           "desc": "点击关闭",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "fastQuery": true,
           "matchTime": 10000,
@@ -12270,7 +12270,7 @@
           "key": 2539,
           "name": "补充·奥怪｜全屏广告-活动弹窗",
           "desc": "关闭VIP推广、一刻相册推广、幸运券包等活动弹窗",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": [
             "com.baidu.netdisk.ui.MainActivity",
@@ -12332,7 +12332,7 @@
               "snapshotUrls": "https://i.gkd.li/i/23694176"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2541,
@@ -12348,7 +12348,7 @@
               "snapshotUrls": "https://i.gkd.li/i/18762226"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -13076,7 +13076,7 @@
           "key": 2528,
           "name": "补充·奥怪｜通知提示-申请消息提醒弹窗",
           "desc": "关闭消息通知开启提示弹窗",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "fastQuery": true,
           "actionMaximum": 1,
@@ -13108,7 +13108,7 @@
           "key": 2529,
           "name": "补充·奥怪｜分段广告-信息流广告",
           "desc": "关闭首页、帖子内的广告和直播推广",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "forcedTime": 10000,
           "activityIds": [
@@ -13292,7 +13292,7 @@
           "key": 2532,
           "name": "补充·奥怪｜全屏广告-广告弹窗",
           "desc": "关闭会员弹窗、签到弹窗等全屏广告",
-          "enable": false,
+          "enable": true,
           "matchTime": 10000,
           "actionMaximum": 1,
           "rules": [
@@ -13685,7 +13685,7 @@
           "key": 2587,
           "name": "补充·奥怪｜通知提示-网络代理提示弹窗",
           "desc": "点击[继续使用]",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "matchTime": 10000,
           "actionMaximum": 1,
@@ -14915,7 +14915,7 @@
           "key": 2555,
           "name": "补充·奥怪｜全屏广告-弹窗广告",
           "desc": "关闭首页和物流页面的全屏推广弹窗",
-          "enable": false,
+          "enable": true,
           "forcedTime": 10000,
           "activityIds": [
             "com.cainiao.wireless.homepage.view.activity.HomePageActivity",
@@ -15040,13 +15040,13 @@
               "snapshotUrls": "https://i.gkd.li/i/29924327"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2557,
           "name": "补充·奥怪｜功能类-包裹页面-自动展开更多物流信息",
           "desc": "自动展开包裹页面的物流详情信息",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.taobao.cainiao.logistic.ui.view.LogisticDetailActivity",
           "rules": [
@@ -16050,7 +16050,7 @@
           "key": 2732,
           "name": "补充·奥怪｜通知提示-VPN风险弹窗",
           "desc": "点击[知晓风险，继续使用]",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "matchTime": 10000,
           "actionMaximum": 1,
@@ -17665,7 +17665,7 @@
           "key": 2604,
           "name": "补充·奥怪｜分段广告-卡片广告",
           "desc": "关闭信息流中的卡片广告",
-          "enable": false,
+          "enable": true,
           "matchRoot": true,
           "fastQuery": true,
           "activityIds": [
@@ -17754,7 +17754,7 @@
           "key": 2605,
           "name": "补充·奥怪｜功能类-自动查看原图",
           "desc": "浏览图片时自动切换至原图模式",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.coolapk.market.view.photo.PhotoViewActivity",
           "rules": "[vid=\"load_source_button\"][checked=false]",
@@ -17790,7 +17790,7 @@
               "snapshotUrls": "https://i.gkd.li/i/19643150"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -18412,7 +18412,7 @@
           "key": 2726,
           "name": "补充·奥怪｜全屏广告-软件更新/安装后的用户引导",
           "desc": "自动点击更新或安装后的引导页面跳过按钮",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.ct.client.activity.UserGuideActivity",
           "rules": "[id=\"com.ct.client:id/tvSkip\"]",
@@ -18424,7 +18424,7 @@
           "key": 2727,
           "name": "补充·奥怪｜全屏广告-弹窗广告",
           "desc": "关闭首页和查询办理页面的浮窗广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": [
             "com.ct.client.common.ConfirmDialogActivity",
@@ -21325,13 +21325,13 @@
               "snapshotUrls": "https://i.gkd.li/i/13401266"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2581,
           "name": "补充·奥怪｜全屏广告-弹窗广告",
           "fastQuery": true,
-          "enable": false,
+          "enable": true,
           "matchTime": 10000,
           "actionMaximum": 1,
           "resetMatch": "app",
@@ -21348,7 +21348,7 @@
           "key": 2582,
           "name": "补充·奥怪｜通知提示-root提示",
           "desc": "点击确认",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "fastQuery": true,
           "matchTime": 10000,
@@ -22438,7 +22438,7 @@
           "key": 2704,
           "name": "补充·奥怪｜通知提示-关闭花呗,借呗,还款升级,推荐等弹窗",
           "desc": "关闭支付成功后的升级、开通、推荐等弹窗",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "actionMaximum": 1,
           "resetMatch": "app",
@@ -22486,7 +22486,7 @@
           "key": 2705,
           "name": "补充·奥怪｜更新提示",
           "desc": "关闭应用更新提示弹窗",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "matchTime": 10000,
           "actionMaximum": 1,
@@ -22523,7 +22523,7 @@
           "key": 2706,
           "name": "补充·奥怪｜全屏广告-设置支付宝小组件",
           "desc": "关闭支付宝小组件设置提示和推荐",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -22553,7 +22553,7 @@
           "key": 2707,
           "name": "补充·奥怪｜分段广告-小程序-12306",
           "desc": "关闭12306小程序界面的推广广告",
-          "enable": false,
+          "enable": true,
           "activityIds": "com.alipay.mobile.nebulax.xriver.activity.XRiverActivity",
           "rules": [
             {
@@ -22574,7 +22574,7 @@
           "key": 2708,
           "name": "补充·奥怪｜功能类-支付后自动点击完成",
           "desc": "支付/充值/提交成功后自动点击完成按钮",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -22596,7 +22596,7 @@
           "key": 2710,
           "name": "补充·奥怪｜功能类-关闭免密支付开关",
           "desc": "关闭免密支付功能开关",
-          "enable": false,
+          "enable": true,
           "actionMaximum": 1,
           "rules": [
             {
@@ -22615,7 +22615,7 @@
           "key": 2712,
           "name": "补充·奥怪｜全屏广告-弹窗广告",
           "desc": "关闭全屏弹窗广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -22693,7 +22693,7 @@
           "key": 2713,
           "name": "补充·奥怪｜功能类-自动授权登录",
           "desc": "自动点击登录确认",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "fastQuery": true,
@@ -22709,7 +22709,7 @@
           "key": 2714,
           "name": "补充·奥怪｜功能类-无法访问时点击[返回]",
           "desc": "无法访问时点击[返回]",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "fastQuery": true,
@@ -22751,7 +22751,7 @@
               "snapshotUrls": "https://i.gkd.li/i/26330637"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2851,
@@ -22787,7 +22787,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2852,
@@ -22821,7 +22821,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2855,
@@ -22843,7 +22843,7 @@
               "snapshotUrls": "https://i.gkd.li/i/16812751"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2856,
@@ -22864,7 +22864,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2858,
@@ -22897,7 +22897,7 @@
               "snapshotUrls": "https://i.gkd.li/i/15144844"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2860,
@@ -22915,7 +22915,7 @@
               "snapshotUrls": "https://i.gkd.li/i/17141999"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -23089,7 +23089,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2862,
@@ -23113,7 +23113,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13842299"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -25342,7 +25342,7 @@
         },
         {
           "key": 2742,
-          "enable": false,
+          "enable": true,
           "name": "补充·奥怪｜功能类-授权第三方应用访问文件夹",
           "desc": "(存在安全风险)自动点击使用此文件夹并允许访问权限",
           "fastQuery": true,
@@ -25413,7 +25413,7 @@
           "key": 2470,
           "name": "补充·奥怪｜分段广告-信息流广告",
           "desc": "点击广告选项并完成屏蔽操作",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -25989,7 +25989,7 @@
           "key": 2506,
           "name": "补充·奥怪｜全屏广告-视频播放-赞助商广告",
           "desc": "关闭视频播放中的赞助商广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": [
             "com.google.android.apps.youtube.app.watchwhile.WatchWhileActivity",
@@ -26023,7 +26023,7 @@
           "key": 2511,
           "name": "补充·奥怪｜分段广告-播放器广告",
           "desc": "点击关闭播放器广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.google.android.apps.youtube.app.watchwhile.MainActivity",
           "rules": [
@@ -26124,7 +26124,7 @@
           "key": 2474,
           "name": "补充·奥怪｜全屏广告-首页广告弹窗",
           "desc": "关闭首页弹出的全屏广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -26146,13 +26146,13 @@
           "activityIds": "com.gotokeep.keep.refactor.business.main.activity.MainActivity",
           "rules": "[id=\"com.gotokeep.keep:id/textAdTag\"] + [id=\"com.gotokeep.keep:id/imgClose\"]",
           "snapshotUrls": "https://i.gkd.li/import/12706115",
-          "enable": false
+          "enable": true
         },
         {
           "key": 2476,
           "name": "补充·奥怪｜全屏广告-运动购页面广告弹窗",
           "desc": "关闭运动购物页面的弹窗广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -26377,7 +26377,7 @@
         {
           "key": 2739,
           "name": "补充·奥怪｜全屏广告-首页弹窗广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "matchTime": 10000,
           "actionMaximum": 1,
@@ -28220,7 +28220,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2801,
@@ -28242,7 +28242,7 @@
               "snapshotUrls": "https://i.gkd.li/i/16993276"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2802,
@@ -28297,7 +28297,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2803,
@@ -28318,7 +28318,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2805,
@@ -28328,7 +28328,7 @@
           "actionMaximum": 1,
           "resetMatch": "app",
           "priorityTime": 5000,
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "matches": "[id=\"android:id/button2\"][text=\"以后再说\"]",
@@ -28579,7 +28579,7 @@
               "snapshotUrls": "https://i.gkd.li/i/15523957"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2790,
@@ -28596,7 +28596,7 @@
               "snapshotUrls": "https://i.gkd.li/i/14861810"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2791,
@@ -28611,7 +28611,7 @@
               "snapshotUrls": "https://i.gkd.li/i/15523964"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -28686,7 +28686,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13403785"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2778,
@@ -28700,7 +28700,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13692404"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2779,
@@ -28714,7 +28714,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13997759"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -28849,7 +28849,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2793,
@@ -28861,7 +28861,7 @@
               "snapshotUrls": "https://i.gkd.li/i/12667814"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2795,
@@ -28873,7 +28873,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13546292"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2796,
@@ -28886,7 +28886,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13587206"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2797,
@@ -28907,7 +28907,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -29234,7 +29234,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2784,
@@ -29252,7 +29252,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2785,
@@ -29265,7 +29265,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13067649"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2786,
@@ -29286,7 +29286,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -29359,7 +29359,7 @@
               "snapshotUrls": "https://i.gkd.li/i/27942071"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -29466,7 +29466,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13441814"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -29963,7 +29963,7 @@
         {
           "key": 2728,
           "name": "补充·奥怪｜全屏广告-弹窗广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "actionMaximum": 1,
           "resetMatch": "app",
@@ -30206,7 +30206,7 @@
           "key": 2472,
           "name": "补充·奥怪｜分段广告-信息流广告",
           "desc": "但是步骤较多, 影响app使用",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.instagram.mainactivity.InstagramMainActivity",
           "rules": [
@@ -30247,7 +30247,7 @@
         {
           "key": 2473,
           "name": "补充·奥怪｜功能类-自动点击[查看翻译]",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.instagram.mainactivity.InstagramMainActivity",
           "rules": [
@@ -30325,12 +30325,12 @@
           "activityIds": "com.intsig.camscanner.mainmenu.mainactivity.MainActivity",
           "rules": "[id=\"com.intsig.camscanner:id/card_ad_tag\"] + [id=\"com.intsig.camscanner:id/card_close\"]",
           "snapshotUrls": "https://i.gkd.li/i/12668813",
-          "enable": false
+          "enable": true
         },
         {
           "key": 2637,
           "name": "补充·奥怪｜通知提示-关闭[发现新截图]提示",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "rules": [
             {
@@ -31587,7 +31587,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2597,
@@ -31596,7 +31596,7 @@
           "ignoreGlobalGroupMatch": true,
           "actionMaximum": 1,
           "resetMatch": "app",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": [
             "com.jd.lib.message.messagecenter.view.activity.MessageCenterMainActivityNew",
@@ -31626,7 +31626,7 @@
           "key": 2598,
           "name": "补充·奥怪｜全屏广告-广告弹窗",
           "desc": "关闭各种全屏广告弹窗",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -31753,13 +31753,13 @@
               "snapshotUrls": "https://i.gkd.li/i/15229577"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2600,
           "name": "补充·奥怪｜功能类-京东账号登录授权",
           "desc": "点击确认登录按钮",
-          "enable": false,
+          "enable": true,
           "activityIds": "com.jingdong.app.mall.WebActivity",
           "rules": "@[desc=\"确认登录\"][clickable=true] > [text=\"确认登录\"]",
           "snapshotUrls": "https://i.gkd.li/import/12901734"
@@ -31768,7 +31768,7 @@
           "key": 2603,
           "name": "补充·奥怪｜通知提示-关闭支付时各类开通弹窗",
           "desc": "关闭支付时弹出的免密、快付、人脸等弹窗",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "actionMaximum": 2,
           "resetMatch": "app",
@@ -31815,7 +31815,7 @@
               "exampleUrls": "https://e.gkd.li/bc8bfb87-2bd5-431d-b939-f9ba31fdee26"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -32042,7 +32042,7 @@
               "snapshotUrls": "https://i.gkd.li/i/19589975"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2772,
@@ -32067,7 +32067,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2773,
@@ -32112,7 +32112,7 @@
               "snapshotUrls": "https://i.gkd.li/i/12739316"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2774,
@@ -32121,7 +32121,7 @@
           "activityIds": "com.hellobike.atlas.business.portal.PortalActivity",
           "rules": "@[id=\"com.jingyao.easybike:id/closeFloatArea\"] + [id=\"com.jingyao.easybike:id/floatADContainer\"]",
           "snapshotUrls": "https://i.gkd.li/i/12650071",
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -33773,13 +33773,13 @@
               "snapshotUrls": "https://i.gkd.li/i/18207953"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2609,
           "name": "补充·奥怪｜全屏广告-VIP弹窗",
           "desc": "关闭VIP会员相关弹窗",
-          "enable": false,
+          "enable": true,
           "matchTime": 10000,
           "actionMaximum": 1,
           "resetMatch": "app",
@@ -33808,7 +33808,7 @@
           "key": 2610,
           "name": "补充·奥怪｜全屏广告-[看广告免费听歌]弹窗",
           "desc": "点击关闭看广告免费听歌的弹窗",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "activityIds": "com.kugou.android.app.MediaActivity",
@@ -33834,7 +33834,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -34387,7 +34387,7 @@
           "key": 2634,
           "name": "补充·奥怪｜功能类-权限授予弹窗",
           "desc": "点击【仅在使用中允许】",
-          "enable": false,
+          "enable": true,
           "activityIds": "com.android.packageinstaller.permission.ui.GrantPermissionsActivity",
           "fastQuery": true,
           "rules": "[text=\"仅在使用中允许\"]",
@@ -35021,7 +35021,7 @@
           "key": 2619,
           "name": "补充·奥怪｜通知提示-通知弹窗",
           "desc": "点击通知弹窗的【确定】按钮",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "fastQuery": true,
           "matchTime": 10000,
@@ -36450,13 +36450,13 @@
               "snapshotUrls": "https://i.gkd.li/i/14914139"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2679,
           "name": "补充·奥怪｜功能类-自动查看原图",
           "desc": "浏览图片时自动切换至原图模式",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": [
             ".module.bbs.post.ui.activitys.WebNewsPostPageActivity",
@@ -36573,7 +36573,7 @@
           "key": 2621,
           "name": "补充·奥怪｜分段广告-交友页面底部广告",
           "desc": "关闭交友页面底部出现的广告",
-          "enable": false,
+          "enable": true,
           "activityIds": [
             "com.maxhom.weibu.tool.home.activity.NewMainActivity",
             "com.maxhom.weibu.WelcomeActivity"
@@ -36618,7 +36618,7 @@
           "key": 2622,
           "name": "补充·奥怪｜通知提示-漂流瓶页面提示弹窗",
           "desc": "关闭漂流瓶功能页面的各类提示弹窗",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "fastQuery": true,
           "activityIds": [
@@ -36773,7 +36773,7 @@
               "exampleUrls": "https://e.gkd.li/158a00b8-48fe-4556-a844-02e3d8800f47"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -37279,7 +37279,7 @@
           "key": 2689,
           "name": "补充·奥怪｜局部广告",
           "desc": "关闭各页面的局部广告",
-          "enable": false,
+          "enable": true,
           "matchTime": 10000,
           "rules": [
             {
@@ -37295,7 +37295,7 @@
           "key": 2690,
           "name": "补充·奥怪｜全屏广告",
           "desc": "关闭各页面的全屏广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "matchTime": 10000,
           "actionMaximum": 2,
@@ -37581,7 +37581,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2752,
@@ -37600,7 +37600,7 @@
               "exampleUrls": "https://e.gkd.li/51c0e6de-cc7a-4d5a-8163-17a141a566fc"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -37621,7 +37621,7 @@
               "exampleUrls": "https://e.gkd.li/bc8bfb87-2bd5-431d-b939-f9ba31fdee26"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -38135,7 +38135,7 @@
           "key": 2688,
           "name": "补充·奥怪｜全屏广告-云存储空间不足弹窗",
           "desc": "点击云存储空间不足提示弹窗中的\"以后再说\"按钮",
-          "enable": false,
+          "enable": true,
           "activityIds": "com.miui.cloudservice.hybrid.SignDeductDialogHybridActivity",
           "rules": "View > [text=\"以后再说\"]",
           "snapshotUrls": "https://i.gkd.li/import/12847374"
@@ -38422,7 +38422,7 @@
           "key": 2693,
           "name": "补充·奥怪｜功能类-自动安装/更新应用",
           "desc": "自动点击安装/更新和完成按钮(需关闭应用安全验证和安全守护)",
-          "enable": false,
+          "enable": true,
           "matchRoot": true,
           "fastQuery": true,
           "actionMaximum": 1,
@@ -38642,7 +38642,7 @@
           "key": 2680,
           "name": "补充·奥怪｜全屏广告-弹窗广告",
           "desc": "关闭各类全屏弹窗广告",
-          "enable": false,
+          "enable": true,
           "activityIds": [
             "com.tencent.qqmusiclite.activity.MainActivity",
             "com.tencent.qqmusiccommon.hybrid.HybridViewActivity"
@@ -38693,7 +38693,7 @@
           "name": "补充·奥怪｜局部广告-banner 广告",
           "desc": "关闭页面内的 banner 广告",
           "activityIds": "com.tencent.qqmusiclite.activity.MainActivity",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -38715,7 +38715,7 @@
           "key": 2683,
           "name": "补充·奥怪｜功能类-看广告视频领VIP",
           "desc": "等待15s自动点击【退出】",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "actionDelay": 15000,
@@ -38755,7 +38755,7 @@
           "key": 2667,
           "name": "补充·奥怪｜全屏广告-游戏广告弹窗",
           "desc": "关闭游戏加速弹出的活动广告弹窗",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "activityIds": "com.miui.gamebooster.GameBoosterRichWebActivity",
@@ -38971,7 +38971,7 @@
           "key": 2520,
           "name": "补充·奥怪｜功能类-USB安装时自动继续安装",
           "desc": "点击USB安装应用时的【继续安装】按钮",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.miui.permcenter.install.AdbInstallActivity",
           "rules": [
@@ -38985,7 +38985,7 @@
           "key": 2521,
           "name": "补充·奥怪｜功能类-禁止获取定位",
           "desc": "点击获取定位权限弹窗的【不同意】按钮",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": [
             "com.miui.securityscan.MainActivity",
@@ -39067,7 +39067,7 @@
             "https://i.gkd.li/import/13227328",
             "https://i.gkd.li/import/13255751"
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -39279,7 +39279,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2831,
@@ -39317,7 +39317,7 @@
               "matches": "@Button < View <4 View < WebView < bc < WebView < [vid=\"h5_pc_container\"]"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -39410,7 +39410,7 @@
           "key": 2700,
           "name": "补充·奥怪｜全屏广告-班课列表弹窗广告",
           "desc": "关闭班课列表页面的全屏弹窗广告",
-          "enable": false,
+          "enable": true,
           "activityIds": [
             "com.mosoink.teach.MainMenuActivity",
             "com.bytedance.sdk.openadsdk.stub.activity.Stub_Standard_Portrait_Activity"
@@ -40436,7 +40436,7 @@
               "snapshotUrls": "https://i.gkd.li/i/16357210"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2648,
@@ -40457,7 +40457,7 @@
               "snapshotUrls": "https://i.gkd.li/i/16385547"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2649,
@@ -40498,7 +40498,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2650,
@@ -40541,7 +40541,7 @@
               "snapshotUrls": "https://i.gkd.li/i/24548104"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2832,
@@ -40563,7 +40563,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2833,
@@ -40630,7 +40630,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13526712"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2834,
@@ -40668,7 +40668,7 @@
               "snapshotUrls": "https://i.gkd.li/i/15282417"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2835,
@@ -40686,7 +40686,7 @@
               "snapshotUrls": "https://i.gkd.li/i/14926750"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -44709,7 +44709,7 @@
               "exampleUrls": "https://e.gkd.li/618ed0e0-a40c-4612-8521-1c6640e50d47"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -44863,7 +44863,7 @@
           "key": 2576,
           "name": "补充·奥怪｜全屏广告-首页弹窗广告",
           "desc": "关闭APP首页出现的全屏弹窗广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.hnair.airlines.ui.main.MainActivity",
           "rules": "ImageView[id=\"com.rytong.hnair:id/iv_cloes\"]",
@@ -45356,7 +45356,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2809,
@@ -45391,7 +45391,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2810,
@@ -45413,7 +45413,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -45967,7 +45967,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2816,
@@ -45989,7 +45989,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13291144"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2817,
@@ -46005,7 +46005,7 @@
               "snapshotUrls": "https://i.gkd.li/i/12642441"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2818,
@@ -46027,7 +46027,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -47186,7 +47186,7 @@
           "key": 2733,
           "name": "补充·奥怪｜更新提示",
           "desc": "关闭应用内的更新弹窗提示",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "matchTime": 10000,
           "actionMaximum": 1,
@@ -47203,7 +47203,7 @@
           "key": 2734,
           "name": "补充·奥怪｜全屏广告-弹窗广告",
           "desc": "关闭各页面的全屏广告弹窗",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -47266,7 +47266,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13930543"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -47533,7 +47533,7 @@
           "key": 2615,
           "name": "补充·奥怪｜全屏广告-首页红包弹窗",
           "desc": "关闭首页弹出的各类红包广告弹窗",
-          "enable": false,
+          "enable": true,
           "matchTime": 10000,
           "actionMaximum": 1,
           "resetMatch": "app",
@@ -47560,7 +47560,7 @@
           "key": 2616,
           "name": "补充·奥怪｜局部广告-首页左侧红包悬浮控件",
           "desc": "关闭首页左侧悬浮的红包广告控件",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.yxcorp.gifshow.HomeActivity",
           "rules": [
@@ -47577,7 +47577,7 @@
           "key": 2617,
           "name": "补充·奥怪｜功能类-推荐关注",
           "desc": "关闭各页面的推荐关注提示",
-          "enable": false,
+          "enable": true,
           "activityIds": "com.yxcorp.gifshow.HomeActivity",
           "rules": [
             {
@@ -47607,7 +47607,7 @@
           "key": 2618,
           "name": "补充·奥怪｜全屏广告-直播间广告",
           "desc": "关闭直播间的全屏广告",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "fastQuery": true,
@@ -48483,13 +48483,13 @@
               "snapshotUrls": "https://i.gkd.li/i/13761236"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2591,
           "name": "补充·奥怪｜分段广告-信息流广告",
           "desc": "关闭信息流广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": [
             "com.ss.android.article.news.activity.MainActivity",
@@ -48535,13 +48535,13 @@
               "snapshotUrls": "https://i.gkd.li/i/12706699"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2593,
           "name": "补充·奥怪｜功能类-自动观看广告视频",
           "desc": "自动观看广告并等待30s后关闭",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -48574,13 +48574,13 @@
               "snapshotUrls": "https://i.gkd.li/i/13828331"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2595,
           "name": "补充·奥怪｜全屏广告-广告弹窗",
           "desc": "关闭各种广告弹窗，包括关联抖音账号、默认进入发现频道、全屏广告弹窗等",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -51101,7 +51101,7 @@
           "name": "补充·奥怪｜通知提示",
           "desc": "关闭消息推送开启提示",
           "ignoreGlobalGroupMatch": true,
-          "enable": false,
+          "enable": true,
           "actionMaximum": 1,
           "resetMatch": "app",
           "activityIds": [
@@ -51116,7 +51116,7 @@
           "name": "补充·奥怪｜通知提示-开启个性化",
           "desc": "关闭开启个性化提示",
           "ignoreGlobalGroupMatch": true,
-          "enable": false,
+          "enable": true,
           "resetMatch": "app",
           "activityIds": [
             ".maincontainer.activity.MainActivity"
@@ -51128,7 +51128,7 @@
           "key": 2670,
           "name": "补充·奥怪｜全屏广告",
           "desc": "关闭首页各种全屏弹窗广告",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -51239,13 +51239,13 @@
               "snapshotUrls": "https://i.gkd.li/i/29753752"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2672,
           "name": "补充·奥怪｜功能类-自动查看原图",
           "desc": "浏览图片时自动切换至原图模式",
-          "enable": false,
+          "enable": true,
           "activityIds": [
             "com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostTransparencyActivity",
             "com.idlefish.flutterbridge.flutterboost.boost.FishFlutterBoostActivity"
@@ -51276,7 +51276,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2675,
@@ -51301,7 +51301,7 @@
               "snapshotUrls": "https://i.gkd.li/i/26837679"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -51796,7 +51796,7 @@
           "key": 2638,
           "name": "补充·奥怪｜全屏广告-弹窗广告",
           "desc": "关闭各种全屏弹窗广告，包括会员促销、活动邀请等",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 1,
@@ -52035,14 +52035,14 @@
               "snapshotUrls": "https://i.gkd.li/i/25658605"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2640,
           "name": "补充·奥怪｜通知提示",
           "desc": "关闭消息推送开启提示",
           "ignoreGlobalGroupMatch": true,
-          "enable": false,
+          "enable": true,
           "actionMaximum": 1,
           "resetMatch": "app",
           "activityIds": [
@@ -52068,7 +52068,7 @@
           "key": 2641,
           "name": "补充·奥怪｜更新提示",
           "desc": "关闭应用更新提示弹窗",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "actionMaximum": 1,
           "resetMatch": "app",
@@ -52093,7 +52093,7 @@
           "key": 2642,
           "name": "补充·奥怪｜功能类-关闭支付相关推荐开通",
           "desc": "关闭支付时的小额免密支付、花呗支付、先用后付等推荐开通提示",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.alipay.android.msp.ui.views.MspContainerActivity",
           "rules": [
@@ -52123,7 +52123,7 @@
           "key": 2643,
           "name": "补充·奥怪｜全屏广告-花呗相关弹窗",
           "desc": "关闭花呗升级及征信授权相关弹窗",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "actionMaximum": 1,
           "resetMatch": "app",
@@ -52148,7 +52148,7 @@
           "key": 2644,
           "name": "补充·奥怪｜功能类-登录授权",
           "desc": "点击确认授权按钮",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -52168,7 +52168,7 @@
           "key": 2645,
           "name": "补充·奥怪｜功能类-自动选中发送原图",
           "desc": "图片和视频选择器-自动选中底部中间的发送原图",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "actionMaximum": 1,
           "rules": [
@@ -52198,7 +52198,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2820,
@@ -52227,7 +52227,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2821,
@@ -52243,7 +52243,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2822,
@@ -52257,7 +52257,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13521702"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2823,
@@ -52279,11 +52279,11 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2824,
-          "enable": false,
+          "enable": true,
           "name": "补充·言木七｜更新提示",
           "fastQuery": true,
           "actionMaximum": 1,
@@ -52327,7 +52327,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2827,
@@ -52346,7 +52346,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13588165"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2828,
@@ -52360,7 +52360,7 @@
               "snapshotUrls": "https://i.gkd.li/i/14060521"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -52433,7 +52433,7 @@
           "key": 2495,
           "name": "补充·奥怪｜分段广告-游戏浏览页面推荐广告",
           "desc": "点击[对此内容不感兴趣]",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -52585,13 +52585,13 @@
           "rules": "RelativeLayout[childCount=3] > ImageView + @ImageView[clickable=true][visibleToUser=true] + FrameLayout[childCount>0]",
           "snapshotUrls": "https://i.gkd.li/import/12775855",
           "order": -10,
-          "enable": false
+          "enable": true
         },
         {
           "key": 2749,
           "name": "补充·奥怪｜分段广告-列表卡片广告",
           "desc": "自动处理邮件列表中的卡片广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.tencent.qqmail.fragment.base.MailFragmentActivity",
           "rules": [
@@ -54090,7 +54090,7 @@
           "key": 2653,
           "name": "补充·奥怪｜分段广告-朋友圈广告",
           "desc": "点击卡片广告右上角,直接关闭/出现菜单,确认关闭",
-          "enable": false,
+          "enable": true,
           "activityIds": [
             ".plugin.sns.ui.SnsTimeLineUI",
             ".plugin.sns.ui.improve.ImproveSnsTimelineUI",
@@ -54196,7 +54196,7 @@
           "key": 2654,
           "name": "补充·奥怪｜功能类-登录自动授权",
           "desc": "微信相关平台扫码登录自动授权",
-          "enable": false,
+          "enable": true,
           "matchTime": 10000,
           "actionMaximum": 2,
           "activityIds": [
@@ -54315,7 +54315,7 @@
           "key": 2655,
           "name": "补充·奥怪｜功能类-自动领取红包",
           "desc": "自动领取私聊红包,群聊红包",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -54381,7 +54381,7 @@
           "key": 2656,
           "name": "补充·奥怪｜分段广告-订阅号文章广告",
           "desc": "点击下拉框-[关闭此广告]/[不感兴趣]-[与我无关]",
-          "enable": false,
+          "enable": true,
           "matchRoot": true,
           "activityIds": [
             "com.tencent.mm.plugin.brandservice.ui.timeline.preload.ui.TmplWebViewMMUI",
@@ -54492,7 +54492,7 @@
           "key": 2657,
           "name": "补充·奥怪｜功能类-自动选中发送原图",
           "desc": "图片和视频选择器-自动选中底部中间的发送原图",
-          "enable": false,
+          "enable": true,
           "actionMaximum": 1,
           "activityIds": [
             "com.tencent.mm.plugin.gallery.ui.AlbumPreviewUI",
@@ -54526,7 +54526,7 @@
           "key": 2658,
           "name": "补充·奥怪｜功能类-自动查看原图/原视频",
           "desc": "浏览图片时自动切换至原图模式",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": [
             ".ui.chatting.gallery.ImageGalleryUI",
@@ -54554,7 +54554,7 @@
           "key": 2659,
           "name": "补充·奥怪｜全屏广告-小程序部分通用广告",
           "desc": "包括部分开屏广告，弹窗广告等",
-          "enable": false,
+          "enable": true,
           "matchTime": 10000,
           "activityIds": [
             "com.tencent.mm.plugin.appbrand.ui.AppBrandUI",
@@ -54627,7 +54627,7 @@
         {
           "key": 2660,
           "name": "补充·奥怪｜分段广告-小程序-内部广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.tencent.mm.plugin.appbrand.ui.AppBrandUI",
           "rules": [
@@ -54670,7 +54670,7 @@
           "key": 2661,
           "name": "补充·奥怪｜青少年模式",
           "desc": "关闭青少年模式提示弹窗",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "matchTime": 10000,
           "actionMaximum": 1,
@@ -54703,7 +54703,7 @@
           "key": 2662,
           "name": "补充·奥怪｜功能类-青少年模式自动点击验证密码",
           "desc": "点击“验证密码”以申请临时访问",
-          "enable": false,
+          "enable": true,
           "actionMaximum": 1,
           "matchTime": 10000,
           "activityIds": [
@@ -54729,7 +54729,7 @@
           "key": 2663,
           "name": "补充·奥怪｜功能类-订阅号-展开更早的消息",
           "desc": "自动展开订阅号历史消息",
-          "enable": false,
+          "enable": true,
           "activityIds": "com.tencent.mm.plugin.brandservice.ui.timeline.BizTimeLineUI",
           "rules": [
             {
@@ -54749,7 +54749,7 @@
           "key": 2664,
           "name": "补充·奥怪｜分段广告-订阅号消息页面广告",
           "desc": "自动点击“x”",
-          "enable": false,
+          "enable": true,
           "activityIds": [
             ".plugin.brandservice.ui.flutter.BizFlutterTLFlutterViewActivity"
           ],
@@ -54819,7 +54819,7 @@
           "key": 2665,
           "name": "补充·奥怪｜功能类-收款付款后自动点击完成/返回",
           "desc": "支付完成后自动点击完成或返回按钮",
-          "enable": false,
+          "enable": true,
           "matchRoot": true,
           "fastQuery": true,
           "activityIds": [
@@ -54853,7 +54853,7 @@
           "key": 2666,
           "name": "补充·奥怪｜功能类-自动语音转文字",
           "desc": "点击语音旁边的转文字/长按语音后点击转文字",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "fastQuery": true,
@@ -54907,7 +54907,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2840,
@@ -54922,7 +54922,7 @@
               "snapshotUrls": "https://i.gkd.li/i/14533286"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2841,
@@ -54953,7 +54953,7 @@
               "snapshotUrls": "https://i.gkd.li/i/14549567"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -55620,7 +55620,7 @@
             }
           ],
           "order": -10,
-          "enable": false
+          "enable": true
         },
         {
           "key": 2478,
@@ -55737,13 +55737,13 @@
               "snapshotUrls": "https://i.gkd.li/i/30869035"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2479,
           "name": "补充·奥怪｜分段广告-广告卡片菜单",
           "desc": "通过广告卡片菜单关闭好友动态、小世界评论区和钱包场景中的广告",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -55889,7 +55889,7 @@
           "key": 2480,
           "name": "补充·奥怪｜全屏广告-弹窗广告",
           "desc": "关闭各种场景下的全屏弹窗广告，包括频道页面、钱包页面、黄钻页面等",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -55986,7 +55986,7 @@
           "key": 2481,
           "name": "补充·奥怪｜更新提示",
           "desc": "关闭应用更新提示弹窗",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "matchTime": 10000,
           "actionMaximum": 1,
@@ -56017,7 +56017,7 @@
           "key": 2482,
           "name": "补充·奥怪｜分段广告-动态页[好友热播/为你推荐]",
           "desc": "点击并关闭好友热播和推荐内容",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": [
             "com.qzone.reborn.feedx.activity.QZoneFriendFeedXActivity",
@@ -56057,7 +56057,7 @@
           "key": 2483,
           "name": "补充·奥怪｜通知提示",
           "desc": "关闭消息推送开启提示",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "matchTime": 10000,
           "actionMaximum": 1,
@@ -56074,7 +56074,7 @@
           "key": 2484,
           "name": "补充·奥怪｜功能类-自动授权",
           "desc": "自动点击登录。包括 PC 登录确认、QQ 互联登录确认。",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -56160,13 +56160,13 @@
               "snapshotUrls": "https://i.gkd.li/import/12708844"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2486,
           "name": "补充·奥怪｜功能类-自动勾选原图",
           "desc": "发送图片时自动勾选原图",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "actionMaximum": 1,
           "activityIds": [
@@ -56186,7 +56186,7 @@
           "key": 2487,
           "name": "补充·奥怪｜功能类-自动查看原图",
           "desc": "浏览图片时自动切换至原图模式",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": [
             "com.tencent.richframework.gallery.QQGalleryActivity",
@@ -56220,7 +56220,7 @@
           "key": 2488,
           "name": "补充·奥怪｜全屏广告-QQ小程序开屏广告",
           "desc": "点击跳过QQ小程序的开屏广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "actionMaximum": 1,
           "priorityTime": 10000,
@@ -56247,7 +56247,7 @@
           "key": 2489,
           "name": "补充·奥怪｜分段广告-天气页卡片广告",
           "desc": "点击关闭-点击关闭此条广告",
-          "enable": false,
+          "enable": true,
           "activityIds": [
             "com.tencent.mobileqq.activity.QPublicFragmentActivity",
             "com.tencent.mobileqq.activity.QQBrowserActivity"
@@ -56285,7 +56285,7 @@
           "key": 2490,
           "name": "补充·奥怪｜功能类-自动领取群聊红包",
           "desc": "领取群聊中的普通拼手气红包,不包括自己发的红包、专属红包、口令红包和私聊红包",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -56344,7 +56344,7 @@
         {
           "key": 2491,
           "name": "补充·奥怪｜功能类-申请入群后自动点击右上角关闭",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "actionMaximum": 1,
           "activityIds": "com.tencent.mobileqq.activity.QQBrowserActivity",
@@ -56362,7 +56362,7 @@
           "key": 2492,
           "name": "补充·奥怪｜全屏广告-个人主页广告",
           "desc": "点击关闭",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -56390,7 +56390,7 @@
           "key": 2494,
           "name": "补充·奥怪｜分段广告-QQ空间空友爱看",
           "desc": "点击卡片右侧[推荐] ②点击[关闭推荐]",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.qzone.reborn.feedpro.activity.QzoneFriendFeedProActivity",
           "rules": [
@@ -56458,7 +56458,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2754,
@@ -56498,7 +56498,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2755,
@@ -56528,7 +56528,7 @@
               "snapshotUrls": "https://i.gkd.li/i/14724108"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2756,
@@ -56543,7 +56543,7 @@
               "snapshotUrls": "https://i.gkd.li/i/14188983"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -58403,7 +58403,7 @@
           "key": 2584,
           "name": "补充·奥怪｜通知提示-通知弹窗",
           "desc": "关闭消息推送开启提示",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "fastQuery": true,
           "matchTime": 10000,
@@ -58429,7 +58429,7 @@
           "key": 2585,
           "name": "补充·奥怪｜通知提示-公告通知弹窗",
           "desc": "关闭公告通知弹窗",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "fastQuery": true,
           "matchTime": 10000,
@@ -59164,7 +59164,7 @@
           "key": 2504,
           "name": "补充·奥怪｜功能类-自动点击\"显示更多帖子\"",
           "desc": "点击时间线底部的\"显示更多帖子\"按钮",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -59339,7 +59339,7 @@
           "key": 2577,
           "name": "补充·奥怪｜全屏广告",
           "desc": "关闭各类全屏弹窗广告",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -59364,7 +59364,7 @@
           "key": 2578,
           "name": "补充·奥怪｜功能类-进入飞行模式-提示弹窗",
           "desc": "关闭进入飞行模式时的提示弹窗",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.umetrip.android.msky.homepage.activity.UmeHomeActivity",
           "rules": "[id=\"com.umetrip.android.msky.app:id/imageView\"] + [id=\"com.umetrip.android.msky.app:id/iv_cancel\"]",
@@ -59392,7 +59392,7 @@
               "snapshotUrls": "https://i.gkd.li/i/18702163"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -59518,7 +59518,7 @@
           "key": 2701,
           "name": "补充·奥怪｜分段广告-支付完成界面广告卡片",
           "desc": "关闭支付完成页面底部的广告卡片",
-          "enable": false,
+          "enable": true,
           "activityIds": "com.unionpay.activity.react.UPActivityReactNative",
           "rules": [
             {
@@ -59557,13 +59557,13 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2703,
           "name": "补充·奥怪｜全屏广告-各类全屏弹窗广告",
           "desc": "点击关闭各类全屏弹窗广告，例如获得新勋章提示、我的页面广告弹窗、领取优惠弹窗",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -59607,13 +59607,13 @@
               "snapshotUrls": "https://i.gkd.li/i/13070564"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2847,
           "name": "补充·言木七｜全屏广告-付款后信用卡广告",
           "desc": "2025-03-11由审查工具生成",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "matchTime": 5000,
           "actionMaximum": 1,
@@ -59643,7 +59643,7 @@
               "snapshotUrls": "https://i.gkd.li/i/12695736"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2849,
@@ -59658,7 +59658,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13440341"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2850,
@@ -59672,7 +59672,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13848688"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -60834,7 +60834,7 @@
           "key": 2652,
           "name": "补充·奥怪｜分段广告-信息流广告",
           "desc": "关闭主页、搜索页的信息流广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": [
             "com.weico.international.activity.MainFragmentActivity",
@@ -60901,7 +60901,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2837,
@@ -60942,7 +60942,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -61642,7 +61642,7 @@
               "snapshotUrls": "https://i.gkd.li/i/26191370"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2776,
@@ -61661,7 +61661,7 @@
               "snapshotUrls": "https://i.gkd.li/i/26191365"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -62532,7 +62532,7 @@
           "key": 2684,
           "name": "补充·奥怪｜全屏广告-首页悬浮窗广告",
           "desc": "关闭首页的全屏悬浮广告",
-          "enable": false,
+          "enable": true,
           "activityIds": "com.xiaomi.market.ui.FloatWebActivity",
           "rules": "[id=\"com.xiaomi.market:id/webview_container\"] >n [text=\"关闭\"]",
           "snapshotUrls": "https://i.gkd.li/import/13248808"
@@ -62545,14 +62545,14 @@
           "activityIds": "com.xiaomi.market.ui.UpdateListActivity",
           "rules": "[id=\"com.xiaomi.market:id/iv_close_tip\"]",
           "snapshotUrls": "https://i.gkd.li/import/13197334",
-          "enable": false
+          "enable": true
         },
         {
           "key": 2686,
           "name": "补充·奥怪｜功能类-忽略升级",
           "desc": "点击应用升级提示的[忽略本次]按钮",
           "fastQuery": true,
-          "enable": false,
+          "enable": true,
           "activityIds": "com.xiaomi.market.ui.UpdateListActivity",
           "rules": [
             {
@@ -62587,7 +62587,7 @@
           "name": "补充·奥怪｜功能类-自动点击[查看全部升级]",
           "desc": "自动展开应用升级页面的完整更新列表",
           "fastQuery": true,
-          "enable": false,
+          "enable": true,
           "activityIds": "com.xiaomi.market.ui.UpdateListActivity",
           "rules": "@[clickable=true] > [text^=\"查看全部升级\"]",
           "snapshotUrls": "https://i.gkd.li/i/14782814"
@@ -62814,7 +62814,7 @@
               "snapshotUrls": "https://i.gkd.li/i/29299389"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -64356,7 +64356,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13388227"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2843,
@@ -64370,7 +64370,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13388361"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -64405,7 +64405,7 @@
               "snapshotUrls": "https://i.gkd.li/i/14163901"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -64496,7 +64496,7 @@
           "key": 2691,
           "name": "补充·奥怪｜分段广告-首页信息流广告",
           "desc": "关闭首页信息流中的广告",
-          "enable": false,
+          "enable": true,
           "activityIds": [
             "com.xuexiaoyi.entrance.main.MainActivity",
             "com.xuexiaoyi.platform.base.arch.RouterFragmentActivity",
@@ -65498,7 +65498,7 @@
           "key": 2624,
           "name": "补充·奥怪｜全屏广告",
           "desc": "关闭活动、红包及下单后出现的各类全屏弹窗广告",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 3,
@@ -65627,13 +65627,13 @@
               "snapshotUrls": "https://i.gkd.li/i/14549415"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2630,
           "name": "补充·奥怪｜权限提示-通知权限",
           "desc": "关闭通知权限申请弹窗",
-          "enable": false,
+          "enable": true,
           "ignoreGlobalGroupMatch": true,
           "actionMaximum": 1,
           "resetMatch": "app",
@@ -65963,7 +65963,7 @@
           "key": 2744,
           "name": "补充·奥怪｜全屏广告-弹窗广告",
           "desc": "关闭各类全屏弹窗广告",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 3,
@@ -66591,13 +66591,13 @@
           "activityIds": "com.yitong.mbank.psbc.module.home.view.activity.MainActivity",
           "rules": "[vid=\"img_close_float_window\"]",
           "snapshotUrls": "https://i.gkd.li/i/16215989",
-          "enable": false
+          "enable": true
         },
         {
           "key": 2699,
           "name": "补充·奥怪｜全屏广告-首页广告弹窗",
           "desc": "关闭首页弹出的全屏主题广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.yitong.mbank.psbc.module.home.view.activity.MainActivity",
           "rules": "[id=\"com.yitong.mbank.psbc:id/iv_theme\"] + [id=\"com.yitong.mbank.psbc:id/iv_theme_close_btn\"]",
@@ -67671,13 +67671,13 @@
           "snapshotUrls": [
             "https://i.gkd.li/import/12706181"
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2724,
           "name": "补充·奥怪｜全屏广告-社区页面弹窗广告",
           "desc": "关闭社区页面弹出的全屏推广弹窗",
-          "enable": false,
+          "enable": true,
           "activityIds": [
             "com.zhaopin.social.homepage.ZSC_MainTabActivity"
           ],
@@ -68143,7 +68143,7 @@
           "key": 2716,
           "name": "补充·奥怪｜分段广告-信息流广告",
           "desc": "关闭信息流中的广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -68245,7 +68245,7 @@
           "key": 2717,
           "name": "补充·奥怪｜全屏广告-广告弹窗",
           "desc": "关闭会员页、首页等位置的各类广告弹窗",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "activityIds": [
             "com.zhihu.android.app.ui.activity.MainActivity",
@@ -68311,7 +68311,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2719,
@@ -68371,13 +68371,13 @@
               "snapshotUrls": "https://i.gkd.li/i/14156887"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2720,
           "name": "补充·奥怪｜功能类-自动授权",
           "desc": "自动确认知乎扫码登录的授权请求",
-          "enable": false,
+          "enable": true,
           "activityIds": "com.zhihu.android.app.ui.activity.HostActivity",
           "rules": [
             {
@@ -68390,7 +68390,7 @@
           "key": 2721,
           "name": "补充·奥怪｜功能类-自动展开回答",
           "desc": "自动点击展开被折叠的回答全文",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -68407,7 +68407,7 @@
           "key": 2722,
           "name": "补充·奥怪｜局部广告-评论区卡片广告",
           "desc": "点击关闭",
-          "enable": false,
+          "enable": true,
           "actionMaximum": 1,
           "rules": [
             {
@@ -69737,7 +69737,7 @@
           "key": 2558,
           "name": "补充·奥怪｜全屏广告",
           "desc": "关闭各种全屏广告弹窗，包括字节广告、会员推广等",
-          "enable": false,
+          "enable": true,
           "activityIds": [
             "com.zmzx.college.search.activity.main.activity.MainActivity",
             "com.zmzx.college.search.activity.questionsearch.camera.activity.PicSearchResultActivity",
@@ -69813,7 +69813,7 @@
           "key": 2559,
           "name": "补充·奥怪｜分段广告-信息流广告",
           "desc": "关闭首页、教材详情页等位置的信息流广告",
-          "enable": false,
+          "enable": true,
           "activityIds": [
             "com.zmzx.college.search.activity.main.activity.MainActivity",
             ".activity.booksearch.result.activity.TextbookDetailActivity",
@@ -71536,7 +71536,7 @@
           "key": 2566,
           "name": "补充·奥怪｜全屏广告-红包弹窗",
           "desc": "关闭各类红包弹窗广告",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -71589,7 +71589,7 @@
           "key": 2567,
           "name": "补充·奥怪｜全屏广告-活动弹窗",
           "desc": "关闭各类全屏活动弹窗广告",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -71639,7 +71639,7 @@
           "key": 2568,
           "name": "补充·奥怪｜全屏广告-付款后弹窗广告",
           "desc": "关闭支付完成后的广告弹窗",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "fastQuery": true,
@@ -71653,7 +71653,7 @@
           "key": 2569,
           "name": "补充·奥怪｜全屏广告-吃货卡续费弹窗",
           "desc": "关闭吃货卡到期续费提示弹窗",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "activityIds": "me.ele.component.webcontainer.view.AppUCWebActivity",
@@ -71683,7 +71683,7 @@
               "snapshotUrls": "https://i.gkd.li/i/17321305"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2761,
@@ -71704,7 +71704,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2765,
@@ -71717,7 +71717,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13295007"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2767,
@@ -71740,7 +71740,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13710585"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2768,
@@ -71757,7 +71757,7 @@
               "snapshotUrls": "https://i.gkd.li/i/13931205"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2769,
@@ -71777,7 +71777,7 @@
               "snapshotUrls": "https://i.gkd.li/i/14630370"
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
@@ -73827,7 +73827,7 @@
           "key": 2542,
           "name": "补充·奥怪｜分段广告-动态推荐广告卡片",
           "desc": "关闭动态页面的广告卡片",
-          "enable": false,
+          "enable": true,
           "fastQuery": true,
           "matchDelay": 5000,
           "activityIds": "tv.danmaku.bili.MainActivityV2",
@@ -73850,7 +73850,7 @@
           "key": 2543,
           "name": "补充·奥怪｜分段广告-视频及搜索卡片广告",
           "desc": "关闭视频流和搜索结果中的广告卡片，包括视频底部、评论区中间、详情页下方等位置",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -74060,7 +74060,7 @@
               "snapshotUrls": "https://i.gkd.li/i/31067294"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2547,
@@ -74104,13 +74104,13 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2553,
           "name": "补充·奥怪｜功能类-登录授权",
           "desc": "点击确认授权按钮",
-          "enable": false,
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -74136,7 +74136,7 @@
               "snapshotUrls": "https://i.gkd.li/i/29379312"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2757,
@@ -74158,7 +74158,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2758,
@@ -74178,7 +74178,7 @@
               "exampleUrls": "https://e.gkd.li/99565077-80e9-4e4f-98e7-33da742e2afd"
             }
           ],
-          "enable": false
+          "enable": true
         },
         {
           "key": 2759,
@@ -74201,7 +74201,7 @@
               ]
             }
           ],
-          "enable": false
+          "enable": true
         }
       ]
     },
