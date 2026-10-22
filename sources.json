@@ -1,0 +1,33 @@
+{
+  "subscription": {
+    "id": 1846372051,
+    "name": "个人 GKD 聚合订阅",
+    "author": "Personal aggregation"
+  },
+  "sources": [
+    {
+      "key": "linarm",
+      "name": "Lin-arm",
+      "subscriptionId": 667,
+      "repository": "Lin-arm/GKD_subscription",
+      "branch": "main",
+      "path": "dist/gkd.json5"
+    },
+    {
+      "key": "aoguai",
+      "name": "奥怪",
+      "subscriptionId": 86,
+      "repository": "aoguai/subscription",
+      "branch": "custom",
+      "path": "dist/aoguai_gkd.json5"
+    },
+    {
+      "key": "yanmuq",
+      "name": "言木七",
+      "subscriptionId": 808,
+      "repository": "yanmuq/muqi_gkd",
+      "branch": "main",
+      "path": "dist/gkd.json5"
+    }
+  ]
+}
