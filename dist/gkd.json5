@@ -1,8 +1,8 @@
 {
   "id": 1846372051,
   "name": "个人 GKD 聚合订阅",
-  "author": "Personal aggregation",
-  "version": 1,
+  "author": "Reev3sX（聚合；规则来自 Lin-arm、aoguai、yanmuq）",
+  "version": 2,
   "checkUpdateUrl": "./gkd.version.json5",
   "categories": [
     {
