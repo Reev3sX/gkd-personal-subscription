@@ -1,17 +1,17 @@
 {
-  "version": 3,
-  "contentHash": "9a06f278ebc1e17ac664fa61029a4b6fc4bd06aa91e0b2d7e55ae0dfff027787",
+  "version": 4,
+  "contentHash": "a88826df016d515d2ad375ed20626b159003d9c04747fbe35a195fec56f15d8c",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 614,
+      "version": 615,
       "id": 667,
-      "apps": 985,
-      "groups": 2454,
-      "kept": 2457,
+      "apps": 986,
+      "groups": 2457,
+      "kept": 2460,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -8943,6 +8943,18 @@
     },
     {
       "source": "linarm",
+      "app": "com.sfexpress.knight",
+      "upstreamKey": 1,
+      "key": 2866
+    },
+    {
+      "source": "linarm",
+      "app": "com.sfexpress.knight",
+      "upstreamKey": 2,
+      "key": 2867
+    },
+    {
+      "source": "linarm",
       "app": "com.longshine.nanwang.electric.charge",
       "upstreamKey": 1,
       "key": 1495
@@ -11922,6 +11934,12 @@
       "app": "com.One.WoodenLetter",
       "upstreamKey": 3,
       "key": 1991
+    },
+    {
+      "source": "linarm",
+      "app": "com.One.WoodenLetter",
+      "upstreamKey": 4,
+      "key": 2868
     },
     {
       "source": "linarm",
@@ -16592,7 +16610,7 @@
       "key": 2865
     }
   ],
-  "apps": 990,
-  "appGroups": 2755,
+  "apps": 991,
+  "appGroups": 2758,
   "globalGroups": 3
 }
