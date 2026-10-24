@@ -1,17 +1,17 @@
 {
-  "version": 4,
-  "contentHash": "a88826df016d515d2ad375ed20626b159003d9c04747fbe35a195fec56f15d8c",
+  "version": 5,
+  "contentHash": "d2142a71467ee9ffed29d17d496eb54f32ddd4dbdd7ba542252a08a0aa7e5e2b",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 615,
+      "version": 616,
       "id": 667,
-      "apps": 986,
-      "groups": 2457,
-      "kept": 2460,
+      "apps": 987,
+      "groups": 2461,
+      "kept": 2464,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -1134,6 +1134,12 @@
       "app": "com.tencent.mobileqq",
       "upstreamKey": 7,
       "key": 193
+    },
+    {
+      "source": "linarm",
+      "app": "com.tencent.mobileqq",
+      "upstreamKey": 8,
+      "key": 2869
     },
     {
       "source": "linarm",
@@ -3822,6 +3828,12 @@
       "app": "com.didiglobal.express.driver",
       "upstreamKey": 2,
       "key": 641
+    },
+    {
+      "source": "linarm",
+      "app": "com.didiglobal.express.driver",
+      "upstreamKey": 3,
+      "key": 2870
     },
     {
       "source": "linarm",
@@ -6618,6 +6630,12 @@
       "app": "com.quark.browser",
       "upstreamKey": 5,
       "key": 1107
+    },
+    {
+      "source": "linarm",
+      "app": "com.kuaiduizuoye.scan",
+      "upstreamKey": 1,
+      "key": 2871
     },
     {
       "source": "linarm",
@@ -9984,6 +10002,12 @@
       "app": "com.netease.cloudmusic",
       "upstreamKey": 16,
       "key": 1666
+    },
+    {
+      "source": "linarm",
+      "app": "com.netease.cloudmusic",
+      "upstreamKey": 17,
+      "key": 2872
     },
     {
       "source": "linarm",
@@ -16610,7 +16634,7 @@
       "key": 2865
     }
   ],
-  "apps": 991,
-  "appGroups": 2758,
+  "apps": 992,
+  "appGroups": 2762,
   "globalGroups": 3
 }
