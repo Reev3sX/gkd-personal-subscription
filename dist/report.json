@@ -1,17 +1,17 @@
 {
-  "version": 5,
-  "contentHash": "d2142a71467ee9ffed29d17d496eb54f32ddd4dbdd7ba542252a08a0aa7e5e2b",
+  "version": 6,
+  "contentHash": "098d0c2b8db01c490d0f01a112cf8bc8c00bef13869f2de5a5574a61455b68d6",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 616,
+      "version": 617,
       "id": 667,
-      "apps": 987,
-      "groups": 2461,
-      "kept": 2464,
+      "apps": 988,
+      "groups": 2463,
+      "kept": 2466,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -10437,6 +10437,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.achievo.vipshop",
+      "upstreamKey": 1,
+      "key": 2873
+    },
+    {
+      "source": "linarm",
       "app": "com.example.maintenancemaster",
       "upstreamKey": 0,
       "key": 1738
@@ -14355,6 +14361,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.oplus.appdetail",
+      "upstreamKey": 3,
+      "key": 2874
+    },
+    {
+      "source": "linarm",
       "app": "com.heytap.market",
       "upstreamKey": 0,
       "key": 2390
@@ -16634,7 +16646,7 @@
       "key": 2865
     }
   ],
-  "apps": 992,
-  "appGroups": 2762,
+  "apps": 993,
+  "appGroups": 2764,
   "globalGroups": 3
 }
