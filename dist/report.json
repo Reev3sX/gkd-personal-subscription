@@ -1,17 +1,17 @@
 {
-  "version": 6,
-  "contentHash": "098d0c2b8db01c490d0f01a112cf8bc8c00bef13869f2de5a5574a61455b68d6",
+  "version": 7,
+  "contentHash": "ee8925d683bdc881ccffceb4990c36ac2801f7f5ae485d7011ed4bc655f13358",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 617,
+      "version": 618,
       "id": 667,
       "apps": 988,
-      "groups": 2463,
-      "kept": 2466,
+      "groups": 2469,
+      "kept": 2472,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -3837,6 +3837,24 @@
     },
     {
       "source": "linarm",
+      "app": "com.didiglobal.express.driver",
+      "upstreamKey": 4,
+      "key": 2875
+    },
+    {
+      "source": "linarm",
+      "app": "com.didiglobal.express.driver",
+      "upstreamKey": 5,
+      "key": 2876
+    },
+    {
+      "source": "linarm",
+      "app": "com.didiglobal.express.driver",
+      "upstreamKey": 6,
+      "key": 2877
+    },
+    {
+      "source": "linarm",
       "app": "com.dianxinai.mobile",
       "upstreamKey": 0,
       "key": 642
@@ -4839,6 +4857,18 @@
     },
     {
       "source": "linarm",
+      "app": "com.fanli.android.apps",
+      "upstreamKey": 2,
+      "key": 2878
+    },
+    {
+      "source": "linarm",
+      "app": "com.fanli.android.apps",
+      "upstreamKey": 3,
+      "key": 2879
+    },
+    {
+      "source": "linarm",
       "app": "com.ideal.flyerteacafes",
       "upstreamKey": 3,
       "key": 809
@@ -5382,6 +5412,12 @@
       "app": "com.phoenix.read",
       "upstreamKey": 1,
       "key": 899
+    },
+    {
+      "source": "linarm",
+      "app": "com.phoenix.read",
+      "upstreamKey": 2,
+      "key": 2880
     },
     {
       "source": "linarm",
@@ -16647,6 +16683,6 @@
     }
   ],
   "apps": 993,
-  "appGroups": 2764,
+  "appGroups": 2770,
   "globalGroups": 3
 }
