@@ -1,17 +1,17 @@
 {
-  "version": 7,
-  "contentHash": "ee8925d683bdc881ccffceb4990c36ac2801f7f5ae485d7011ed4bc655f13358",
+  "version": 8,
+  "contentHash": "c3fcf2247b7baa0048e9a4fa7a96b44d84b2ba0725170121c5182b25b26a6f7e",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 618,
+      "version": 619,
       "id": 667,
       "apps": 988,
-      "groups": 2469,
-      "kept": 2472,
+      "groups": 2473,
+      "kept": 2476,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -10222,6 +10222,12 @@
     {
       "source": "linarm",
       "app": "com.tencent.mm",
+      "upstreamKey": 6,
+      "key": 2881
+    },
+    {
+      "source": "linarm",
+      "app": "com.tencent.mm",
       "upstreamKey": 7,
       "key": 1696
     },
@@ -11824,6 +11830,12 @@
     {
       "source": "linarm",
       "app": "com.chaoxing.mobile",
+      "upstreamKey": 9,
+      "key": 2882
+    },
+    {
+      "source": "linarm",
+      "app": "com.chaoxing.mobile",
       "upstreamKey": 10,
       "key": 1962
     },
@@ -11838,6 +11850,12 @@
       "app": "com.chaoxing.mobile",
       "upstreamKey": 12,
       "key": 1964
+    },
+    {
+      "source": "linarm",
+      "app": "com.chaoxing.mobile",
+      "upstreamKey": 13,
+      "key": 2883
     },
     {
       "source": "linarm",
@@ -14847,6 +14865,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.twitter.android",
+      "upstreamKey": 15,
+      "key": 2884
+    },
+    {
+      "source": "linarm",
       "app": "com.custom.zktimehelp",
       "upstreamKey": 1,
       "key": 2464
@@ -16683,6 +16707,6 @@
     }
   ],
   "apps": 993,
-  "appGroups": 2770,
+  "appGroups": 2774,
   "globalGroups": 3
 }
