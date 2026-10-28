@@ -1,17 +1,17 @@
 {
-  "version": 8,
-  "contentHash": "c3fcf2247b7baa0048e9a4fa7a96b44d84b2ba0725170121c5182b25b26a6f7e",
+  "version": 9,
+  "contentHash": "c8164506616328d4ef8f7a2d6e565541253647e91b915cccbeb8ee1321c306a3",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 619,
+      "version": 620,
       "id": 667,
-      "apps": 988,
-      "groups": 2473,
-      "kept": 2476,
+      "apps": 992,
+      "groups": 2477,
+      "kept": 2480,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -24,8 +24,8 @@
       "id": 86,
       "apps": 72,
       "groups": 280,
-      "kept": 207,
-      "duplicatesRemoved": 73,
+      "kept": 208,
+      "duplicatesRemoved": 72,
       "globalGroupsIgnored": 9
     },
     {
@@ -33,11 +33,11 @@
       "repository": "yanmuq/muqi_gkd",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 51,
+      "version": 52,
       "id": 808,
-      "apps": 33,
-      "groups": 115,
-      "kept": 94,
+      "apps": 34,
+      "groups": 116,
+      "kept": 95,
       "duplicatesRemoved": 21,
       "globalGroupsIgnored": 0
     }
@@ -5295,6 +5295,12 @@
     },
     {
       "source": "linarm",
+      "app": "cn.wanxue.newgaoshou",
+      "upstreamKey": 1,
+      "key": 2885
+    },
+    {
+      "source": "linarm",
       "app": "com.haixing.phonelive",
       "upstreamKey": 1,
       "key": 880
@@ -9756,6 +9762,12 @@
       "app": "com.etalien.booster",
       "upstreamKey": 1,
       "key": 1619
+    },
+    {
+      "source": "linarm",
+      "app": "com.gamestar.perfectpiano",
+      "upstreamKey": 1,
+      "key": 2886
     },
     {
       "source": "linarm",
@@ -14871,6 +14883,18 @@
     },
     {
       "source": "linarm",
+      "app": "com.mmbox.xbrowser",
+      "upstreamKey": 1,
+      "key": 2887
+    },
+    {
+      "source": "linarm",
+      "app": "com.mmbox.xbrowser.pro",
+      "upstreamKey": 1,
+      "key": 2888
+    },
+    {
+      "source": "linarm",
       "app": "com.custom.zktimehelp",
       "upstreamKey": 1,
       "key": 2464
@@ -15048,6 +15072,12 @@
       "app": "cn.wps.moffice_eng",
       "upstreamKey": 6,
       "key": 2500
+    },
+    {
+      "source": "aoguai",
+      "app": "com.twitter.android",
+      "upstreamKey": 1,
+      "key": 2501
     },
     {
       "source": "aoguai",
@@ -16527,6 +16557,12 @@
     },
     {
       "source": "yanmuq",
+      "app": "com.tencent.wemeet.app",
+      "upstreamKey": 0,
+      "key": 2889
+    },
+    {
+      "source": "yanmuq",
       "app": "com.MobileTicket",
       "upstreamKey": 0,
       "key": 2830
@@ -16706,7 +16742,7 @@
       "key": 2865
     }
   ],
-  "apps": 993,
-  "appGroups": 2774,
+  "apps": 997,
+  "appGroups": 2780,
   "globalGroups": 3
 }

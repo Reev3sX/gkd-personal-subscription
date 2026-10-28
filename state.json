@@ -1,5 +1,5 @@
 {
-  "next": 2885,
+  "next": 2890,
   "keys": {
     "[\"category\",\"linarm\",0]": 1,
     "[\"category\",\"linarm\",1]": 2,
@@ -2884,6 +2884,11 @@
     "[\"group\",\"linarm\",\"com.tencent.mm\",6]": 2881,
     "[\"group\",\"linarm\",\"com.chaoxing.mobile\",9]": 2882,
     "[\"group\",\"linarm\",\"com.chaoxing.mobile\",13]": 2883,
-    "[\"group\",\"linarm\",\"com.twitter.android\",15]": 2884
+    "[\"group\",\"linarm\",\"com.twitter.android\",15]": 2884,
+    "[\"group\",\"linarm\",\"cn.wanxue.newgaoshou\",1]": 2885,
+    "[\"group\",\"linarm\",\"com.gamestar.perfectpiano\",1]": 2886,
+    "[\"group\",\"linarm\",\"com.mmbox.xbrowser\",1]": 2887,
+    "[\"group\",\"linarm\",\"com.mmbox.xbrowser.pro\",1]": 2888,
+    "[\"group\",\"yanmuq\",\"com.tencent.wemeet.app\",0]": 2889
   }
 }
