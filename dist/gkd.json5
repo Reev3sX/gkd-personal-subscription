@@ -2,7 +2,7 @@
   "id": 1846372051,
   "name": "个人 GKD 聚合订阅",
   "author": "Reev3sX（聚合；规则来自 Lin-arm、aoguai、yanmuq）",
-  "version": 9,
+  "version": 10,
   "checkUpdateUrl": "./gkd.version.json5",
   "categories": [
     {
@@ -60140,11 +60140,12 @@
           "fastQuery": true,
           "matchTime": 5000,
           "priorityTime": 1000,
-          "actionDelay": 2000,
+          "actionDelay": 500,
           "resetMatch": "match",
           "activityIds": "com.unionpay.activity.react.UPActivityReactNative",
           "rules": [
             {
+              "action": "clickCenter",
               "matches": "@[text.length=2] < ViewGroup[clickable=false] - [text=\"支付成功\"]",
               "snapshotUrls": "https://i.gkd.li/i/13070564"
             }
@@ -60164,6 +60165,7 @@
           "resetMatch": "match",
           "rules": [
             {
+              "action": "clickCenter",
               "activityIds": "com.unionpay.activity.react.UPActivityReactNative",
               "matches": "@android.view.ViewGroup + TextView[text^=\"申卡限时\"]",
               "snapshotUrls": "https://i.gkd.li/i/19408456",
@@ -60175,12 +60177,14 @@
           "key": 2848,
           "name": "补充·言木七｜全屏广告-开启通知弹窗",
           "desc": "点击关闭",
+          "actionDelay": 500,
           "fastQuery": true,
           "matchTime": 10000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "rules": [
             {
+              "action": "clickCenter",
               "activityIds": ".base.UPDialog",
               "matches": "[text=\"开启消息通知\"] < * + [id=\"com.unionpay:id/view_alert_cancel\"][visibleToUser=true]",
               "snapshotUrls": "https://i.gkd.li/i/12695736"
@@ -60192,10 +60196,12 @@
           "key": 2849,
           "name": "补充·言木七｜全屏广告-天天签到-获得新勋章提示",
           "desc": "点击左上角返回",
+          "actionDelay": 500,
           "actionMaximum": 1,
           "resetMatch": "app",
           "rules": [
             {
+              "action": "clickCenter",
               "activityIds": "com.unionpay.cordova.UPActivityCordovaWeb",
               "matches": "WebView[text=\"天天签到\"] TextView[text=\"炫耀一下\"] + TextView[clickable=true]",
               "snapshotUrls": "https://i.gkd.li/i/13440341"
@@ -60207,8 +60213,10 @@
           "key": 2850,
           "name": "补充·言木七｜全屏广告-领取优惠弹窗",
           "desc": "点击关闭",
+          "actionDelay": 500,
           "rules": [
             {
+              "action": "clickCenter",
               "fastQuery": true,
               "activityIds": "com.unionpay.cordova.UPActivityCordovaWeb",
               "matches": "@View[clickable=true][text=\"关闭按钮\"] <<n [vid=\"view_content_container\"]",

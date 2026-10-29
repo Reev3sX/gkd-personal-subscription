@@ -1,6 +1,6 @@
 {
-  "version": 9,
-  "contentHash": "c8164506616328d4ef8f7a2d6e565541253647e91b915cccbeb8ee1321c306a3",
+  "version": 10,
+  "contentHash": "20a189180f5cb7252426fa007d57852b4fa32a46aca84da99d6453e32ec77283",
   "sources": [
     {
       "key": "linarm",
@@ -33,7 +33,7 @@
       "repository": "yanmuq/muqi_gkd",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 52,
+      "version": 53,
       "id": 808,
       "apps": 34,
       "groups": 116,
