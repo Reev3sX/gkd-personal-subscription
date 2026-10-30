@@ -1,17 +1,17 @@
 {
-  "version": 10,
-  "contentHash": "20a189180f5cb7252426fa007d57852b4fa32a46aca84da99d6453e32ec77283",
+  "version": 11,
+  "contentHash": "590267512cdad56c9f7310e48df01e00816a433c3b963278a85e058569ff0178",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 620,
+      "version": 621,
       "id": 667,
-      "apps": 992,
-      "groups": 2477,
-      "kept": 2480,
+      "apps": 997,
+      "groups": 2490,
+      "kept": 2493,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -276,6 +276,12 @@
       "app": "io.github.samolego.canta",
       "upstreamKey": 1,
       "key": 50
+    },
+    {
+      "source": "linarm",
+      "app": "com.lemon.lvoverseas",
+      "upstreamKey": 1,
+      "key": 2890
     },
     {
       "source": "linarm",
@@ -1251,6 +1257,24 @@
     },
     {
       "source": "linarm",
+      "app": "net.quetta.browser",
+      "upstreamKey": 3,
+      "key": 2891
+    },
+    {
+      "source": "linarm",
+      "app": "net.quetta.browser",
+      "upstreamKey": 4,
+      "key": 2892
+    },
+    {
+      "source": "linarm",
+      "app": "net.quetta.browser",
+      "upstreamKey": 5,
+      "key": 2893
+    },
+    {
+      "source": "linarm",
       "app": "com.rhmsoft.edit",
       "upstreamKey": 1,
       "key": 212
@@ -1260,6 +1284,12 @@
       "app": "com.quora.android",
       "upstreamKey": 1,
       "key": 213
+    },
+    {
+      "source": "linarm",
+      "app": "ai.qwenlm.chat.android",
+      "upstreamKey": 1,
+      "key": 2894
     },
     {
       "source": "linarm",
@@ -1713,6 +1743,12 @@
     },
     {
       "source": "linarm",
+      "app": "mark.via",
+      "upstreamKey": 2,
+      "key": 2895
+    },
+    {
+      "source": "linarm",
       "app": "com.vmos.pro",
       "upstreamKey": 1,
       "key": 289
@@ -2058,6 +2094,54 @@
       "app": "com.android.email",
       "upstreamKey": 3,
       "key": 346
+    },
+    {
+      "source": "linarm",
+      "app": "com.miui.packageinstaller",
+      "upstreamKey": 7,
+      "key": 2030
+    },
+    {
+      "source": "linarm",
+      "app": "com.miui.packageinstaller",
+      "upstreamKey": 13,
+      "key": 2031
+    },
+    {
+      "source": "linarm",
+      "app": "com.miui.packageinstaller",
+      "upstreamKey": 14,
+      "key": 2032
+    },
+    {
+      "source": "linarm",
+      "app": "com.miui.packageinstaller",
+      "upstreamKey": 15,
+      "key": 2033
+    },
+    {
+      "source": "linarm",
+      "app": "com.miui.packageinstaller",
+      "upstreamKey": 16,
+      "key": 2034
+    },
+    {
+      "source": "linarm",
+      "app": "com.miui.packageinstaller",
+      "upstreamKey": 17,
+      "key": 2035
+    },
+    {
+      "source": "linarm",
+      "app": "com.miui.packageinstaller",
+      "upstreamKey": 18,
+      "key": 2036
+    },
+    {
+      "source": "linarm",
+      "app": "com.miui.packageinstaller",
+      "upstreamKey": 19,
+      "key": 2896
     },
     {
       "source": "linarm",
@@ -5086,6 +5170,12 @@
     {
       "source": "linarm",
       "app": "com.maidu.gkld",
+      "upstreamKey": 1,
+      "key": 2897
+    },
+    {
+      "source": "linarm",
+      "app": "com.maidu.gkld",
       "upstreamKey": 2,
       "key": 845
     },
@@ -7515,6 +7605,18 @@
     },
     {
       "source": "linarm",
+      "app": "com.mushroomcloud.app",
+      "upstreamKey": 1,
+      "key": 2898
+    },
+    {
+      "source": "linarm",
+      "app": "com.mushroomcloud.app",
+      "upstreamKey": 2,
+      "key": 2899
+    },
+    {
+      "source": "linarm",
       "app": "com.feiyu.morin",
       "upstreamKey": 0,
       "key": 1247
@@ -8154,6 +8256,12 @@
       "app": "com.luna.music",
       "upstreamKey": 15,
       "key": 1353
+    },
+    {
+      "source": "linarm",
+      "app": "com.dayunlinks.cloudbirds",
+      "upstreamKey": 1,
+      "key": 2900
     },
     {
       "source": "linarm",
@@ -10749,6 +10857,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.android.updater",
+      "upstreamKey": 3,
+      "key": 2901
+    },
+    {
+      "source": "linarm",
       "app": "com.android.systemui",
       "upstreamKey": 1,
       "key": 1780
@@ -12264,48 +12378,6 @@
       "app": "com.tencent.qqmusiclite.universal",
       "upstreamKey": 1,
       "key": 2029
-    },
-    {
-      "source": "linarm",
-      "app": "com.miui.packageinstaller",
-      "upstreamKey": 7,
-      "key": 2030
-    },
-    {
-      "source": "linarm",
-      "app": "com.miui.packageinstaller",
-      "upstreamKey": 13,
-      "key": 2031
-    },
-    {
-      "source": "linarm",
-      "app": "com.miui.packageinstaller",
-      "upstreamKey": 14,
-      "key": 2032
-    },
-    {
-      "source": "linarm",
-      "app": "com.miui.packageinstaller",
-      "upstreamKey": 15,
-      "key": 2033
-    },
-    {
-      "source": "linarm",
-      "app": "com.miui.packageinstaller",
-      "upstreamKey": 16,
-      "key": 2034
-    },
-    {
-      "source": "linarm",
-      "app": "com.miui.packageinstaller",
-      "upstreamKey": 17,
-      "key": 2035
-    },
-    {
-      "source": "linarm",
-      "app": "com.miui.packageinstaller",
-      "upstreamKey": 18,
-      "key": 2036
     },
     {
       "source": "linarm",
@@ -14667,6 +14739,12 @@
     },
     {
       "source": "linarm",
+      "app": "mark.via.gp",
+      "upstreamKey": 1,
+      "key": 2902
+    },
+    {
+      "source": "linarm",
       "app": "com.chaozh.iReader",
       "upstreamKey": 1,
       "key": 2429
@@ -16742,7 +16820,7 @@
       "key": 2865
     }
   ],
-  "apps": 997,
-  "appGroups": 2780,
+  "apps": 1002,
+  "appGroups": 2793,
   "globalGroups": 3
 }
