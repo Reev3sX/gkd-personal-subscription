@@ -1,13 +1,13 @@
 {
-  "version": 11,
-  "contentHash": "590267512cdad56c9f7310e48df01e00816a433c3b963278a85e058569ff0178",
+  "version": 12,
+  "contentHash": "f11794901d703b7e6b63ba97bca39a78a8c877442982d97049ef834efdc63abb",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 621,
+      "version": 622,
       "id": 667,
       "apps": 997,
       "groups": 2490,
@@ -24,8 +24,8 @@
       "id": 86,
       "apps": 72,
       "groups": 280,
-      "kept": 208,
-      "duplicatesRemoved": 72,
+      "kept": 209,
+      "duplicatesRemoved": 71,
       "globalGroupsIgnored": 9
     },
     {
@@ -16239,6 +16239,12 @@
     },
     {
       "source": "aoguai",
+      "app": "com.tencent.qqmusic",
+      "upstreamKey": 2,
+      "key": 2746
+    },
+    {
+      "source": "aoguai",
       "app": "com.tencent.androidqqmail",
       "upstreamKey": -1,
       "key": 2748
@@ -16821,6 +16827,6 @@
     }
   ],
   "apps": 1002,
-  "appGroups": 2793,
+  "appGroups": 2794,
   "globalGroups": 3
 }
