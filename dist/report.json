@@ -1,17 +1,17 @@
 {
-  "version": 12,
-  "contentHash": "f11794901d703b7e6b63ba97bca39a78a8c877442982d97049ef834efdc63abb",
+  "version": 13,
+  "contentHash": "ef302e8dcf871a61281084da5d8e9e68fccc92f32364fdf9983ecd192efbc47e",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 622,
+      "version": 623,
       "id": 667,
-      "apps": 997,
-      "groups": 2490,
-      "kept": 2493,
+      "apps": 999,
+      "groups": 2494,
+      "kept": 2497,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -2076,6 +2076,18 @@
       "app": "com.sec.android.app.samsungapps",
       "upstreamKey": 3,
       "key": 343
+    },
+    {
+      "source": "linarm",
+      "app": "com.tuya.smartlifeiot",
+      "upstreamKey": 1,
+      "key": 2903
+    },
+    {
+      "source": "linarm",
+      "app": "com.tuya.smartlifeiot",
+      "upstreamKey": 2,
+      "key": 2904
     },
     {
       "source": "linarm",
@@ -5502,6 +5514,18 @@
       "app": "com.hd.smartVillage",
       "upstreamKey": 2,
       "key": 898
+    },
+    {
+      "source": "linarm",
+      "app": "com.phoenix.read.oversea.gp",
+      "upstreamKey": 1,
+      "key": 2905
+    },
+    {
+      "source": "linarm",
+      "app": "com.phoenix.read.oversea.gp",
+      "upstreamKey": 2,
+      "key": 2906
     },
     {
       "source": "linarm",
@@ -16826,7 +16850,7 @@
       "key": 2865
     }
   ],
-  "apps": 1002,
-  "appGroups": 2794,
+  "apps": 1004,
+  "appGroups": 2798,
   "globalGroups": 3
 }

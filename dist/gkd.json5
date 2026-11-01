@@ -2,7 +2,7 @@
   "id": 1846372051,
   "name": "个人 GKD 聚合订阅",
   "author": "Reev3sX（聚合；规则来自 Lin-arm、aoguai、yanmuq）",
-  "version": 12,
+  "version": 13,
   "checkUpdateUrl": "./gkd.version.json5",
   "categories": [
     {
@@ -17473,8 +17473,11 @@
           "resetMatch": "app",
           "rules": [
             {
-              "matches": "@[text=\"取消\"] < [vid=\"buttonPanel\"] > [text=\"更新\"]",
-              "snapshotUrls": "https://i.gkd.li/i/13194979"
+              "matches": "@[text=\"取消\"] <<(1,2) [vid=\"buttonPanel\"] >(1,2) [text=\"更新\"]",
+              "snapshotUrls": [
+                "https://i.gkd.li/i/13194979",
+                "https://i.gkd.li/i/34210785"
+              ]
             }
           ]
         },
@@ -20097,7 +20100,9 @@
           "name": "开屏广告",
           "desc": "⚠️[跳过]广告前可能有多次无效点击,属于正常现象",
           "fastQuery": true,
+          "matchRoot": true,
           "matchTime": 10000,
+          "actionMaximum": 2,
           "resetMatch": "app",
           "priorityTime": 10000,
           "rules": [
@@ -20123,8 +20128,11 @@
             },
             {
               "key": 3,
-              "matches": "@View[width<130 && height<130] <3 FrameLayout <2 FrameLayout < [vid=\"sdk_view\"]",
-              "snapshotUrls": "https://i.gkd.li/i/29440951"
+              "matches": "@View[width<170 && height<170] <3 FrameLayout <2 FrameLayout < [vid=\"sdk_view\"]",
+              "snapshotUrls": [
+                "https://i.gkd.li/i/29440951",
+                "https://i.gkd.li/i/34211578"
+              ]
             },
             {
               "key": 10,
@@ -20133,7 +20141,10 @@
                 "left": "width * 0.875",
                 "top": "width * 0.10"
               },
-              "matches": "[vid=\"ad_view\" || vid=\"sdk_view\"][visibleToUser=true][width>=720][childCount!=0]",
+              "anyMatches": [
+                "[vid=\"ad_view\"][visibleToUser=true][width>=720][childCount!=0]",
+                "[vid=\"sdk_view\"] >n [vid=\"animation_view\"][visibleToUser=true][width>=720]"
+              ],
               "snapshotUrls": "https://i.gkd.li/i/23283060",
               "excludeSnapshotUrls": "https://i.gkd.li/i/29440952"
             },
@@ -20147,7 +20158,10 @@
                 "left": "width * 0.875",
                 "top": "width * 0.135"
               },
-              "matches": "[vid=\"ad_view\" || vid=\"sdk_view\"][visibleToUser=true][width>=720][childCount!=0]",
+              "anyMatches": [
+                "[vid=\"ad_view\"][visibleToUser=true][width>=720][childCount!=0]",
+                "[vid=\"sdk_view\"] >n [vid=\"animation_view\"][visibleToUser=true][width>=720]"
+              ],
               "snapshotUrls": [
                 "https://i.gkd.li/i/13575257",
                 "https://i.gkd.li/i/18423724",
@@ -20165,7 +20179,10 @@
                 "left": "width * 0.875",
                 "top": "width * 0.17"
               },
-              "matches": "[vid=\"ad_view\" || vid=\"sdk_view\"][visibleToUser=true][width>=720][childCount!=0]",
+              "anyMatches": [
+                "[vid=\"ad_view\"][visibleToUser=true][width>=720][childCount!=0]",
+                "[vid=\"sdk_view\"] >n [vid=\"animation_view\"][visibleToUser=true][width>=720]"
+              ],
               "snapshotUrls": [
                 "https://i.gkd.li/i/13601755",
                 "https://i.gkd.li/i/23324118",
@@ -20185,7 +20202,10 @@
                 "left": "width * 0.875",
                 "top": "width * 0.20"
               },
-              "matches": "[vid=\"ad_view\" || vid=\"sdk_view\"][visibleToUser=true][width>=720][childCount!=0]",
+              "anyMatches": [
+                "[vid=\"ad_view\"][visibleToUser=true][width>=720][childCount!=0]",
+                "[vid=\"sdk_view\"] >n [vid=\"animation_view\"][visibleToUser=true][width>=720]"
+              ],
               "snapshotUrls": "https://i.gkd.li/i/16054268"
             }
           ],
@@ -34500,11 +34520,12 @@
             {
               "key": 1,
               "name": "①点击签到",
-              "matches": "[childCount=1][getChild(0).getChild(1).text=\"《鸣潮》每日签到工具\"] +(2,3) View >3 @View[childCount=3][getChild(2).width<150][visibleToUser=true] + View[childCount=2]",
+              "matches": "[childCount=1][getChild(0).getChild(1).text=\"《鸣潮》每日签到工具\"] +(2,3) View >3 @View[childCount=3][height>250][getChild(2).width<150][visibleToUser=true]",
               "snapshotUrls": [
                 "https://i.gkd.li/i/15632005",
                 "https://i.gkd.li/i/32262391",
-                "https://i.gkd.li/i/34076762"
+                "https://i.gkd.li/i/34076762",
+                "https://i.gkd.li/i/34198526"
               ],
               "excludeSnapshotUrls": "https://i.gkd.li/i/15632902"
             },
@@ -38289,8 +38310,8 @@
               "name": "点击签到",
               "excludeMatches": "[text^=\"请在此绑定你的\"][visibleToUser=true]",
               "anyMatches": [
-                "WebView[text*=\"签到\"] >4 View[childCount=11] > @View[childCount=3][visibleToUser=true] > Image[index=0][text!=null]",
-                "WebView[text*=\"签到\"] >4 View[childCount=10] > View + TextView[childCount=0][visibleToUser=true]"
+                "[getChild(0).getChild(1).text*=\"签到\"] + View >2 View[childCount=11] > @View[childCount=3][visibleToUser=true] > Image[index=0][text!=null]",
+                "[getChild(0).getChild(1).text*=\"签到\"] + View >2 View[childCount=10] > View + TextView[childCount=0][visibleToUser=true]"
               ],
               "exampleUrls": "https://e.gkd.li/53d22dc7-b368-46c0-85d2-fe132b0832a9",
               "snapshotUrls": [
@@ -38300,7 +38321,8 @@
                 "https://i.gkd.li/i/17611613",
                 "https://i.gkd.li/i/14967627",
                 "https://i.gkd.li/i/19586048",
-                "https://i.gkd.li/i/19586142"
+                "https://i.gkd.li/i/19586142",
+                "https://i.gkd.li/i/34215019"
               ],
               "excludeSnapshotUrls": [
                 "https://i.gkd.li/i/17601295",
@@ -42984,7 +43006,7 @@
       "groups": [
         {
           "key": 899,
-          "name": "功能类-自动[上滑]继续看短剧",
+          "name": "功能类-[上滑]继续看短剧",
           "desc": "①读秒结束后[上滑] ②未显示[选集]时,每5秒[上滑]1次",
           "fastQuery": true,
           "activityIds": [
@@ -43017,47 +43039,6 @@
               "name": "②5秒[上滑]1次",
               "actionCd": 4000,
               "actionDelay": 1000,
-              "versionCode": {
-                "maximum": 72932
-              },
-              "swipeArg": {
-                "start": {
-                  "x": "screenWidth/2",
-                  "y": "screenHeight * 0.7"
-                },
-                "end": {
-                  "x": "screenWidth/2",
-                  "y": "screenHeight * 0.3"
-                },
-                "duration": 200
-              },
-              "excludeMatches": "([text=\"选集\"][visibleToUser=true]) || ([text*=\"剧备字\"][height>0])",
-              "matches": "[text=\"选集\"][visibleToUser=false]",
-              "snapshotUrls": [
-                "https://i.gkd.li/i/32429827",
-                "https://i.gkd.li/i/32429877",
-                "https://i.gkd.li/i/32429830"
-              ],
-              "excludeSnapshotUrls": [
-                "https://i.gkd.li/i/32430107",
-                "https://i.gkd.li/i/32434872",
-                "https://i.gkd.li/i/32683026",
-                "https://i.gkd.li/i/33193929"
-              ],
-              "exampleUrls": [
-                "https://e.gkd.li/0128820c-4e8d-44ed-9ebc-ef2d5a062e26",
-                "https://e.gkd.li/b70813b8-1377-4210-be6c-fe04f3c9c701",
-                "https://e.gkd.li/38c5c9d1-9962-4e07-a7de-49999d3ddf2b"
-              ]
-            },
-            {
-              "key": 3,
-              "name": "③5秒[上滑]1次",
-              "actionCd": 4000,
-              "actionDelay": 1000,
-              "versionCode": {
-                "minimum": 72933
-              },
               "swipeArg": {
                 "start": {
                   "x": "screenWidth/2",
@@ -43070,13 +43051,29 @@
                 "duration": 200
               },
               "excludeMatches": [
-                "([text=\"选集\"][visibleToUser=true]) || ([text*=\"剧备字\"][height>0])",
-                "@TextView[visibleToUser=false][width>2000][height>40] <8 [childCount=8] <<n [vid=\"fragment_container\"]"
+                "[text=\"选集\" || text*=\"剧评\"][visibleToUser=true]",
+                "[text*=\"剧备字\" || text=\"全屏观看\"][height>0]",
+                "TextView[text$=\"%\"][text.length<5][height>-50 && height<1]"
               ],
               "matches": "[text=\"选集\"][visibleToUser=false]",
+              "snapshotUrls": [
+                "https://i.gkd.li/i/32429827",
+                "https://i.gkd.li/i/32429877",
+                "https://i.gkd.li/i/32429830"
+              ],
               "excludeSnapshotUrls": [
+                "https://i.gkd.li/i/32430107",
+                "https://i.gkd.li/i/34210794",
+                "https://i.gkd.li/i/32434872",
+                "https://i.gkd.li/i/33193929",
                 "https://i.gkd.li/i/32683026",
-                "https://i.gkd.li/i/33289353"
+                "https://i.gkd.li/i/33289353",
+                "https://i.gkd.li/i/34212237"
+              ],
+              "exampleUrls": [
+                "https://e.gkd.li/0128820c-4e8d-44ed-9ebc-ef2d5a062e26",
+                "https://e.gkd.li/b70813b8-1377-4210-be6c-fe04f3c9c701",
+                "https://e.gkd.li/38c5c9d1-9962-4e07-a7de-49999d3ddf2b"
               ]
             }
           ]
@@ -43096,6 +43093,47 @@
                 "[text=\"取消\"]"
               ],
               "snapshotUrls": "https://i.gkd.li/i/33926663"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.phoenix.read.oversea.gp",
+      "name": "红果短剧",
+      "groups": [
+        {
+          "key": 2905,
+          "name": "权限提示-通知权限",
+          "rules": [
+            {
+              "fastQuery": true,
+              "activityIds": "com.dragon.read.pages.main.MainFragmentActivity",
+              "matches": "@[clickable=true] > [visibleToUser=true][text=\"暂不开启\"] <<n [vid=\"push_permission_bottom_v2_compose_view\"]",
+              "snapshotUrls": "https://i.gkd.li/i/34212912"
+            }
+          ]
+        },
+        {
+          "key": 2906,
+          "name": "全屏广告",
+          "rules": [
+            {
+              "fastQuery": true,
+              "swipeArg": {
+                "start": {
+                  "x": "screenWidth * 0.5",
+                  "y": "screenHeight * 0.7"
+                },
+                "end": {
+                  "x": "screenWidth * 0.5",
+                  "y": "screenHeight * 0.3"
+                },
+                "duration": 300
+              },
+              "activityIds": "com.dragon.read.pages.main.MainFragmentActivity",
+              "matches": "[vid=\"ad_source\"][visibleToUser=true]",
+              "snapshotUrls": "https://i.gkd.li/i/34213154"
             }
           ]
         }
@@ -59527,6 +59565,43 @@
                 "https://i.gkd.li/i/33899505"
               ],
               "exampleUrls": "https://e.gkd.li/ef99a82e-811c-4206-8cda-593a7291049c"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.tuya.smartlifeiot",
+      "name": "(涂鸦)智能生活",
+      "groups": [
+        {
+          "key": 2903,
+          "name": "局部广告-轮播图",
+          "desc": "x掉",
+          "rules": [
+            {
+              "fastQuery": true,
+              "activityIds": "com.thingclips.smart.hometab.activity.FamilyHomeActivity",
+              "matches": "[vid=\"imv_ad_close\"]",
+              "snapshotUrls": "https://i.gkd.li/i/34208175",
+              "exampleUrls": "https://e.gkd.li/96d00f2a-7518-4fe2-aee1-7564a76a7d60"
+            }
+          ]
+        },
+        {
+          "key": 2904,
+          "name": "功能类-自动允许通断电",
+          "desc": "点击[确认]",
+          "rules": [
+            {
+              "fastQuery": true,
+              "activityIds": "com.gzl.smart.gzlminiapp.core.view.GZLActivity",
+              "matches": "@[text=\"确认\"] < View -2 [index=0][text$=\"允许通电\" || text$=\"允许断电\"] <<n [vid=\"swipe_layout_container\"]",
+              "snapshotUrls": [
+                "https://i.gkd.li/i/34208401",
+                "https://i.gkd.li/i/34208399"
+              ],
+              "exampleUrls": "https://e.gkd.li/a6f4f034-cd17-4aa2-8321-96c704d46869"
             }
           ]
         }
