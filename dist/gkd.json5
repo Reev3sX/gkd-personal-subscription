@@ -1,8 +1,8 @@
 {
   "id": 1846372051,
-  "name": "个人 GKD 聚合订阅",
-  "author": "Reev3sX（聚合；规则来自 Lin-arm、aoguai、yanmuq）",
-  "version": 13,
+  "name": "GitHub",
+  "author": "Reev3sX GitHub",
+  "version": 14,
   "checkUpdateUrl": "./gkd.version.json5",
   "categories": [
     {
