@@ -1,17 +1,17 @@
 {
-  "version": 14,
-  "contentHash": "f134731cfef9ee2024b7be7eeab25d0b92ee09cfbe3f798aea381ed011c94ebb",
+  "version": 15,
+  "contentHash": "104e4a21fa45b3e0b3d31a861c7c61c6570e4f674be0491d07faeb906e36c9e8",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 623,
+      "version": 624,
       "id": 667,
-      "apps": 999,
-      "groups": 2494,
-      "kept": 2497,
+      "apps": 1000,
+      "groups": 2497,
+      "kept": 2500,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -33,12 +33,12 @@
       "repository": "yanmuq/muqi_gkd",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 53,
+      "version": 54,
       "id": 808,
-      "apps": 34,
-      "groups": 116,
-      "kept": 95,
-      "duplicatesRemoved": 21,
+      "apps": 35,
+      "groups": 117,
+      "kept": 100,
+      "duplicatesRemoved": 17,
       "globalGroupsIgnored": 0
     }
   ],
@@ -6441,6 +6441,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.asjdhjhd.mgd.p3",
+      "upstreamKey": 1,
+      "key": 2907
+    },
+    {
+      "source": "linarm",
       "app": "com.dasjkjfd.mgd",
       "upstreamKey": 1,
       "key": 1050
@@ -8205,6 +8211,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.qidian.QDReader",
+      "upstreamKey": 18,
+      "key": 2908
+    },
+    {
+      "source": "linarm",
       "app": "com.cubic.autohome",
       "upstreamKey": 1,
       "key": 1341
@@ -8652,6 +8664,12 @@
       "app": "com.hihonor.appmarket",
       "upstreamKey": 4,
       "key": 1414
+    },
+    {
+      "source": "linarm",
+      "app": "com.hihonor.appmarket",
+      "upstreamKey": 5,
+      "key": 2909
     },
     {
       "source": "linarm",
@@ -16462,6 +16480,12 @@
     {
       "source": "yanmuq",
       "app": "com.huawei.appmarket",
+      "upstreamKey": 1,
+      "key": 2789
+    },
+    {
+      "source": "yanmuq",
+      "app": "com.huawei.appmarket",
       "upstreamKey": 4,
       "key": 2790
     },
@@ -16503,6 +16527,12 @@
     },
     {
       "source": "yanmuq",
+      "app": "com.huawei.health",
+      "upstreamKey": 6,
+      "key": 2798
+    },
+    {
+      "source": "yanmuq",
       "app": "com.huawei.smarthome",
       "upstreamKey": 0,
       "key": 2799
@@ -16534,8 +16564,20 @@
     {
       "source": "yanmuq",
       "app": "com.huawei.android.thememanager",
+      "upstreamKey": 9,
+      "key": 2804
+    },
+    {
+      "source": "yanmuq",
+      "app": "com.huawei.android.thememanager",
       "upstreamKey": 10,
       "key": 2805
+    },
+    {
+      "source": "yanmuq",
+      "app": "com.tmri.app.main",
+      "upstreamKey": 3,
+      "key": 2806
     },
     {
       "source": "yanmuq",
@@ -16743,6 +16785,12 @@
     },
     {
       "source": "yanmuq",
+      "app": "cn.com.sina.finance",
+      "upstreamKey": 0,
+      "key": 2910
+    },
+    {
+      "source": "yanmuq",
       "app": "com.xueqiu.android",
       "upstreamKey": 1,
       "key": 2842
@@ -16850,7 +16898,7 @@
       "key": 2865
     }
   ],
-  "apps": 1004,
-  "appGroups": 2798,
+  "apps": 1006,
+  "appGroups": 2806,
   "globalGroups": 3
 }

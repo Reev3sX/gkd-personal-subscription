@@ -2,7 +2,7 @@
   "id": 1846372051,
   "name": "GitHub",
   "author": "Reev3sX GitHub",
-  "version": 14,
+  "version": 15,
   "checkUpdateUrl": "./gkd.version.json5",
   "categories": [
     {
@@ -5862,6 +5862,35 @@
       ]
     },
     {
+      "id": "cn.com.sina.finance",
+      "name": "新浪财经",
+      "groups": [
+        {
+          "key": 2910,
+          "name": "补充·言木七｜限时-应用提示-取消安装确认",
+          "enable": true,
+          "desc": "点击取消",
+          "fastQuery": true,
+          "matchTime": 20000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "key": 0,
+              "activityIds": "cn.com.sina.finance.start.ui.home.MainActivity2",
+              "matches": [
+                "[id=\"android:id/alertTitle\"][text=\"新版本安装提示\"]",
+                "[id=\"android:id/message\"][text=\"您确定要取消安装吗?\"]",
+                "[id=\"android:id/button1\"][text=\"取消\"][clickable=true][visibleToUser=true]"
+              ],
+              "snapshotUrls": "https://i.gkd.li/i/34300807",
+              "exampleUrls": "https://raw.githubusercontent.com/yanmuq/muqi_gkd/main/assets/screenshots/34300807.png"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "cn.com.spdb.mobilebank.per",
       "name": "浦发银行",
       "groups": [
@@ -10232,7 +10261,7 @@
           ]
         },
         {
-          "name": "补充·言木七｜权限控制-相机允许本次",
+          "name": "补充·言木七｜系统权限-相机允许本次",
           "key": 2811,
           "enable": true,
           "fastQuery": true,
@@ -10256,7 +10285,7 @@
           ]
         },
         {
-          "name": "补充·言木七｜权限控制-位置允许本次",
+          "name": "补充·言木七｜系统权限-位置允许本次",
           "key": 2812,
           "enable": true,
           "fastQuery": true,
@@ -10279,7 +10308,7 @@
           ]
         },
         {
-          "name": "补充·言木七｜权限控制-录音允许本次",
+          "name": "补充·言木七｜系统权限-录音允许本次",
           "key": 2813,
           "fastQuery": true,
           "actionMaximum": 2,
@@ -10300,7 +10329,7 @@
           "enable": true
         },
         {
-          "name": "补充·言木七｜权限控制-拒绝默认浏览器请求",
+          "name": "补充·言木七｜系统权限-拒绝默认浏览器请求",
           "key": 2814,
           "fastQuery": true,
           "actionMaximum": 2,
@@ -10891,7 +10920,8 @@
         },
         {
           "key": 2864,
-          "name": "补充·言木七｜全屏广告-弹窗广告",
+          "name": "补充·言木七｜持续-全屏广告-弹窗广告",
+          "enable": true,
           "desc": "点击[以后再说]/[不用了]",
           "fastQuery": true,
           "actionMaximum": 1,
@@ -10920,8 +10950,7 @@
                 "https://i.gkd.li/i/17622043"
               ]
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -11274,6 +11303,25 @@
                 "https://i.gkd.li/i/18587515",
                 "https://i.gkd.li/i/18587775"
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "com.asjdhjhd.mgd.p3",
+      "name": "橘汁",
+      "groups": [
+        {
+          "key": 2907,
+          "name": "全屏广告",
+          "rules": [
+            {
+              "fastQuery": true,
+              "activityIds": "com.windmill.sdk.host.stub.StubActivityStandard_TL_Portrait",
+              "matches": "@ImageView[visibleToUser=true][width<78] < [childCount=1] +2 FrameLayout >2 [text=\"立即下载\"]",
+              "snapshotUrls": "https://i.gkd.li/i/34303867",
+              "exampleUrls": "https://e.gkd.li/c080c336-c36e-4001-8fd1-c2ec0ef0a1da"
             }
           ]
         }
@@ -12677,20 +12725,28 @@
           "rules": [
             {
               "key": 0,
-              "activityIds": ".pb.pb.main.PbActivity",
-              "matches": "@ImageView[clickable=true] -2 LinearLayout > [text^=\"打开通知\"]",
-              "snapshotUrls": "https://i.gkd.li/i/13536170"
+              "fastQuery": true,
+              "activityIds": ".tblauncher.MainTabActivity",
+              "matches": "@View[clickable=true] < [childCount=2] -2 [text=\"开启互动消息通知\"]",
+              "snapshotUrls": "https://i.gkd.li/i/34249649",
+              "exampleUrls": "https://e.gkd.li/7fa4aebb-42a7-47f7-bb23-e43fbac7e03b"
             },
             {
               "key": 1,
+              "activityIds": ".pb.pb.main.PbActivity",
+              "matches": "@ImageView[clickable=true] -2 LinearLayout > [visibleToUser=true][text^=\"打开通知\"]",
+              "snapshotUrls": "https://i.gkd.li/i/13536170"
+            },
+            {
+              "key": 2,
               "activityIds": ".immessagecenter.mention.reply.ReplyMeActivity",
               "matches": "TextView[text=\"开启消息推送\"] +2 TextView[text=\"不开启\"]",
               "snapshotUrls": "https://i.gkd.li/i/13675694"
             },
             {
-              "key": 2,
+              "key": 3,
               "activityIds": "com.baidu.tbadk.browser.TBWebContainerActivity",
-              "matches": "[text=\"开启通知\"] <n * > [text=\"暂不开启\"]",
+              "matches": "[text=\"开启通知\"] <n * > [clickable=true][text=\"暂不开启\"]",
               "snapshotUrls": [
                 "https://i.gkd.li/i/13804455",
                 "https://i.gkd.li/i/20918198"
@@ -23024,7 +23080,8 @@
         },
         {
           "key": 2851,
-          "name": "补充·言木七｜全屏广告-关闭花呗升级弹窗",
+          "name": "补充·言木七｜持续-应用提示弹窗-关闭花呗升级弹窗",
+          "enable": true,
           "rules": [
             {
               "key": 1,
@@ -23055,12 +23112,12 @@
                 "https://i.gkd.li/i/13857535"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2852,
-          "name": "补充·言木七｜全屏弹窗-开启通知弹窗",
+          "name": "补充·言木七｜持续-应用提示弹窗-开启通知弹窗",
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -23089,12 +23146,12 @@
                 "https://i.gkd.li/i/14944514"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2855,
-          "name": "补充·言木七｜全屏广告-弹窗广告",
+          "name": "补充·言木七｜持续-全屏广告-弹窗广告",
+          "enable": true,
           "desc": "点击X",
           "rules": [
             {
@@ -23111,12 +23168,12 @@
               "exampleUrls": "https://e.gkd.li/ebbd606a-0e21-4fc5-b0c3-49e4d87d065c",
               "snapshotUrls": "https://i.gkd.li/i/16812751"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2856,
-          "name": "补充·言木七｜全屏广告-\"下次支付用花呗\"弹窗",
+          "name": "补充·言木七｜持续-全屏广告-\"下次支付用花呗\"弹窗",
+          "enable": true,
           "desc": "点击\"30天不再提醒\"",
           "rules": [
             {
@@ -23132,12 +23189,12 @@
                 "https://i.gkd.li/i/15050300"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2858,
-          "name": "补充·言木七｜局部广告-卡片广告",
+          "name": "补充·言木七｜持续-页面内广告-卡片广告",
+          "enable": true,
           "desc": "点击关闭",
           "fastQuery": true,
           "rules": [
@@ -23165,15 +23222,15 @@
               "exampleUrls": "https://m.gkd.li/57941037/2d714755-efe9-4c63-8187-7f9b7a5a199c",
               "snapshotUrls": "https://i.gkd.li/i/15144844"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2860,
-          "name": "补充·言木七｜开屏广告-小程序开屏广告",
+          "name": "补充·言木七｜持续-小程序开屏广告",
+          "enable": true,
           "matchTime": 10000,
           "actionMaximum": 1,
-          "resetMatch": "app",
+          "resetMatch": "activity",
           "priorityTime": 10000,
           "rules": [
             {
@@ -23183,8 +23240,7 @@
               "exampleUrls": "https://e.gkd.li/a243e31f-f1b5-4689-8d1a-c53250be651e",
               "snapshotUrls": "https://i.gkd.li/i/17141999"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -23327,7 +23383,8 @@
         },
         {
           "key": 2861,
-          "name": "补充·言木七｜全屏广告-弹窗广告",
+          "name": "补充·言木七｜持续-全屏广告-弹窗广告",
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -23357,12 +23414,12 @@
                 "https://i.gkd.li/i/18072078"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2862,
-          "name": "补充·言木七｜局部广告",
+          "name": "补充·言木七｜持续-页面内广告",
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.estrongs.android.pop.view.FileExplorerActivity",
           "rules": [
@@ -23381,8 +23438,7 @@
               "matches": "[vid=\"close_b_t_a_i_b_no_compliance\"]",
               "snapshotUrls": "https://i.gkd.li/i/13842299"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -27882,6 +27938,22 @@
               "snapshotUrls": "https://i.gkd.li/i/21884571"
             }
           ]
+        },
+        {
+          "key": 2909,
+          "name": "功能类-自动[查看更多]应用更新",
+          "desc": "点击[查看更多]",
+          "rules": [
+            {
+              "fastQuery": true,
+              "actionMaximum": 3,
+              "resetMatch": "app",
+              "activityIds": ".appupdate.UpdateManagerActivity",
+              "matches": "@[clickable=true] > [text=\"查看更多\"]",
+              "snapshotUrls": "https://i.gkd.li/i/34304183",
+              "exampleUrls": "https://e.gkd.li/f7626132-4702-4cd4-b036-88935f45734d"
+            }
+          ]
         }
       ]
     },
@@ -28521,9 +28593,10 @@
         },
         {
           "key": 2800,
-          "name": "补充·言木七｜开屏广告",
+          "name": "补充·言木七｜限时-开屏广告",
+          "enable": true,
           "fastQuery": true,
-          "matchTime": 5000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "priorityTime": 5000,
@@ -28537,12 +28610,12 @@
                 "https://i.gkd.li/i/13762181"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2801,
-          "name": "补充·言木七｜局部广告-悬浮广告",
+          "name": "补充·言木七｜持续-页面内广告-悬浮广告",
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -28559,12 +28632,12 @@
               "exampleUrls": "https://e.gkd.li/5e5afbbf-b891-47f3-9543-48ceb3fd0104",
               "snapshotUrls": "https://i.gkd.li/i/16993276"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2802,
-          "name": "补充·言木七｜分段广告-卡片广告",
+          "name": "补充·言木七｜持续-页面内广告-卡片广告",
+          "enable": true,
           "fastQuery": true,
           "rules": [
             {
@@ -28614,13 +28687,13 @@
                 "https://i.gkd.li/i/16993186"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2803,
-          "name": "补充·言木七｜全屏广告-首页活动弹窗",
-          "matchTime": 10000,
+          "name": "补充·言木七｜限时-全屏广告-首页活动弹窗",
+          "enable": true,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "rules": [
@@ -28635,14 +28708,23 @@
                 "https://i.gkd.li/i/12667815"
               ]
             }
-          ],
-          "enable": true
+          ]
+        },
+        {
+          "key": 2804,
+          "name": "补充·言木七｜限时-应用提示-开启通知弹窗",
+          "enable": true,
+          "matchTime": 20000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": "@[text=\"取消\"] < * - * >n [text=\"开启消息通知\"]",
+          "snapshotUrls": "https://i.gkd.li/i/12918192"
         },
         {
           "key": 2805,
-          "name": "补充·言木七｜全屏弹窗-更新提示",
+          "name": "补充·言木七｜限时-应用提示-更新提示",
           "fastQuery": true,
-          "matchTime": 5000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "priorityTime": 5000,
@@ -28885,9 +28967,10 @@
         },
         {
           "key": 2788,
-          "name": "补充·言木七｜开屏广告",
+          "name": "补充·言木七｜限时-开屏广告",
+          "enable": true,
           "fastQuery": true,
-          "matchTime": 5000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "priorityTime": 5000,
@@ -28896,12 +28979,28 @@
               "matches": "[vid=\"clock_layout\"]",
               "snapshotUrls": "https://i.gkd.li/i/15523957"
             }
-          ],
-          "enable": true
+          ]
+        },
+        {
+          "key": 2789,
+          "name": "补充·言木七｜限时-应用提示-更新提示",
+          "enable": true,
+          "fastQuery": true,
+          "matchTime": 20000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "activityIds": ".MarketActivity",
+              "matches": "@[text=\"以后再说\"] + [text=\"立即更新\"]",
+              "snapshotUrls": "https://i.gkd.li/i/13228520"
+            }
+          ]
         },
         {
           "key": 2790,
-          "name": "补充·言木七｜全屏广告-热门应用推荐弹窗",
+          "name": "补充·言木七｜持续-全屏广告-热门应用推荐弹窗",
+          "enable": true,
           "desc": "点击[直接进入]",
           "fastQuery": true,
           "actionMaximum": 1,
@@ -28913,12 +29012,12 @@
               "exampleUrls": "https://m.gkd.li/57941037/89e6f2eb-b543-4dd8-88ce-6e888d0d8c8a",
               "snapshotUrls": "https://i.gkd.li/i/14861810"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2791,
-          "name": "补充·言木七｜局部广告-卡片广告",
+          "name": "补充·言木七｜持续-页面内广告-卡片广告",
+          "enable": true,
           "desc": "点击关闭",
           "rules": [
             {
@@ -28928,8 +29027,7 @@
               "exampleUrls": "https://m.gkd.li/57941037/13a31ae0-10c8-49bc-9154-363498237eff",
               "snapshotUrls": "https://i.gkd.li/i/15523964"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -28991,9 +29089,10 @@
         },
         {
           "key": 2777,
-          "name": "补充·言木七｜开屏广告",
+          "name": "补充·言木七｜限时-开屏广告",
+          "enable": true,
           "fastQuery": true,
-          "matchTime": 5000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "priorityTime": 5000,
@@ -29003,12 +29102,12 @@
               "matches": "[text*=\"跳过\"][text.length<10][visibleToUser=true]",
               "snapshotUrls": "https://i.gkd.li/i/13403785"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2778,
-          "name": "补充·言木七｜全屏弹窗-开启通知弹窗",
+          "name": "补充·言木七｜持续-应用提示弹窗-开启通知弹窗",
+          "enable": true,
           "desc": "关闭资讯通知后，总是弹窗让打开",
           "rules": [
             {
@@ -29017,12 +29116,12 @@
               "exampleUrls": "https://m.gkd.li/87047583/3982b64a-15a7-4c0c-b179-2ed82d6ea18e",
               "snapshotUrls": "https://i.gkd.li/i/13692404"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2779,
-          "name": "补充·言木七｜局部广告-卡片广告",
+          "name": "补充·言木七｜持续-页面内广告-卡片广告",
+          "enable": true,
           "desc": "点击关闭",
           "rules": [
             {
@@ -29031,8 +29130,7 @@
               "matches": "View[id=\"root\"] > View[index=1] > @View[visibleToUser=true][id=\"logo-close-btn\"] <<n [vid=\"web_view_container\"]",
               "snapshotUrls": "https://i.gkd.li/i/13997759"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -29150,9 +29248,10 @@
         },
         {
           "key": 2792,
-          "name": "补充·言木七｜开屏广告",
+          "name": "补充·言木七｜限时-开屏广告",
+          "enable": true,
           "fastQuery": true,
-          "matchTime": 5000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "priorityTime": 5000,
@@ -29166,36 +29265,36 @@
                 "https://i.gkd.li/i/13228290"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2793,
-          "name": "补充·言木七｜局部广告-“我的”页会员广告",
+          "name": "补充·言木七｜持续-页面内广告-“我的”页会员广告",
+          "enable": true,
           "rules": [
             {
               "activityIds": "com.huawei.health.MainActivity",
               "matches": "[id=\"com.huawei.health:id/item_banner_ad_close_icon\"]",
               "snapshotUrls": "https://i.gkd.li/i/12667814"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2795,
-          "name": "补充·言木七｜功能类-请求开启个性化推荐弹窗",
+          "name": "补充·言木七｜持续-应用提示弹窗-请求开启个性化推荐弹窗",
+          "enable": true,
           "rules": [
             {
               "activityIds": "com.huawei.watchface.api.WebViewActivity",
               "matches": "[text=\"开启个性化推荐\"] +2 [text=\"开启\"] + Button",
               "snapshotUrls": "https://i.gkd.li/i/13546292"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2796,
-          "name": "补充·言木七｜局部广告-底部横幅广告",
+          "name": "补充·言木七｜持续-页面内广告-底部横幅广告",
+          "enable": true,
           "rules": [
             {
               "fastQuery": true,
@@ -29203,12 +29302,12 @@
               "matches": "[id=\"com.huawei.health:id/marketing_close_icon\"]",
               "snapshotUrls": "https://i.gkd.li/i/13587206"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2797,
-          "name": "补充·言木七｜功能类-请求开启[实时推送步数]弹窗",
+          "name": "补充·言木七｜持续-应用提示弹窗-请求开启[实时推送步数]弹窗",
+          "enable": true,
           "desc": "点击取消",
           "rules": [
             {
@@ -29224,8 +29323,24 @@
                 "https://i.gkd.li/i/16494762"
               ]
             }
-          ],
-          "enable": true
+          ]
+        },
+        {
+          "key": 2798,
+          "name": "补充·言木七｜限时-应用提示-更新提示",
+          "enable": true,
+          "fastQuery": true,
+          "actionMaximum": 1,
+          "matchTime": 20000,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "action": "back",
+              "activityIds": "com.huawei.hwversionmgr.activity.AppUpdateDialogActivity",
+              "matches": "[text=\"发现新版本\"]",
+              "snapshotUrls": "https://i.gkd.li/i/15521811"
+            }
+          ]
         }
       ]
     },
@@ -29543,8 +29658,9 @@
         },
         {
           "key": 2783,
-          "name": "补充·言木七｜开屏广告",
-          "matchTime": 5000,
+          "name": "补充·言木七｜限时-开屏广告",
+          "enable": true,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "priorityTime": 5000,
@@ -29558,15 +29674,15 @@
                 "https://i.gkd.li/i/27857853"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2784,
-          "name": "补充·言木七｜全屏广告-会员弹窗",
+          "name": "补充·言木七｜限时-全屏广告-会员弹窗",
+          "enable": true,
           "desc": "点击关闭",
           "fastQuery": true,
-          "matchTime": 10000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "rules": [
@@ -29576,12 +29692,12 @@
                 "https://i.gkd.li/i/27857933"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2785,
-          "name": "补充·言木七｜局部广告-播放界面直播浮窗",
+          "name": "补充·言木七｜持续-页面内广告-播放界面直播浮窗",
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.android.mediacenter.MainActivity",
           "rules": [
@@ -29589,12 +29705,12 @@
               "matches": "TextView[id=\"com.huawei.music:id/live_info\"] < LinearLayout -2 [id=\"com.huawei.music:id/close_button\"]",
               "snapshotUrls": "https://i.gkd.li/i/13067649"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2786,
-          "name": "补充·言木七｜全屏广告-弹窗广告",
+          "name": "补充·言木七｜持续-全屏广告-弹窗广告",
+          "enable": true,
           "desc": "点击关闭",
           "rules": [
             {
@@ -29610,8 +29726,7 @@
                 "https://i.gkd.li/i/15523958"
               ]
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -29671,10 +29786,10 @@
       "groups": [
         {
           "key": 2799,
-          "name": "补充·言木七｜局部广告-首页横幅",
+          "name": "补充·言木七｜持续-页面内广告-首页横幅",
+          "enable": true,
           "desc": "点击关闭",
           "fastQuery": true,
-          "matchTime": 5000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "actionCd": 86400000,
@@ -29683,8 +29798,7 @@
               "matches": "[vid=\"image_feed_banner_close_btn\"]",
               "snapshotUrls": "https://i.gkd.li/i/27942071"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -29779,10 +29893,11 @@
         },
         {
           "key": 2780,
-          "name": "补充·言木七｜局部广告-钱包扩展服务提示",
+          "name": "补充·言木七｜限时-应用提示-钱包扩展服务提示",
+          "enable": true,
           "desc": "点击关闭",
           "fastQuery": true,
-          "matchTime": 10000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "rules": [
@@ -29790,8 +29905,7 @@
               "matches": "[text=\"开启钱包扩展服务\"] +2 [id=\"com.huawei.wallet:id/linear_close\"]",
               "snapshotUrls": "https://i.gkd.li/i/13441814"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -32129,7 +32243,8 @@
         },
         {
           "key": 2807,
-          "name": "补充·言木七｜全屏广告-还款免密弹窗",
+          "name": "补充·言木七｜持续-应用提示弹窗-还款免密弹窗",
+          "enable": true,
           "desc": "关闭",
           "rules": [
             {
@@ -32139,8 +32254,7 @@
               "snapshotUrls": "https://i.gkd.li/i/19851560",
               "exampleUrls": "https://e.gkd.li/bc8bfb87-2bd5-431d-b939-f9ba31fdee26"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -32355,9 +32469,9 @@
         },
         {
           "key": 2771,
-          "name": "补充·言木七｜全屏广告-购卡弹窗",
+          "name": "补充·言木七｜持续-全屏广告-购卡弹窗",
+          "enable": true,
           "desc": "点击仅付费",
-          "matchTime": 5000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "rules": [
@@ -32366,14 +32480,14 @@
               "matches": "@TextView[text^=\"仅支付\"] - View > TextView[text^=\"购买并支付\"]",
               "snapshotUrls": "https://i.gkd.li/i/19589975"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2772,
-          "name": "补充·言木七｜全屏弹窗-开启通知弹窗",
+          "name": "补充·言木七｜限时-应用提示-开启通知弹窗",
+          "enable": true,
           "fastQuery": true,
-          "matchTime": 10000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "rules": [
@@ -32391,17 +32505,16 @@
                 "https://i.gkd.li/i/13402675"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2773,
-          "name": "补充·言木七｜全屏广告-弹窗广告",
+          "name": "补充·言木七｜持续-全屏广告-弹窗广告",
+          "enable": true,
           "rules": [
             {
               "key": 0,
               "fastQuery": true,
-              "matchTime": 10000,
               "actionMaximum": 1,
               "resetMatch": "app",
               "activityIds": [
@@ -32417,7 +32530,6 @@
             {
               "key": 1,
               "fastQuery": true,
-              "matchTime": 10000,
               "actionMaximum": 1,
               "resetMatch": "app",
               "activityIds": "com.hellobike.evehicle.business.main.EVehicleHomeManagerActivity",
@@ -32436,17 +32548,16 @@
               "matches": "[desc=\"去使用\"] + Button[text=null][visibleToUser=true]",
               "snapshotUrls": "https://i.gkd.li/i/12739316"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2774,
-          "name": "补充·言木七｜局部广告-右侧悬浮广告",
+          "name": "补充·言木七｜持续-页面内广告-右侧悬浮广告",
+          "enable": true,
           "fastQuery": true,
           "activityIds": "com.hellobike.atlas.business.portal.PortalActivity",
           "rules": "@[id=\"com.jingyao.easybike:id/closeFloatArea\"] + [id=\"com.jingyao.easybike:id/floatADContainer\"]",
-          "snapshotUrls": "https://i.gkd.li/i/12650071",
-          "enable": true
+          "snapshotUrls": "https://i.gkd.li/i/12650071"
         }
       ]
     },
@@ -37163,12 +37274,13 @@
       "name": "QQ音乐flyme版",
       "groups": [
         {
-          "name": "补充·言木七｜全屏弹窗-存储权限弹窗",
+          "name": "补充·言木七｜限时-应用提示-存储权限弹窗",
+          "enable": true,
           "key": 2865,
           "fastQuery": true,
           "matchRoot": true,
           "actionMaximum": 1,
-          "matchTime": 5000,
+          "matchTime": 20000,
           "priorityTime": 5000,
           "order": -10,
           "matchDelay": 10,
@@ -37182,8 +37294,7 @@
               "snapshotUrls": "https://i.gkd.li/i/18945676",
               "exampleUrls": "https://e.gkd.li/158a00b8-48fe-4556-a844-02e3d8800f47"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -37976,8 +38087,9 @@
         },
         {
           "key": 2751,
-          "name": "补充·言木七｜全屏广告-开启通知弹窗",
-          "matchTime": 5000,
+          "name": "补充·言木七｜限时-应用提示-开启通知弹窗",
+          "enable": true,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "fastQuery": true,
@@ -37990,14 +38102,14 @@
                 "https://i.gkd.li/i/21564662"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2752,
-          "name": "补充·言木七｜全屏广告-评价弹窗",
+          "name": "补充·言木七｜限时-应用提示-评价弹窗",
+          "enable": true,
           "desc": "关闭弹出窗口",
-          "matchTime": 5000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "fastQuery": true,
@@ -38009,8 +38121,7 @@
               "snapshotUrls": "https://i.gkd.li/i/22277907",
               "exampleUrls": "https://e.gkd.li/51c0e6de-cc7a-4d5a-8163-17a141a566fc"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -38020,7 +38131,8 @@
       "groups": [
         {
           "key": 2838,
-          "name": "补充·言木七｜全屏广告-设为默认",
+          "name": "补充·言木七｜持续-应用提示弹窗-设为默认",
+          "enable": true,
           "desc": "不，谢谢",
           "rules": [
             {
@@ -38030,8 +38142,7 @@
               "snapshotUrls": "https://i.gkd.li/i/25801057",
               "exampleUrls": "https://e.gkd.li/bc8bfb87-2bd5-431d-b939-f9ba31fdee26"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -39729,9 +39840,10 @@
         },
         {
           "key": 2830,
-          "name": "补充·言木七｜开屏广告",
+          "name": "补充·言木七｜限时-开屏广告",
+          "enable": true,
           "order": -10,
-          "matchTime": 5000,
+          "matchTime": 20000,
           "forcedTime": 5000,
           "resetMatch": "app",
           "priorityTime": 5000,
@@ -39746,12 +39858,12 @@
                 "https://i.gkd.li/i/17656103"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2831,
-          "name": "补充·言木七｜功能类-同意认证",
+          "name": "补充·言木七｜持续-功能操作-同意认证",
+          "enable": true,
           "matchTime": 5000,
           "forcedTime": 5000,
           "resetMatch": "match",
@@ -39784,8 +39896,7 @@
               ],
               "matches": "@Button < View <4 View < WebView < bc < WebView < [vid=\"h5_pc_container\"]"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -41066,9 +41177,10 @@
         },
         {
           "key": 2832,
-          "name": "补充·言木七｜开屏广告",
+          "name": "补充·言木七｜限时-开屏广告",
+          "enable": true,
           "fastQuery": true,
-          "matchTime": 5000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "priorityTime": 5000,
@@ -41083,12 +41195,12 @@
                 "https://i.gkd.li/i/17892200"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2833,
-          "name": "补充·言木七｜分段广告-卡片广告",
+          "name": "补充·言木七｜持续-页面内广告-卡片广告",
+          "enable": true,
           "desc": "点击[X]-点击[直接关闭]/[不感兴趣]",
           "rules": [
             {
@@ -41150,12 +41262,12 @@
               "matches": "@[id=\"com.netease.cloudmusic:id/artist_container\"] > [text=\"不感兴趣\"]",
               "snapshotUrls": "https://i.gkd.li/i/13526712"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2834,
-          "name": "补充·言木七｜局部广告-播放界面广告",
+          "name": "补充·言木七｜持续-页面内广告-播放界面广告",
+          "enable": true,
           "desc": "点击关闭",
           "fastQuery": true,
           "activityIds": "com.netease.cloudmusic.activity.PlayerActivity",
@@ -41188,14 +41300,14 @@
               "matches": "[vid=\"iv_ad_close\"][clickable=true][visibleToUser=true][focusable=true]",
               "snapshotUrls": "https://i.gkd.li/i/15282417"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2835,
-          "name": "补充·言木七｜全屏广告-[获得新徽章]弹窗",
+          "name": "补充·言木七｜限时-应用提示-[获得新徽章]弹窗",
+          "enable": true,
           "desc": "点击关闭",
-          "matchTime": 10000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "rules": [
@@ -41206,8 +41318,7 @@
               "exampleUrls": "https://m.gkd.li/57941037/39e34e7d-eae3-4a54-9794-97c2528d13fb",
               "snapshotUrls": "https://i.gkd.li/i/14926750"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -43914,6 +44025,29 @@
               "exampleUrls": "https://e.gkd.li/a1fe7a7d-3863-4e5f-befc-47eae3a505f0"
             }
           ]
+        },
+        {
+          "key": 2908,
+          "name": "全屏广告-追更至最新章节弹窗",
+          "desc": "①[取消勾选]提醒 ②x掉弹窗",
+          "fastQuery": true,
+          "actionMaximum": 1,
+          "activityIds": ".ui.activity.QDReaderActivity",
+          "rules": [
+            {
+              "key": 1,
+              "name": "①[取消勾选]提醒",
+              "matches": "[vid=\"switchUpdate\"][checkable=true][checked=true]",
+              "snapshotUrls": "https://i.gkd.li/i/34316607"
+            },
+            {
+              "key": 2,
+              "name": "②x掉弹窗",
+              "matches": "@[vid=\"ivClose\"] +2 [visibleToUser=true] >2 [text=\"追更至最新章节\"]",
+              "snapshotUrls": "https://i.gkd.li/i/34316605",
+              "exampleUrls": "https://e.gkd.li/f969ad39-da92-458f-95f6-e2939857c808"
+            }
+          ]
         }
       ]
     },
@@ -45291,7 +45425,8 @@
       "groups": [
         {
           "key": 2760,
-          "name": "补充·言木七｜全屏弹窗",
+          "name": "补充·言木七｜限时-应用提示-开启定位",
+          "enable": true,
           "desc": "点击[开启定位]",
           "matchTime": 20000,
           "actionMaximum": 2,
@@ -45309,8 +45444,7 @@
               ],
               "exampleUrls": "https://e.gkd.li/618ed0e0-a40c-4612-8521-1c6640e50d47"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -45923,7 +46057,8 @@
         },
         {
           "key": 2808,
-          "name": "补充·言木七｜功能类-付款后点击完成",
+          "name": "补充·言木七｜持续-功能操作-付款后点击完成",
+          "enable": true,
           "fastQuery": true,
           "matchRoot": true,
           "actionMaximum": 1,
@@ -45956,12 +46091,12 @@
                 "https://raw.githubusercontent.com/yanmuq/muqi_gkd/main/assets/screenshots/33155314.png"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2809,
-          "name": "补充·言木七｜功能类-骑行支付弹窗",
+          "name": "补充·言木七｜持续-功能操作-骑行支付弹窗",
+          "enable": true,
           "matchRoot": true,
           "rules": [
             {
@@ -45991,14 +46126,14 @@
                 "https://raw.githubusercontent.com/yanmuq/muqi_gkd/main/assets/screenshots/21549744.png"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2810,
-          "name": "补充·言木七｜更新提示",
+          "name": "补充·言木七｜限时-应用提示-更新提示",
+          "enable": true,
           "fastQuery": true,
-          "matchTime": 10000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "rules": [
@@ -46015,8 +46150,7 @@
                 "https://e.gkd.li/f7d4d114-5d24-47cf-8720-6a674c3d540f"
               ]
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -46547,7 +46681,8 @@
         },
         {
           "key": 2815,
-          "name": "补充·言木七｜全屏弹窗-通知权限弹窗",
+          "name": "补充·言木七｜限时-应用提示-通知权限弹窗",
+          "enable": true,
           "desc": "关闭开启消息通知弹窗",
           "matchRoot": true,
           "matchTime": 20000,
@@ -46571,13 +46706,13 @@
                 "https://raw.githubusercontent.com/yanmuq/muqi_gkd/main/assets/screenshots/33155908.png"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2816,
-          "name": "补充·言木七｜更新提示",
-          "matchTime": 10000,
+          "name": "补充·言木七｜限时-应用提示-更新提示",
+          "enable": true,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "activityIds": ".MainActivity",
@@ -46593,13 +46728,13 @@
               "matches": "@Button[desc=\"取消\"] - ViewGroup >3 [visibleToUser=true][text=\"立即升级\"] <<n [id=\"com.sf.activity:id/rnRootLayout\"]",
               "snapshotUrls": "https://i.gkd.li/i/13291144"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2817,
-          "name": "补充·言木七｜其他-专属月报弹窗",
-          "matchTime": 10000,
+          "name": "补充·言木七｜限时-应用提示-专属月报弹窗",
+          "enable": true,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "rules": [
@@ -46609,15 +46744,15 @@
               "exampleUrls": "https://m.gkd.li/57941037/83023ed5-f143-4355-9fff-e078011dfa4a",
               "snapshotUrls": "https://i.gkd.li/i/12642441"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2818,
-          "name": "补充·言木七｜全屏广告-弹窗广告",
+          "name": "补充·言木七｜限时-全屏广告-弹窗广告",
+          "enable": true,
           "desc": "点击关闭",
           "fastQuery": true,
-          "matchTime": 10000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "rules": [
@@ -46631,8 +46766,7 @@
                 "https://i.gkd.li/i/17869485"
               ]
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -52832,9 +52966,10 @@
         },
         {
           "key": 2819,
-          "name": "补充·言木七｜开屏广告",
+          "name": "补充·言木七｜限时-开屏广告",
+          "enable": true,
           "fastQuery": true,
-          "matchTime": 5000,
+          "matchTime": 20000,
           "actionMaximum": 2,
           "resetMatch": "app",
           "priorityTime": 5000,
@@ -52848,12 +52983,12 @@
                 "https://i.gkd.li/i/17578451"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2820,
-          "name": "补充·言木七｜全屏广告-弹窗广告",
+          "name": "补充·言木七｜持续-全屏广告-弹窗广告",
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -52877,12 +53012,12 @@
                 "https://i.gkd.li/i/14905372"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2821,
-          "name": "补充·言木七｜局部广告-消息页面热门活动卡片",
+          "name": "补充·言木七｜持续-页面内广告-消息页面热门活动卡片",
+          "enable": true,
           "rules": [
             {
               "fastQuery": true,
@@ -52893,12 +53028,12 @@
                 "https://i.gkd.li/i/13197877"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2822,
-          "name": "补充·言木七｜局部广告-悬浮广告",
+          "name": "补充·言木七｜持续-页面内广告-悬浮广告",
+          "enable": true,
           "rules": [
             {
               "key": 0,
@@ -52907,12 +53042,12 @@
               "matches": "View[childCount=2] > @Image[text!=\"\"][clickable=true] + View",
               "snapshotUrls": "https://i.gkd.li/i/13521702"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2823,
-          "name": "补充·言木七｜全屏弹窗-开启通知弹窗",
+          "name": "补充·言木七｜持续-应用提示弹窗-开启通知弹窗",
+          "enable": true,
           "desc": "点击关闭",
           "order": -10,
           "fastQuery": true,
@@ -52929,13 +53064,12 @@
                 "https://i.gkd.li/i/21789921"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2824,
           "enable": true,
-          "name": "补充·言木七｜更新提示",
+          "name": "补充·言木七｜持续-更新提示",
           "fastQuery": true,
           "actionMaximum": 1,
           "resetMatch": "app",
@@ -52955,7 +53089,8 @@
         },
         {
           "key": 2825,
-          "name": "补充·言木七｜功能类-关闭小额免密支付",
+          "name": "补充·言木七｜持续-功能操作-关闭小额免密支付",
+          "enable": true,
           "desc": "在支付前/后出现",
           "rules": [
             {
@@ -52977,12 +53112,12 @@
                 "https://i.gkd.li/i/14471858"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2827,
-          "name": "补充·言木七｜功能类-悬浮窗权限",
+          "name": "补充·言木七｜持续-应用提示弹窗-悬浮窗权限",
+          "enable": true,
           "desc": "点击[否]",
           "fastQuery": true,
           "actionMaximum": 1,
@@ -52996,12 +53131,12 @@
               ],
               "snapshotUrls": "https://i.gkd.li/i/13588165"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2828,
-          "name": "补充·言木七｜全屏广告-抢天降补贴弹窗",
+          "name": "补充·言木七｜持续-全屏广告-抢天降补贴弹窗",
+          "enable": true,
           "desc": "点击X",
           "rules": [
             {
@@ -53010,8 +53145,7 @@
               "matches": "@[desc=\"关闭按钮\"] - [vid=\"poplayer_native_state_id\"]",
               "snapshotUrls": "https://i.gkd.li/i/14060521"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -55548,7 +55682,8 @@
         },
         {
           "key": 2839,
-          "name": "补充·言木七｜开屏广告-微信小程序",
+          "name": "补充·言木七｜持续-小程序开屏广告-微信小程序",
+          "enable": true,
           "fastQuery": true,
           "matchTime": 10000,
           "forcedTime": 10000,
@@ -55571,12 +55706,12 @@
                 "https://i.gkd.li/i/15108441"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2840,
-          "name": "补充·言木七｜全屏广告-文档页面-腾讯文档APP弹窗",
+          "name": "补充·言木七｜持续-应用提示弹窗-文档页面-腾讯文档APP弹窗",
+          "enable": true,
           "desc": "点击关闭",
           "rules": [
             {
@@ -55586,12 +55721,12 @@
               "exampleUrls": "https://m.gkd.li/57941037/2228f99e-e0a1-4915-864f-d60e3d8580a6",
               "snapshotUrls": "https://i.gkd.li/i/14533286"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2841,
-          "name": "补充·言木七｜分段广告-订阅号消息-推荐阅读",
+          "name": "补充·言木七｜持续-页面内广告-订阅号消息-推荐阅读",
+          "enable": true,
           "desc": "点击关闭",
           "activityIds": "com.tencent.mm.plugin.brandservice.ui.flutter.BizFlutterTLFlutterViewActivity",
           "rules": [
@@ -55617,8 +55752,7 @@
               "matches": "[desc=\"确定\"]",
               "snapshotUrls": "https://i.gkd.li/i/14549567"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -57119,9 +57253,10 @@
         },
         {
           "key": 2753,
-          "name": "补充·言木七｜开屏广告",
+          "name": "补充·言木七｜限时-开屏广告",
+          "enable": true,
           "fastQuery": true,
-          "matchTime": 5000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "priorityTime": 5000,
@@ -57143,12 +57278,12 @@
                 "https://i.gkd.li/i/15334565"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2754,
-          "name": "补充·言木七｜局部广告-消息页面顶部横幅广告",
+          "name": "补充·言木七｜持续-页面内广告-消息页面顶部横幅广告",
+          "enable": true,
           "desc": "点击关闭",
           "activityIds": "com.tencent.mobileqq.activity.SplashActivity",
           "rules": [
@@ -57183,14 +57318,14 @@
                 "https://i.gkd.li/i/14217033"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2755,
-          "name": "补充·言木七｜更新提示",
+          "name": "补充·言木七｜限时-应用提示-更新提示",
+          "enable": true,
           "fastQuery": true,
-          "matchTime": 10000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "actionMaximumKey": 0,
@@ -57213,12 +57348,12 @@
               ],
               "snapshotUrls": "https://i.gkd.li/i/14724108"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2756,
-          "name": "补充·言木七｜全屏广告-腾讯文档页面-\"使用App\"弹窗",
+          "name": "补充·言木七｜持续-应用提示弹窗-腾讯文档页面-\"使用App\"弹窗",
+          "enable": true,
           "desc": "点击关闭",
           "rules": [
             {
@@ -57228,8 +57363,7 @@
               "exampleUrls": "https://m.gkd.li/57941037/6efc2dfd-79f3-43b5-bf20-f59a88295ddb",
               "snapshotUrls": "https://i.gkd.li/i/14188983"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -58550,10 +58684,11 @@
         },
         {
           "key": 2889,
-          "name": "补充·言木七｜更新提示",
+          "name": "补充·言木七｜限时-应用提示-更新提示",
+          "enable": true,
           "desc": "点击右上角关闭",
           "fastQuery": true,
-          "matchTime": 10000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "rules": [
@@ -58563,8 +58698,7 @@
               "snapshotUrls": "https://i.gkd.li/i/33872644",
               "exampleUrls": "https://e.gkd.li/6ca43dda-3031-4c5a-9a06-64519fcb84b1"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -59238,6 +59372,25 @@
               "snapshotUrls": [
                 "https://i.gkd.li/i/18810054"
               ]
+            }
+          ]
+        },
+        {
+          "key": 2806,
+          "name": "补充·言木七｜限时-应用提示-更新提示",
+          "enable": true,
+          "fastQuery": true,
+          "matchTime": 20000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "activityIds": "com.tmri.app.ui.activity.main.MainTabHostNewActivity",
+              "matches": [
+                "[text=\"立即更新\"]",
+                "[text=\"以后再说\"]"
+              ],
+              "snapshotUrls": "https://i.gkd.li/i/15751656"
             }
           ]
         }
@@ -60529,7 +60682,8 @@
         },
         {
           "key": 2846,
-          "name": "补充·言木七｜功能类-支付完成页点完成",
+          "name": "补充·言木七｜持续-功能操作-支付完成页点完成",
+          "enable": true,
           "fastQuery": true,
           "matchTime": 5000,
           "priorityTime": 1000,
@@ -60542,12 +60696,11 @@
               "matches": "@[text.length=2] < ViewGroup[clickable=false] - [text=\"支付成功\"]",
               "snapshotUrls": "https://i.gkd.li/i/13070564"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2847,
-          "name": "补充·言木七｜全屏广告-付款后信用卡广告",
+          "name": "补充·言木七｜持续-全屏广告-付款后信用卡广告",
           "desc": "2025-03-11由审查工具生成",
           "enable": true,
           "fastQuery": true,
@@ -60568,11 +60721,12 @@
         },
         {
           "key": 2848,
-          "name": "补充·言木七｜全屏广告-开启通知弹窗",
+          "name": "补充·言木七｜限时-应用提示-开启通知弹窗",
+          "enable": true,
           "desc": "点击关闭",
           "actionDelay": 500,
           "fastQuery": true,
-          "matchTime": 10000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "rules": [
@@ -60582,12 +60736,12 @@
               "matches": "[text=\"开启消息通知\"] < * + [id=\"com.unionpay:id/view_alert_cancel\"][visibleToUser=true]",
               "snapshotUrls": "https://i.gkd.li/i/12695736"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2849,
-          "name": "补充·言木七｜全屏广告-天天签到-获得新勋章提示",
+          "name": "补充·言木七｜持续-应用提示弹窗-天天签到-获得新勋章提示",
+          "enable": true,
           "desc": "点击左上角返回",
           "actionDelay": 500,
           "actionMaximum": 1,
@@ -60599,12 +60753,12 @@
               "matches": "WebView[text=\"天天签到\"] TextView[text=\"炫耀一下\"] + TextView[clickable=true]",
               "snapshotUrls": "https://i.gkd.li/i/13440341"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2850,
-          "name": "补充·言木七｜全屏广告-领取优惠弹窗",
+          "name": "补充·言木七｜持续-全屏广告-领取优惠弹窗",
+          "enable": true,
           "desc": "点击关闭",
           "actionDelay": 500,
           "rules": [
@@ -60615,8 +60769,7 @@
               "matches": "@View[clickable=true][text=\"关闭按钮\"] <<n [vid=\"view_content_container\"]",
               "snapshotUrls": "https://i.gkd.li/i/13848688"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -61819,9 +61972,10 @@
         },
         {
           "key": 2836,
-          "name": "补充·言木七｜开屏广告",
+          "name": "补充·言木七｜限时-开屏广告",
+          "enable": true,
           "fastQuery": true,
-          "matchTime": 5000,
+          "matchTime": 20000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "actionMaximumKey": 0,
@@ -61844,12 +61998,12 @@
                 "https://i.gkd.li/i/14661622"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2837,
-          "name": "补充·言木七｜分段广告-信息流广告",
+          "name": "补充·言木七｜持续-页面内广告-信息流广告",
+          "enable": true,
           "desc": "出现在主页,搜索页",
           "fastQuery": true,
           "matchRoot": true,
@@ -61885,8 +62039,7 @@
                 "https://i.gkd.li/i/16667202"
               ]
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -62574,8 +62727,9 @@
         },
         {
           "key": 2775,
-          "name": "补充·言木七｜全屏弹窗-更新弹窗",
-          "matchTime": 10000,
+          "name": "补充·言木七｜限时-应用提示-更新弹窗",
+          "enable": true,
+          "matchTime": 20000,
           "resetMatch": "app",
           "rules": [
             {
@@ -62585,13 +62739,13 @@
               "exampleUrls": "https://e.gkd.li/186f3000-57b3-4a6a-8895-d67c1c27b000",
               "snapshotUrls": "https://i.gkd.li/i/26191370"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2776,
-          "name": "补充·言木七｜全屏弹窗-开启通知",
-          "matchTime": 10000,
+          "name": "补充·言木七｜限时-应用提示-开启通知",
+          "enable": true,
+          "matchTime": 20000,
           "resetMatch": "app",
           "rules": [
             {
@@ -62604,8 +62758,7 @@
               "exampleUrls": "https://e.gkd.li/bb758ce2-09c2-4e57-b418-a0196c1b38a4",
               "snapshotUrls": "https://i.gkd.li/i/26191365"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -65295,7 +65448,8 @@
         },
         {
           "key": 2842,
-          "name": "补充·言木七｜局部广告-信息流广告",
+          "name": "补充·言木七｜持续-页面内广告-信息流广告",
+          "enable": true,
           "rules": [
             {
               "fastQuery": true,
@@ -65304,12 +65458,12 @@
               "exampleUrls": "https://m.gkd.li/33366298/d05d1eec-cda5-4d37-a494-8eef7b7871dd",
               "snapshotUrls": "https://i.gkd.li/i/13388227"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2843,
-          "name": "补充·言木七｜局部广告-评论区广告",
+          "name": "补充·言木七｜持续-页面内广告-评论区广告",
+          "enable": true,
           "rules": [
             {
               "fastQuery": true,
@@ -65318,8 +65472,7 @@
               "exampleUrls": "https://m.gkd.li/33366298/b223cc74-fd4f-45a2-89ab-4a18ddffc01c",
               "snapshotUrls": "https://i.gkd.li/i/13388361"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -65343,7 +65496,8 @@
         },
         {
           "key": 2844,
-          "name": "补充·言木七｜全屏广告-基金页面弹窗广告",
+          "name": "补充·言木七｜持续-全屏广告-基金页面弹窗广告",
+          "enable": true,
           "desc": "点击关闭",
           "rules": [
             {
@@ -65353,8 +65507,7 @@
               "exampleUrls": "https://m.gkd.li/57941037/c43d58ab-a18c-4249-bc35-1c7aeab4c3ff",
               "snapshotUrls": "https://i.gkd.li/i/14163901"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -72708,7 +72861,8 @@
         },
         {
           "key": 2761,
-          "name": "补充·言木七｜更新提示",
+          "name": "补充·言木七｜持续-更新提示",
+          "enable": true,
           "fastQuery": true,
           "actionMaximum": 1,
           "resetMatch": "app",
@@ -72724,12 +72878,12 @@
                 "https://i.gkd.li/i/13206819"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2765,
-          "name": "补充·言木七｜全屏广告-吃货卡续费弹窗",
+          "name": "补充·言木七｜持续-全屏广告-吃货卡续费弹窗",
+          "enable": true,
           "rules": [
             {
               "fastQuery": true,
@@ -72737,12 +72891,12 @@
               "matches": "@View[clickable=true] + View >2 [visibleToUser=true][text*=\"立即续费\"] <<n [id=\"me.ele:id/inside_web_view\"]",
               "snapshotUrls": "https://i.gkd.li/i/13295007"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2767,
-          "name": "补充·言木七｜功能类-定位局部提示",
+          "name": "补充·言木七｜持续-应用提示弹窗-定位局部提示",
+          "enable": true,
           "desc": "点击关闭",
           "fastQuery": true,
           "actionMaximum": 1,
@@ -72760,15 +72914,14 @@
               "matches": "[text=\"去开启\"] + [id=\"me.ele:id/close_tips\"]",
               "snapshotUrls": "https://i.gkd.li/i/13710585"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2768,
-          "name": "补充·言木七｜全屏广告-获取订单信息通知",
+          "name": "补充·言木七｜持续-应用提示弹窗-获取订单信息通知",
+          "enable": true,
           "desc": "点击关闭",
           "fastQuery": true,
-          "matchTime": 10000,
           "actionMaximum": 1,
           "resetMatch": "app",
           "rules": [
@@ -72777,12 +72930,12 @@
               "matches": "@View[visibleToUser=true] < * <2 [id=\"me.ele:id/frame_bottom_bg\"]",
               "snapshotUrls": "https://i.gkd.li/i/13931205"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2769,
-          "name": "补充·言木七｜全屏广告-底部调研邀请卡片",
+          "name": "补充·言木七｜持续-应用提示弹窗-底部调研邀请卡片",
+          "enable": true,
           "desc": "点击关闭",
           "actionMaximum": 1,
           "resetMatch": "app",
@@ -72797,8 +72950,7 @@
               "exampleUrls": "https://m.gkd.li/57941037/350d8f4d-8ab0-4572-8ff0-450ab4729d53",
               "snapshotUrls": "https://i.gkd.li/i/14630370"
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },
@@ -75206,10 +75358,11 @@
         },
         {
           "key": 2757,
-          "name": "补充·言木七｜全屏弹窗-兴趣推荐",
+          "name": "补充·言木七｜限时-应用提示-兴趣推荐",
+          "enable": true,
           "desc": "点击[返回]",
           "fastQuery": true,
-          "matchTime": 10000,
+          "matchTime": 20000,
           "resetMatch": "app",
           "rules": [
             {
@@ -75223,12 +75376,12 @@
                 "https://i.gkd.li/i/23958344"
               ]
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2758,
-          "name": "补充·言木七｜青少年弹窗",
+          "name": "补充·言木七｜持续-应用提示弹窗-青少年弹窗",
+          "enable": true,
           "desc": "点击[不再提醒]",
           "fastQuery": true,
           "rules": [
@@ -75243,15 +75396,15 @@
               ],
               "exampleUrls": "https://e.gkd.li/99565077-80e9-4e4f-98e7-33da742e2afd"
             }
-          ],
-          "enable": true
+          ]
         },
         {
           "key": 2759,
-          "name": "补充·言木七｜全屏弹窗-完善信息弹窗",
+          "name": "补充·言木七｜限时-应用提示-完善信息弹窗",
+          "enable": true,
           "desc": "点击[返回]",
           "fastQuery": true,
-          "matchTime": 10000,
+          "matchTime": 20000,
           "resetMatch": "app",
           "rules": [
             {
@@ -75266,8 +75419,7 @@
                 "https://i.gkd.li/i/23958344"
               ]
             }
-          ],
-          "enable": true
+          ]
         }
       ]
     },

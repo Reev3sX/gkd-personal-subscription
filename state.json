@@ -1,5 +1,5 @@
 {
-  "next": 2907,
+  "next": 2911,
   "keys": {
     "[\"category\",\"linarm\",0]": 1,
     "[\"category\",\"linarm\",1]": 2,
@@ -2906,6 +2906,10 @@
     "[\"group\",\"linarm\",\"com.tuya.smartlifeiot\",1]": 2903,
     "[\"group\",\"linarm\",\"com.tuya.smartlifeiot\",2]": 2904,
     "[\"group\",\"linarm\",\"com.phoenix.read.oversea.gp\",1]": 2905,
-    "[\"group\",\"linarm\",\"com.phoenix.read.oversea.gp\",2]": 2906
+    "[\"group\",\"linarm\",\"com.phoenix.read.oversea.gp\",2]": 2906,
+    "[\"group\",\"linarm\",\"com.asjdhjhd.mgd.p3\",1]": 2907,
+    "[\"group\",\"linarm\",\"com.qidian.QDReader\",18]": 2908,
+    "[\"group\",\"linarm\",\"com.hihonor.appmarket\",5]": 2909,
+    "[\"group\",\"yanmuq\",\"cn.com.sina.finance\",0]": 2910
   }
 }
