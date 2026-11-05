@@ -1,17 +1,17 @@
 {
-  "version": 15,
-  "contentHash": "104e4a21fa45b3e0b3d31a861c7c61c6570e4f674be0491d07faeb906e36c9e8",
+  "version": 16,
+  "contentHash": "5c77fb316b5e53f2ffe2084983745c307dfeda1d6b443987f2062536baa17778",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 624,
+      "version": 625,
       "id": 667,
       "apps": 1000,
-      "groups": 2497,
-      "kept": 2500,
+      "groups": 2499,
+      "kept": 2502,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -1242,6 +1242,12 @@
       "app": "com.tencent.mobileqq",
       "upstreamKey": 39,
       "key": 209
+    },
+    {
+      "source": "linarm",
+      "app": "com.tencent.mobileqq",
+      "upstreamKey": 40,
+      "key": 2911
     },
     {
       "source": "linarm",
@@ -3270,6 +3276,12 @@
       "app": "tv.danmaku.bili",
       "upstreamKey": 33,
       "key": 532
+    },
+    {
+      "source": "linarm",
+      "app": "tv.danmaku.bili",
+      "upstreamKey": 34,
+      "key": 2912
     },
     {
       "source": "linarm",
@@ -16899,6 +16911,6 @@
     }
   ],
   "apps": 1006,
-  "appGroups": 2806,
+  "appGroups": 2808,
   "globalGroups": 3
 }
