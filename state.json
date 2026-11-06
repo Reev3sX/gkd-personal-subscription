@@ -1,5 +1,5 @@
 {
-  "next": 2913,
+  "next": 2917,
   "keys": {
     "[\"category\",\"linarm\",0]": 1,
     "[\"category\",\"linarm\",1]": 2,
@@ -2912,6 +2912,10 @@
     "[\"group\",\"linarm\",\"com.hihonor.appmarket\",5]": 2909,
     "[\"group\",\"yanmuq\",\"cn.com.sina.finance\",0]": 2910,
     "[\"group\",\"linarm\",\"com.tencent.mobileqq\",40]": 2911,
-    "[\"group\",\"linarm\",\"tv.danmaku.bili\",34]": 2912
+    "[\"group\",\"linarm\",\"tv.danmaku.bili\",34]": 2912,
+    "[\"group\",\"linarm\",\"com.ss.android.ugc.aweme\",40]": 2913,
+    "[\"group\",\"linarm\",\"com.ss.android.ugc.aweme.lite\",19]": 2914,
+    "[\"group\",\"linarm\",\"com.dragon.read\",20]": 2915,
+    "[\"group\",\"linarm\",\"com.android.packageinstaller\",6]": 2916
   }
 }

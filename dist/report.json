@@ -1,17 +1,17 @@
 {
-  "version": 16,
-  "contentHash": "5c77fb316b5e53f2ffe2084983745c307dfeda1d6b443987f2062536baa17778",
+  "version": 17,
+  "contentHash": "2720501eef8021040a80a3808e0ea9f6949ea0188186c3eb8411d5b37fa9b955",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 625,
+      "version": 626,
       "id": 667,
       "apps": 1000,
-      "groups": 2499,
-      "kept": 2502,
+      "groups": 2503,
+      "kept": 2506,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -4497,6 +4497,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.ss.android.ugc.aweme",
+      "upstreamKey": 40,
+      "key": 2913
+    },
+    {
+      "source": "linarm",
       "app": "com.ss.android.ugc.aweme.lite",
       "upstreamKey": 1,
       "key": 731
@@ -4578,6 +4584,12 @@
       "app": "com.ss.android.ugc.aweme.lite",
       "upstreamKey": 18,
       "key": 744
+    },
+    {
+      "source": "linarm",
+      "app": "com.ss.android.ugc.aweme.lite",
+      "upstreamKey": 19,
+      "key": 2914
     },
     {
       "source": "linarm",
@@ -4908,6 +4920,12 @@
       "app": "com.dragon.read",
       "upstreamKey": 19,
       "key": 799
+    },
+    {
+      "source": "linarm",
+      "app": "com.dragon.read",
+      "upstreamKey": 20,
+      "key": 2915
     },
     {
       "source": "linarm",
@@ -8742,6 +8760,12 @@
       "app": "com.android.packageinstaller",
       "upstreamKey": 5,
       "key": 1424
+    },
+    {
+      "source": "linarm",
+      "app": "com.android.packageinstaller",
+      "upstreamKey": 6,
+      "key": 2916
     },
     {
       "source": "linarm",
@@ -16911,6 +16935,6 @@
     }
   ],
   "apps": 1006,
-  "appGroups": 2808,
+  "appGroups": 2812,
   "globalGroups": 3
 }
