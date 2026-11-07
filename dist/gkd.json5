@@ -2,7 +2,7 @@
   "id": 1846372051,
   "name": "GitHub",
   "author": "Reev3sX GitHub",
-  "version": 17,
+  "version": 18,
   "checkUpdateUrl": "./gkd.version.json5",
   "categories": [
     {
@@ -73528,6 +73528,20 @@
               "matches": "[vid=\"downloadLocationButton\"]",
               "snapshotUrls": "https://i.gkd.li/i/34135770",
               "exampleUrls": "https://e.gkd.li/c6a867d4-c234-4412-be73-7900aadbdca4"
+            }
+          ]
+        },
+        {
+          "key": 2917,
+          "name": "功能类-下载完自动[打开]文件",
+          "desc": "点击[打开]",
+          "rules": [
+            {
+              "fastQuery": true,
+              "activityIds": "org.chromium.chrome.browser.ChromeTabbedActivity",
+              "matches": "@[text=\"打开\"] < FrameLayout - [visibleToUser=true] > [text$=\"文件已下载完毕\"]",
+              "snapshotUrls": "https://i.gkd.li/i/34482455",
+              "exampleUrls": "https://e.gkd.li/e83bcee8-2540-4b99-8077-fe18378f5ac5"
             }
           ]
         }

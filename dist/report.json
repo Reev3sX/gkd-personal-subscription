@@ -1,17 +1,17 @@
 {
-  "version": 17,
-  "contentHash": "2720501eef8021040a80a3808e0ea9f6949ea0188186c3eb8411d5b37fa9b955",
+  "version": 18,
+  "contentHash": "2d0507a003abb129296eb26801a0ac78044b0ac1603dfa0785824a2b57b13e6d",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 626,
+      "version": 627,
       "id": 667,
       "apps": 1000,
-      "groups": 2503,
-      "kept": 2506,
+      "groups": 2504,
+      "kept": 2507,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -1278,6 +1278,12 @@
       "app": "net.quetta.browser",
       "upstreamKey": 5,
       "key": 2893
+    },
+    {
+      "source": "linarm",
+      "app": "net.quetta.browser",
+      "upstreamKey": 6,
+      "key": 2917
     },
     {
       "source": "linarm",
@@ -16935,6 +16941,6 @@
     }
   ],
   "apps": 1006,
-  "appGroups": 2812,
+  "appGroups": 2813,
   "globalGroups": 3
 }
