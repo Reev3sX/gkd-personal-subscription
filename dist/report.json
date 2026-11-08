@@ -1,13 +1,13 @@
 {
-  "version": 18,
-  "contentHash": "2d0507a003abb129296eb26801a0ac78044b0ac1603dfa0785824a2b57b13e6d",
+  "version": 19,
+  "contentHash": "e5e1223b27990ff983baa18be115c3fadc7d3617bd1dd5e3f4419e8f7592f70f",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 627,
+      "version": 628,
       "id": 667,
       "apps": 1000,
       "groups": 2504,
@@ -24,8 +24,8 @@
       "id": 86,
       "apps": 72,
       "groups": 280,
-      "kept": 209,
-      "duplicatesRemoved": 71,
+      "kept": 210,
+      "duplicatesRemoved": 70,
       "globalGroupsIgnored": 9
     },
     {
@@ -15357,6 +15357,12 @@
     },
     {
       "source": "aoguai",
+      "app": "com.baidu.tieba",
+      "upstreamKey": 10,
+      "key": 2533
+    },
+    {
+      "source": "aoguai",
       "app": "com.baidu.netdisk",
       "upstreamKey": 1,
       "key": 2539
@@ -16941,6 +16947,6 @@
     }
   ],
   "apps": 1006,
-  "appGroups": 2813,
+  "appGroups": 2814,
   "globalGroups": 3
 }

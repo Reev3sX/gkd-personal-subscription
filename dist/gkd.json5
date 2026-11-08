@@ -2,7 +2,7 @@
   "id": 1846372051,
   "name": "GitHub",
   "author": "Reev3sX GitHub",
-  "version": 18,
+  "version": 19,
   "checkUpdateUrl": "./gkd.version.json5",
   "categories": [
     {
@@ -6984,11 +6984,12 @@
             },
             {
               "key": 3,
-              "matches": "ImageView[width>parent.width.minus(120)] - @ImageView[clickable=true][width<91 && height<91] -(1,2) TextView[text.length>9] <(1,2,3) FrameLayout[childCount>4][visibleToUser=true]",
+              "matches": "[width>parent.width.minus(120)] - @ImageView[clickable=true][width<91 && height<91] -(1,2) TextView[text.length>6] <(1,2,3) FrameLayout[childCount>4][visibleToUser=true]",
               "snapshotUrls": [
                 "https://i.gkd.li/i/32418084",
                 "https://i.gkd.li/i/32418087",
-                "https://i.gkd.li/i/32418478"
+                "https://i.gkd.li/i/32418478",
+                "https://i.gkd.li/i/34518515"
               ]
             }
           ]
@@ -13080,17 +13081,19 @@
           "actionMaximum": 1,
           "activityIds": [
             ".pb.pb.main.PbActivity",
-            ".tblauncher.MainTabActivity"
+            ".tblauncher.MainTabActivity",
+            ".forum.ForumActivity"
           ],
           "rules": [
             {
               "key": 0,
               "fastQuery": true,
               "name": "悬浮广告1",
-              "matches": "@ImageView[clickable=true][visibleToUser=true][width<77] - [text=\"广告\"]",
+              "matches": "@[clickable=true][width<108] <2 [width<350][childCount=2] > [text=\"广告\"]",
               "snapshotUrls": [
                 "https://i.gkd.li/i/16622395",
-                "https://i.gkd.li/i/16632851"
+                "https://i.gkd.li/i/16632851",
+                "https://i.gkd.li/i/34523272"
               ],
               "excludeSnapshotUrls": "https://i.gkd.li/i/13327933"
             },
@@ -13484,6 +13487,51 @@
               "excludeSnapshotUrls": "https://i.gkd.li/i/29640529"
             }
           ]
+        },
+        {
+          "key": 2533,
+          "name": "补充·奥怪｜局部广告-悬浮小广告",
+          "desc": "关闭首页右侧和评论区的悬浮广告",
+          "matchDelay": 500,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "activityIds": [
+            ".pb.pb.main.PbActivity",
+            ".tblauncher.MainTabActivity"
+          ],
+          "rules": [
+            {
+              "key": 0,
+              "fastQuery": true,
+              "name": "悬浮广告1",
+              "matches": "@ImageView[clickable=true][visibleToUser=true][width<77] - [text=\"广告\"]",
+              "snapshotUrls": [
+                "https://i.gkd.li/i/16622395",
+                "https://i.gkd.li/i/16632851"
+              ],
+              "excludeSnapshotUrls": "https://i.gkd.li/i/13327933"
+            },
+            {
+              "key": 1,
+              "name": "悬浮广告2",
+              "matches": "RelativeLayout[childCount=2] >2 ImageView[clickable=true][visibleToUser=true][width<77]",
+              "snapshotUrls": [
+                "https://i.gkd.li/i/14291964",
+                "https://i.gkd.li/i/13625336",
+                "https://i.gkd.li/i/13627881"
+              ],
+              "excludeSnapshotUrls": "https://i.gkd.li/i/28344945"
+            },
+            {
+              "key": 2,
+              "name": "评论区左侧悬浮广告",
+              "activityIds": ".pb.pb.main.PbActivity",
+              "matches": "FrameLayout[getChild(1).getChild(1).text!=null] + @FrameLayout[clickable=true] > LinearLayout[childCount=2] > ImageView + [text=\"广告\"][visibleToUser=true]",
+              "snapshotUrls": "https://i.gkd.li/i/13296280",
+              "excludeSnapshotUrls": "https://i.gkd.li/i/20361318"
+            }
+          ],
+          "enable": true
         }
       ]
     },
@@ -20217,6 +20265,14 @@
               "snapshotUrls": [
                 "https://i.gkd.li/i/29440951",
                 "https://i.gkd.li/i/34211578"
+              ]
+            },
+            {
+              "key": 4,
+              "matches": "@View[width<170 && height<170] <3 FrameLayout[childCount=3] < [vid=\"sdk_view\"]",
+              "snapshotUrls": [
+                "https://i.gkd.li/i/34494192",
+                "https://i.gkd.li/i/34514159"
               ]
             },
             {
