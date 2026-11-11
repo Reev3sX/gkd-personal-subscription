@@ -1,17 +1,17 @@
 {
-  "version": 21,
-  "contentHash": "12fa2fd2cca11f7fe29f16744058222c4a303a5c74ff81563b2ee63208f79469",
+  "version": 22,
+  "contentHash": "27cb7f1e12b7e5fe2d4d5c9c3a992dfb82dc831d0dce38be8f0a7425e32af2a5",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 630,
+      "version": 631,
       "id": 667,
-      "apps": 1000,
-      "groups": 2504,
-      "kept": 2507,
+      "apps": 1003,
+      "groups": 2508,
+      "kept": 2511,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -2052,6 +2052,18 @@
       "app": "org.daimhim.zzzfun",
       "upstreamKey": 1,
       "key": 337
+    },
+    {
+      "source": "linarm",
+      "app": "com.hihonor.systemmanager",
+      "upstreamKey": 1,
+      "key": 2918
+    },
+    {
+      "source": "linarm",
+      "app": "com.hihonor.gamecenter",
+      "upstreamKey": 1,
+      "key": 2919
     },
     {
       "source": "linarm",
@@ -8775,6 +8787,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.android.packageinstaller",
+      "upstreamKey": 7,
+      "key": 2920
+    },
+    {
+      "source": "linarm",
       "app": "com.google.android.packageinstaller",
       "upstreamKey": 1,
       "key": 1425
@@ -9984,6 +10002,12 @@
       "app": "com.newcapec.mobile.ncp",
       "upstreamKey": 11,
       "key": 1623
+    },
+    {
+      "source": "linarm",
+      "app": "com.onelap.bls.dear",
+      "upstreamKey": 0,
+      "key": 2921
     },
     {
       "source": "linarm",
@@ -16946,7 +16970,7 @@
       "key": 2865
     }
   ],
-  "apps": 1006,
-  "appGroups": 2814,
+  "apps": 1009,
+  "appGroups": 2818,
   "globalGroups": 3
 }
