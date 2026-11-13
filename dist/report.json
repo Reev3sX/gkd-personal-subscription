@@ -1,13 +1,13 @@
 {
-  "version": 22,
-  "contentHash": "27cb7f1e12b7e5fe2d4d5c9c3a992dfb82dc831d0dce38be8f0a7425e32af2a5",
+  "version": 23,
+  "contentHash": "18174d6c9645831038cd28898007dfd2a5f328da1e622684133fc70ccbd4f562",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 631,
+      "version": 632,
       "id": 667,
       "apps": 1003,
       "groups": 2508,
@@ -12093,6 +12093,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.chaoxing.mobile",
+      "upstreamKey": 14,
+      "key": 2922
+    },
+    {
+      "source": "linarm",
       "app": "com.xuexiaoyi.xxy",
       "upstreamKey": 1,
       "key": 1965
@@ -14604,12 +14610,6 @@
       "app": "com.oplus.appdetail",
       "upstreamKey": 2,
       "key": 2389
-    },
-    {
-      "source": "linarm",
-      "app": "com.oplus.appdetail",
-      "upstreamKey": 3,
-      "key": 2874
     },
     {
       "source": "linarm",
