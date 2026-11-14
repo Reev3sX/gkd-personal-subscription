@@ -1,17 +1,17 @@
 {
-  "version": 23,
-  "contentHash": "18174d6c9645831038cd28898007dfd2a5f328da1e622684133fc70ccbd4f562",
+  "version": 24,
+  "contentHash": "f2dd30430a7495338a4160f8ca3b7136dd7419325a60ad8cdabd5290e5530f9c",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 632,
+      "version": 633,
       "id": 667,
       "apps": 1003,
-      "groups": 2508,
-      "kept": 2511,
+      "groups": 2509,
+      "kept": 2512,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -10768,6 +10768,12 @@
     {
       "source": "linarm",
       "app": "com.hihonor.phoneservice",
+      "upstreamKey": 0,
+      "key": 2923
+    },
+    {
+      "source": "linarm",
+      "app": "com.hihonor.phoneservice",
       "upstreamKey": 1,
       "key": 1747
     },
@@ -16971,6 +16977,6 @@
     }
   ],
   "apps": 1009,
-  "appGroups": 2818,
+  "appGroups": 2819,
   "globalGroups": 3
 }

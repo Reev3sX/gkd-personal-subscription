@@ -1,5 +1,5 @@
 {
-  "next": 2923,
+  "next": 2924,
   "keys": {
     "[\"category\",\"linarm\",0]": 1,
     "[\"category\",\"linarm\",1]": 2,
@@ -2922,6 +2922,7 @@
     "[\"group\",\"linarm\",\"com.hihonor.gamecenter\",1]": 2919,
     "[\"group\",\"linarm\",\"com.android.packageinstaller\",7]": 2920,
     "[\"group\",\"linarm\",\"com.onelap.bls.dear\",0]": 2921,
-    "[\"group\",\"linarm\",\"com.chaoxing.mobile\",14]": 2922
+    "[\"group\",\"linarm\",\"com.chaoxing.mobile\",14]": 2922,
+    "[\"group\",\"linarm\",\"com.hihonor.phoneservice\",0]": 2923
   }
 }
