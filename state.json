@@ -1,5 +1,5 @@
 {
-  "next": 2924,
+  "next": 2927,
   "keys": {
     "[\"category\",\"linarm\",0]": 1,
     "[\"category\",\"linarm\",1]": 2,
@@ -2923,6 +2923,9 @@
     "[\"group\",\"linarm\",\"com.android.packageinstaller\",7]": 2920,
     "[\"group\",\"linarm\",\"com.onelap.bls.dear\",0]": 2921,
     "[\"group\",\"linarm\",\"com.chaoxing.mobile\",14]": 2922,
-    "[\"group\",\"linarm\",\"com.hihonor.phoneservice\",0]": 2923
+    "[\"group\",\"linarm\",\"com.hihonor.phoneservice\",0]": 2923,
+    "[\"group\",\"linarm\",\"com.hihonor.android.launcher\",1]": 2924,
+    "[\"group\",\"linarm\",\"com.netease.cloudmusic\",18]": 2925,
+    "[\"group\",\"linarm\",\"com.netease.cloudmusic\",19]": 2926
   }
 }

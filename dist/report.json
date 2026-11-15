@@ -1,17 +1,17 @@
 {
-  "version": 24,
-  "contentHash": "f2dd30430a7495338a4160f8ca3b7136dd7419325a60ad8cdabd5290e5530f9c",
+  "version": 25,
+  "contentHash": "197486cd085cd7af258dbb393662b5f75474164d995cd1fa1ff4f7e8a6fac848",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 633,
+      "version": 634,
       "id": 667,
-      "apps": 1003,
-      "groups": 2509,
-      "kept": 2512,
+      "apps": 1004,
+      "groups": 2512,
+      "kept": 2515,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -8751,6 +8751,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.hihonor.android.launcher",
+      "upstreamKey": 1,
+      "key": 2924
+    },
+    {
+      "source": "linarm",
       "app": "com.android.packageinstaller",
       "upstreamKey": 1,
       "key": 1420
@@ -10272,6 +10278,18 @@
       "app": "com.netease.cloudmusic",
       "upstreamKey": 17,
       "key": 2872
+    },
+    {
+      "source": "linarm",
+      "app": "com.netease.cloudmusic",
+      "upstreamKey": 18,
+      "key": 2925
+    },
+    {
+      "source": "linarm",
+      "app": "com.netease.cloudmusic",
+      "upstreamKey": 19,
+      "key": 2926
     },
     {
       "source": "linarm",
@@ -16976,7 +16994,7 @@
       "key": 2865
     }
   ],
-  "apps": 1009,
-  "appGroups": 2819,
+  "apps": 1010,
+  "appGroups": 2822,
   "globalGroups": 3
 }
