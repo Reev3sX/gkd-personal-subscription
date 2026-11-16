@@ -1,17 +1,17 @@
 {
-  "version": 25,
-  "contentHash": "197486cd085cd7af258dbb393662b5f75474164d995cd1fa1ff4f7e8a6fac848",
+  "version": 26,
+  "contentHash": "21845687d8c81c11591c8725431ef6657c0302b7071278c410c21dfac2ad7a66",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 634,
+      "version": 635,
       "id": 667,
       "apps": 1004,
-      "groups": 2512,
-      "kept": 2515,
+      "groups": 2516,
+      "kept": 2519,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -9507,6 +9507,18 @@
     },
     {
       "source": "linarm",
+      "app": "com.taobao.taobao",
+      "upstreamKey": 24,
+      "key": 2927
+    },
+    {
+      "source": "linarm",
+      "app": "com.taobao.taobao",
+      "upstreamKey": 25,
+      "key": 2928
+    },
+    {
+      "source": "linarm",
       "app": "com.taobao.htao.android",
       "upstreamKey": 1,
       "key": 1541
@@ -11434,8 +11446,20 @@
     {
       "source": "linarm",
       "app": "com.xingin.xhs",
+      "upstreamKey": 18,
+      "key": 2929
+    },
+    {
+      "source": "linarm",
+      "app": "com.xingin.xhs",
       "upstreamKey": 19,
       "key": 1853
+    },
+    {
+      "source": "linarm",
+      "app": "com.xingin.xhs",
+      "upstreamKey": 20,
+      "key": 2930
     },
     {
       "source": "linarm",
@@ -16995,6 +17019,6 @@
     }
   ],
   "apps": 1010,
-  "appGroups": 2822,
+  "appGroups": 2826,
   "globalGroups": 3
 }
