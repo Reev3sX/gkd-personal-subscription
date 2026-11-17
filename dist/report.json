@@ -1,17 +1,17 @@
 {
-  "version": 26,
-  "contentHash": "21845687d8c81c11591c8725431ef6657c0302b7071278c410c21dfac2ad7a66",
+  "version": 27,
+  "contentHash": "61dadf75af017dc5dc94732b84f1d98f588b81aa87e37f4f4dab3feeb5d79cee",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 635,
+      "version": 636,
       "id": 667,
-      "apps": 1004,
-      "groups": 2516,
-      "kept": 2519,
+      "apps": 1006,
+      "groups": 2520,
+      "kept": 2523,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -192,6 +192,24 @@
       "app": "com.azure.authenticator",
       "upstreamKey": 1,
       "key": 36
+    },
+    {
+      "source": "linarm",
+      "app": "com.hongjing.avmini",
+      "upstreamKey": 0,
+      "key": 2931
+    },
+    {
+      "source": "linarm",
+      "app": "com.hongjing.avmini",
+      "upstreamKey": 1,
+      "key": 2932
+    },
+    {
+      "source": "linarm",
+      "app": "com.hongjing.avmini",
+      "upstreamKey": 2,
+      "key": 2933
     },
     {
       "source": "linarm",
@@ -10323,6 +10341,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.netease.buff",
+      "upstreamKey": 1,
+      "key": 2934
+    },
+    {
+      "source": "linarm",
       "app": "com.sina.weibo",
       "upstreamKey": 8,
       "key": 1670
@@ -17018,7 +17042,7 @@
       "key": 2865
     }
   ],
-  "apps": 1010,
-  "appGroups": 2826,
+  "apps": 1012,
+  "appGroups": 2830,
   "globalGroups": 3
 }
