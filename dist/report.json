@@ -1,17 +1,17 @@
 {
-  "version": 27,
-  "contentHash": "61dadf75af017dc5dc94732b84f1d98f588b81aa87e37f4f4dab3feeb5d79cee",
+  "version": 28,
+  "contentHash": "7654e0d268f2d1af5095e9aa293d65a1f4e0bdda87da4871c003182d4a8f8153",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 636,
+      "version": 637,
       "id": 667,
       "apps": 1006,
-      "groups": 2520,
-      "kept": 2523,
+      "groups": 2521,
+      "kept": 2524,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -8052,6 +8052,12 @@
       "app": "com.xunmeng.pinduoduo",
       "upstreamKey": 33,
       "key": 1303
+    },
+    {
+      "source": "linarm",
+      "app": "com.xunmeng.pinduoduo",
+      "upstreamKey": 34,
+      "key": 2935
     },
     {
       "source": "linarm",
@@ -17043,6 +17049,6 @@
     }
   ],
   "apps": 1012,
-  "appGroups": 2830,
+  "appGroups": 2831,
   "globalGroups": 3
 }
