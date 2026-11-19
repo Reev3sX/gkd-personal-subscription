@@ -1,13 +1,13 @@
 {
-  "version": 28,
-  "contentHash": "7654e0d268f2d1af5095e9aa293d65a1f4e0bdda87da4871c003182d4a8f8153",
+  "version": 29,
+  "contentHash": "3f7863104507e20755345c7ba03d29cf220497e7f4e260479b3a08c526b647aa",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 637,
+      "version": 638,
       "id": 667,
       "apps": 1006,
       "groups": 2521,
