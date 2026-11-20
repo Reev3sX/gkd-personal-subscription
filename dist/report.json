@@ -1,17 +1,17 @@
 {
-  "version": 29,
-  "contentHash": "3f7863104507e20755345c7ba03d29cf220497e7f4e260479b3a08c526b647aa",
+  "version": 30,
+  "contentHash": "b3c3a838013d865f02746b664b014d08ffe3e4a0049e19aa87e70e8071fd22d8",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 638,
+      "version": 639,
       "id": 667,
-      "apps": 1006,
-      "groups": 2521,
-      "kept": 2524,
+      "apps": 1007,
+      "groups": 2520,
+      "kept": 2523,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -24,8 +24,8 @@
       "id": 86,
       "apps": 72,
       "groups": 280,
-      "kept": 210,
-      "duplicatesRemoved": 70,
+      "kept": 211,
+      "duplicatesRemoved": 69,
       "globalGroupsIgnored": 9
     },
     {
@@ -4612,18 +4612,6 @@
     {
       "source": "linarm",
       "app": "com.ss.android.ugc.aweme.lite",
-      "upstreamKey": 17,
-      "key": 743
-    },
-    {
-      "source": "linarm",
-      "app": "com.ss.android.ugc.aweme.lite",
-      "upstreamKey": 18,
-      "key": 744
-    },
-    {
-      "source": "linarm",
-      "app": "com.ss.android.ugc.aweme.lite",
       "upstreamKey": 19,
       "key": 2914
     },
@@ -5418,6 +5406,12 @@
       "app": "com.hellobike.hitch",
       "upstreamKey": 2,
       "key": 872
+    },
+    {
+      "source": "linarm",
+      "app": "com.tencent.tmgp.supercell.boombeach",
+      "upstreamKey": 1,
+      "key": 2936
     },
     {
       "source": "linarm",
@@ -15874,6 +15868,12 @@
     {
       "source": "aoguai",
       "app": "com.xunmeng.pinduoduo",
+      "upstreamKey": 10,
+      "key": 2628
+    },
+    {
+      "source": "aoguai",
+      "app": "com.xunmeng.pinduoduo",
       "upstreamKey": 17,
       "key": 2630
     },
@@ -17048,7 +17048,7 @@
       "key": 2865
     }
   ],
-  "apps": 1012,
+  "apps": 1013,
   "appGroups": 2831,
   "globalGroups": 3
 }
