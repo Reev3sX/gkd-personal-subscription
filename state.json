@@ -1,5 +1,5 @@
 {
-  "next": 2937,
+  "next": 2942,
   "keys": {
     "[\"category\",\"linarm\",0]": 1,
     "[\"category\",\"linarm\",1]": 2,
@@ -2936,6 +2936,11 @@
     "[\"group\",\"linarm\",\"com.hongjing.avmini\",2]": 2933,
     "[\"group\",\"linarm\",\"com.netease.buff\",1]": 2934,
     "[\"group\",\"linarm\",\"com.xunmeng.pinduoduo\",34]": 2935,
-    "[\"group\",\"linarm\",\"com.tencent.tmgp.supercell.boombeach\",1]": 2936
+    "[\"group\",\"linarm\",\"com.tencent.tmgp.supercell.boombeach\",1]": 2936,
+    "[\"group\",\"linarm\",\"com.danlan.xiaolan\",1]": 2937,
+    "[\"group\",\"linarm\",\"com.mzk.android\",1]": 2938,
+    "[\"group\",\"linarm\",\"com.dragon.read\",21]": 2939,
+    "[\"group\",\"linarm\",\"com.kuaishou.nebula\",10]": 2940,
+    "[\"group\",\"linarm\",\"com.taobao.etao\",3]": 2941
   }
 }

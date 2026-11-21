@@ -2,7 +2,7 @@
   "id": 1846372051,
   "name": "GitHub",
   "author": "Reev3sX GitHub",
-  "version": 30,
+  "version": 31,
   "checkUpdateUrl": "./gkd.version.json5",
   "categories": [
     {
@@ -19149,8 +19149,29 @@
     },
     {
       "id": "com.danlan.xiaolan",
-      "name": "Blued极速版",
+      "name": "Blued X",
       "groups": [
+        {
+          "key": 2937,
+          "name": "开屏广告",
+          "fastQuery": true,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "actionMaximumKey": 0,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "key": 0,
+              "matches": "[text*=\"跳过\"][text.length<10][width<500 && height<300][visibleToUser=true]"
+            },
+            {
+              "key": 1,
+              "matches": "@ImageView[width<156 && height<156] < [visibleToUser=true] < [childCount=1] +2 ViewGroup >2 [text=\"广告\"]",
+              "snapshotUrls": "https://i.gkd.li/i/35126957"
+            }
+          ],
+          "order": -10
+        },
         {
           "key": 2333,
           "name": "分段广告-卡片广告",
@@ -21247,6 +21268,38 @@
               "matches": "[text=\"不喜欢听书\"] < @[clickable=true][childCount=1] <n * - [text=\"选择不喜欢的理由\"] <2 View < ComposeView < * < * < [id=\"android:id/content\"]",
               "snapshotUrls": "https://i.gkd.li/i/34419676",
               "exampleUrls": "https://e.gkd.li/77dca54c-86b8-40a6-b00a-44e4f8adedf8"
+            }
+          ]
+        },
+        {
+          "key": 2939,
+          "name": "功能类-自动[展开更多]评论",
+          "desc": "小说段评区/短剧评论区, 点击[展开更多/展开n条回复]",
+          "rules": [
+            {
+              "fastQuery": true,
+              "actionCd": 500,
+              "activityIds": [
+                ".reader.ui.ReaderActivity",
+                ".pages.main.MainFragmentActivity"
+              ],
+              "matches": [
+                "[id=\"android:id/content\"][height>prev.height.plus(100)] >n [id=\"android:id/content\"][height>500]",
+                "@[clickable=true] > [visibleToUser=true][text^=\"展开\"][text$=\"回复\" || text$=\"更多\"]"
+              ],
+              "snapshotUrls": [
+                "https://i.gkd.li/i/35147917",
+                "https://i.gkd.li/i/35147919",
+                "https://i.gkd.li/i/35173217"
+              ],
+              "excludeSnapshotUrls": [
+                "https://i.gkd.li/i/35165101",
+                "https://i.gkd.li/i/35173220"
+              ],
+              "exampleUrls": [
+                "https://e.gkd.li/e0c12712-4b1e-4b75-a9ec-d1a8042156f6",
+                "https://e.gkd.li/0d2d257a-abda-4255-b971-faf06b565cb7"
+              ]
             }
           ]
         }
@@ -34295,6 +34348,23 @@
               ]
             }
           ]
+        },
+        {
+          "key": 2940,
+          "name": "权限提示-通讯录权限",
+          "desc": "点击[以后再说]",
+          "rules": [
+            {
+              "fastQuery": true,
+              "activityIds": "com.yxcorp.gifshow.HomeActivity",
+              "matches": [
+                "[text*=\"通讯录\"][visibleToUser=true]",
+                "[text=\"以后再说\"][clickable=true]"
+              ],
+              "snapshotUrls": "https://i.gkd.li/i/35119491",
+              "exampleUrls": "https://e.gkd.li/3c25da6d-bc0d-420d-9362-c8bb1edf322b"
+            }
+          ]
         }
       ]
     },
@@ -40946,6 +41016,28 @@
               "matches": "[vid=\"cover_pic\"]",
               "exampleUrls": "https://m.gkd.li/57941037/c140267a-a48a-45a9-9303-7507aa2008e4",
               "snapshotUrls": "https://i.gkd.li/i/13694552"
+            }
+          ],
+          "order": -10
+        }
+      ]
+    },
+    {
+      "id": "com.mzk.android",
+      "name": "大连明珠卡",
+      "groups": [
+        {
+          "key": 2938,
+          "name": "开屏广告",
+          "fastQuery": true,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "key": 0,
+              "matches": "[vid=\"cll_splash_skip\"][clickable=true]",
+              "snapshotUrls": "https://i.gkd.li/i/35126804"
             }
           ],
           "order": -10
@@ -52051,6 +52143,24 @@
               "activityIds": ".app.home.view.NewHomeActivity",
               "matches": "ImageView[width<150 && height<150] < @RelativeLayout[clickable=true][childCount=1] <2 [childCount=2] < [id=\"android:id/content\"]",
               "snapshotUrls": "https://i.gkd.li/i/30859526"
+            }
+          ]
+        },
+        {
+          "key": 2941,
+          "name": "更新提示",
+          "desc": "点击[取消]",
+          "actionMaximum": 1,
+          "resetMatch": "app",
+          "rules": [
+            {
+              "fastQuery": true,
+              "activityIds": ".maintab.MainTabActivity",
+              "matches": [
+                "[text*=\"更新\" || text*=\"新版本\" || text*=\"升级\"][visibleToUser=true]",
+                "[text=\"取消\"][clickable=true]"
+              ],
+              "snapshotUrls": "https://i.gkd.li/i/35125923"
             }
           ]
         },
@@ -66861,15 +66971,20 @@
           "fastQuery": true,
           "matchTime": 10000,
           "actionMaximum": 1,
-          "activityIds": ".ui.activity.HomeActivity",
+          "activityIds": [
+            ".ui.activity.HomeActivity",
+            "com.bbk.launcher2.Launcher",
+            ".ui.activity.MainFrameActivity"
+          ],
           "rules": [
             {
               "key": 0,
-              "name": "自动签到",
-              "matches": "@[clickable=true] >2 [text=\"领取今日现金\"][visibleToUser=true]",
+              "name": "①自动签到",
+              "matches": "@[clickable=true] >(1,2) [text=\"领取今日现金\"][visibleToUser=true]",
               "snapshotUrls": [
                 "https://i.gkd.li/i/13201422",
-                "https://i.gkd.li/i/13372677"
+                "https://i.gkd.li/i/13372677",
+                "https://i.gkd.li/i/35172532"
               ]
             },
             {
@@ -66877,8 +66992,8 @@
                 0
               ],
               "key": 1,
-              "name": "在签到后关闭弹窗",
-              "matches": "@[clickable=true] >2 [text=\"明日继续来领\"][visibleToUser=true]",
+              "name": "②签到后关闭弹窗",
+              "matches": "@[clickable=true] >(1,2) [text=\"明日继续来领\"][visibleToUser=true]",
               "snapshotUrls": "https://i.gkd.li/i/13205634"
             }
           ]
@@ -67465,6 +67580,36 @@
             }
           ],
           "enable": true
+        },
+        {
+          "key": 2627,
+          "name": "补充·奥怪｜功能类-多多视频每日自动签到",
+          "desc": "自动点击签到按钮并关闭签到后的弹窗",
+          "enable": true,
+          "fastQuery": true,
+          "matchTime": 10000,
+          "actionMaximum": 1,
+          "activityIds": ".ui.activity.HomeActivity",
+          "rules": [
+            {
+              "key": 0,
+              "name": "自动签到",
+              "matches": "@[clickable=true] >2 [text=\"领取今日现金\"][visibleToUser=true]",
+              "snapshotUrls": [
+                "https://i.gkd.li/i/13201422",
+                "https://i.gkd.li/i/13372677"
+              ]
+            },
+            {
+              "preKeys": [
+                0
+              ],
+              "key": 1,
+              "name": "在签到后关闭弹窗",
+              "matches": "@[clickable=true] >2 [text=\"明日继续来领\"][visibleToUser=true]",
+              "snapshotUrls": "https://i.gkd.li/i/13205634"
+            }
+          ]
         },
         {
           "key": 2628,

@@ -1,17 +1,17 @@
 {
-  "version": 30,
-  "contentHash": "b3c3a838013d865f02746b664b014d08ffe3e4a0049e19aa87e70e8071fd22d8",
+  "version": 31,
+  "contentHash": "26eb2450cfdde964e23efedd1d62285857277939985d173167988ff053e26d4d",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 639,
+      "version": 640,
       "id": 667,
-      "apps": 1007,
-      "groups": 2520,
-      "kept": 2523,
+      "apps": 1008,
+      "groups": 2525,
+      "kept": 2528,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -24,8 +24,8 @@
       "id": 86,
       "apps": 72,
       "groups": 280,
-      "kept": 211,
-      "duplicatesRemoved": 69,
+      "kept": 212,
+      "duplicatesRemoved": 68,
       "globalGroupsIgnored": 9
     },
     {
@@ -282,6 +282,18 @@
       "app": "com.soft.blued",
       "upstreamKey": 3,
       "key": 48
+    },
+    {
+      "source": "linarm",
+      "app": "com.danlan.xiaolan",
+      "upstreamKey": 1,
+      "key": 2937
+    },
+    {
+      "source": "linarm",
+      "app": "com.danlan.xiaolan",
+      "upstreamKey": 3,
+      "key": 2333
     },
     {
       "source": "linarm",
@@ -3681,6 +3693,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.mzk.android",
+      "upstreamKey": 1,
+      "key": 2938
+    },
+    {
+      "source": "linarm",
       "app": "cn.damai",
       "upstreamKey": 0,
       "key": 593
@@ -4950,6 +4968,12 @@
       "app": "com.dragon.read",
       "upstreamKey": 20,
       "key": 2915
+    },
+    {
+      "source": "linarm",
+      "app": "com.dragon.read",
+      "upstreamKey": 21,
+      "key": 2939
     },
     {
       "source": "linarm",
@@ -6972,6 +6996,12 @@
       "app": "com.kuaishou.nebula",
       "upstreamKey": 9,
       "key": 1126
+    },
+    {
+      "source": "linarm",
+      "app": "com.kuaishou.nebula",
+      "upstreamKey": 10,
+      "key": 2940
     },
     {
       "source": "linarm",
@@ -12406,6 +12436,12 @@
     {
       "source": "linarm",
       "app": "com.taobao.etao",
+      "upstreamKey": 3,
+      "key": 2941
+    },
+    {
+      "source": "linarm",
+      "app": "com.taobao.etao",
       "upstreamKey": 10,
       "key": 2003
     },
@@ -14343,12 +14379,6 @@
     },
     {
       "source": "linarm",
-      "app": "com.danlan.xiaolan",
-      "upstreamKey": 3,
-      "key": 2333
-    },
-    {
-      "source": "linarm",
       "app": "com.hpbr.bosszhipin",
       "upstreamKey": 0,
       "key": 2334
@@ -15868,6 +15898,12 @@
     {
       "source": "aoguai",
       "app": "com.xunmeng.pinduoduo",
+      "upstreamKey": 9,
+      "key": 2627
+    },
+    {
+      "source": "aoguai",
+      "app": "com.xunmeng.pinduoduo",
       "upstreamKey": 10,
       "key": 2628
     },
@@ -17048,7 +17084,7 @@
       "key": 2865
     }
   ],
-  "apps": 1013,
-  "appGroups": 2831,
+  "apps": 1014,
+  "appGroups": 2837,
   "globalGroups": 3
 }
