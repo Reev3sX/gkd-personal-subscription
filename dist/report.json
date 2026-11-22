@@ -1,17 +1,17 @@
 {
-  "version": 31,
-  "contentHash": "26eb2450cfdde964e23efedd1d62285857277939985d173167988ff053e26d4d",
+  "version": 32,
+  "contentHash": "23fb05c5eb0d717976ffcf647c369335a0a9c50c7afda18457977f7947168777",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 640,
+      "version": 641,
       "id": 667,
-      "apps": 1008,
-      "groups": 2525,
-      "kept": 2528,
+      "apps": 1009,
+      "groups": 2527,
+      "kept": 2530,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -14949,6 +14949,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.netease.uuremote",
+      "upstreamKey": 2,
+      "key": 2942
+    },
+    {
+      "source": "linarm",
       "app": "mark.via.gp",
       "upstreamKey": 1,
       "key": 2902
@@ -14982,6 +14988,12 @@
       "app": "com.vivo.space",
       "upstreamKey": 4,
       "key": 2433
+    },
+    {
+      "source": "linarm",
+      "app": "com.vivo.daemonService",
+      "upstreamKey": 1,
+      "key": 2943
     },
     {
       "source": "linarm",
@@ -17084,7 +17096,7 @@
       "key": 2865
     }
   ],
-  "apps": 1014,
-  "appGroups": 2837,
+  "apps": 1015,
+  "appGroups": 2839,
   "globalGroups": 3
 }
