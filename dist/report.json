@@ -1,17 +1,17 @@
 {
-  "version": 32,
-  "contentHash": "23fb05c5eb0d717976ffcf647c369335a0a9c50c7afda18457977f7947168777",
+  "version": 33,
+  "contentHash": "37a9f36704d8c9bf176845da4416bf9380f5957669005bfd66eff6a194c8b31d",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 641,
+      "version": 642,
       "id": 667,
-      "apps": 1009,
-      "groups": 2527,
-      "kept": 2530,
+      "apps": 1010,
+      "groups": 2529,
+      "kept": 2532,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -6885,6 +6885,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.kuaiduizuoye.scan",
+      "upstreamKey": 2,
+      "key": 2944
+    },
+    {
+      "source": "linarm",
       "app": "com.kuaikan.comic",
       "upstreamKey": 2,
       "key": 1108
@@ -11532,6 +11538,12 @@
       "app": "com.mi.earphone",
       "upstreamKey": 1,
       "key": 1856
+    },
+    {
+      "source": "linarm",
+      "app": "com.xiaomi.xmsf",
+      "upstreamKey": 1,
+      "key": 2945
     },
     {
       "source": "linarm",
@@ -17096,7 +17108,7 @@
       "key": 2865
     }
   ],
-  "apps": 1015,
-  "appGroups": 2839,
+  "apps": 1016,
+  "appGroups": 2841,
   "globalGroups": 3
 }
