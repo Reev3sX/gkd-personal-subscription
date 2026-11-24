@@ -1,17 +1,17 @@
 {
-  "version": 33,
-  "contentHash": "37a9f36704d8c9bf176845da4416bf9380f5957669005bfd66eff6a194c8b31d",
+  "version": 34,
+  "contentHash": "f0e4686ad3cea93a1eb5ae8dfcb9d36e51e7f639628ac18ddbc825be5a4ad165",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 642,
+      "version": 643,
       "id": 667,
-      "apps": 1010,
-      "groups": 2529,
-      "kept": 2532,
+      "apps": 1011,
+      "groups": 2532,
+      "kept": 2535,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -789,6 +789,12 @@
     },
     {
       "source": "linarm",
+      "app": "xxx.pornhub.fuck",
+      "upstreamKey": 2,
+      "key": 2946
+    },
+    {
+      "source": "linarm",
       "app": "com.jiaohua_browser",
       "upstreamKey": 1,
       "key": 130
@@ -912,6 +918,12 @@
       "app": "com.lofter.android",
       "upstreamKey": 1,
       "key": 150
+    },
+    {
+      "source": "linarm",
+      "app": "com.mt.luna",
+      "upstreamKey": 1,
+      "key": 2947
     },
     {
       "source": "linarm",
@@ -4704,6 +4716,12 @@
       "app": "com.larus.nova",
       "upstreamKey": 1,
       "key": 756
+    },
+    {
+      "source": "linarm",
+      "app": "com.larus.nova",
+      "upstreamKey": 2,
+      "key": 2948
     },
     {
       "source": "linarm",
@@ -17108,7 +17126,7 @@
       "key": 2865
     }
   ],
-  "apps": 1016,
-  "appGroups": 2841,
+  "apps": 1017,
+  "appGroups": 2844,
   "globalGroups": 3
 }
