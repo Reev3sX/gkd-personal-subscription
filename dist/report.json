@@ -1,17 +1,17 @@
 {
-  "version": 34,
-  "contentHash": "f0e4686ad3cea93a1eb5ae8dfcb9d36e51e7f639628ac18ddbc825be5a4ad165",
+  "version": 35,
+  "contentHash": "db6fce23e26bc1bf831a3cbf9a0299e76412e745d74a0a0c4a83e84a493bca14",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 643,
+      "version": 644,
       "id": 667,
-      "apps": 1011,
-      "groups": 2532,
-      "kept": 2535,
+      "apps": 1012,
+      "groups": 2534,
+      "kept": 2537,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -2220,6 +2220,12 @@
       "app": "com.miui.packageinstaller",
       "upstreamKey": 19,
       "key": 2896
+    },
+    {
+      "source": "linarm",
+      "app": "com.miui.packageinstaller",
+      "upstreamKey": 20,
+      "key": 2949
     },
     {
       "source": "linarm",
@@ -4992,6 +4998,12 @@
       "app": "com.dragon.read",
       "upstreamKey": 21,
       "key": 2939
+    },
+    {
+      "source": "linarm",
+      "app": "com.dragon.read.oversea.gp",
+      "upstreamKey": 1,
+      "key": 2950
     },
     {
       "source": "linarm",
@@ -17126,7 +17138,7 @@
       "key": 2865
     }
   ],
-  "apps": 1017,
-  "appGroups": 2844,
+  "apps": 1018,
+  "appGroups": 2846,
   "globalGroups": 3
 }
