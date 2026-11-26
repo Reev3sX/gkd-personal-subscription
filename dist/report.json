@@ -1,17 +1,17 @@
 {
-  "version": 35,
-  "contentHash": "db6fce23e26bc1bf831a3cbf9a0299e76412e745d74a0a0c4a83e84a493bca14",
+  "version": 36,
+  "contentHash": "4443e69601e20fa08e8473f7b9090f8c6dd75b85f94b87a432aed15b44b8c122",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 644,
+      "version": 645,
       "id": 667,
-      "apps": 1012,
-      "groups": 2534,
-      "kept": 2537,
+      "apps": 1013,
+      "groups": 2539,
+      "kept": 2542,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -3528,6 +3528,24 @@
       "app": "com.cainiao.wireless",
       "upstreamKey": 12,
       "key": 562
+    },
+    {
+      "source": "linarm",
+      "app": "com.xxwolo.cc5",
+      "upstreamKey": 0,
+      "key": 2951
+    },
+    {
+      "source": "linarm",
+      "app": "com.xxwolo.cc5",
+      "upstreamKey": 1,
+      "key": 2952
+    },
+    {
+      "source": "linarm",
+      "app": "com.xxwolo.cc5",
+      "upstreamKey": 2,
+      "key": 2953
     },
     {
       "source": "linarm",
@@ -10491,6 +10509,18 @@
     },
     {
       "source": "linarm",
+      "app": "com.sina.weibo",
+      "upstreamKey": 28,
+      "key": 2954
+    },
+    {
+      "source": "linarm",
+      "app": "com.sina.weibo",
+      "upstreamKey": 29,
+      "key": 2955
+    },
+    {
+      "source": "linarm",
       "app": "com.sina.weibolite",
       "upstreamKey": 1,
       "key": 1683
@@ -17138,7 +17168,7 @@
       "key": 2865
     }
   ],
-  "apps": 1018,
-  "appGroups": 2846,
+  "apps": 1019,
+  "appGroups": 2851,
   "globalGroups": 3
 }
