@@ -1,17 +1,17 @@
 {
-  "version": 36,
-  "contentHash": "4443e69601e20fa08e8473f7b9090f8c6dd75b85f94b87a432aed15b44b8c122",
+  "version": 37,
+  "contentHash": "fa7c9211000efdc5cf2b1d4f01024032fb02b619ff4d11df71ac80ed35932758",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 645,
+      "version": 646,
       "id": 667,
       "apps": 1013,
-      "groups": 2539,
-      "kept": 2542,
+      "groups": 2544,
+      "kept": 2547,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -10521,6 +10521,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.sina.weibo",
+      "upstreamKey": 30,
+      "key": 2956
+    },
+    {
+      "source": "linarm",
       "app": "com.sina.weibolite",
       "upstreamKey": 1,
       "key": 1683
@@ -12300,6 +12306,30 @@
       "app": "com.xueqiu.android",
       "upstreamKey": 3,
       "key": 1969
+    },
+    {
+      "source": "linarm",
+      "app": "com.xueqiu.android",
+      "upstreamKey": 4,
+      "key": 2957
+    },
+    {
+      "source": "linarm",
+      "app": "com.xueqiu.android",
+      "upstreamKey": 5,
+      "key": 2958
+    },
+    {
+      "source": "linarm",
+      "app": "com.xueqiu.android",
+      "upstreamKey": 6,
+      "key": 2959
+    },
+    {
+      "source": "linarm",
+      "app": "com.xueqiu.android",
+      "upstreamKey": 7,
+      "key": 2960
     },
     {
       "source": "linarm",
@@ -17169,6 +17199,6 @@
     }
   ],
   "apps": 1019,
-  "appGroups": 2851,
+  "appGroups": 2856,
   "globalGroups": 3
 }
