@@ -1,5 +1,5 @@
 {
-  "next": 2961,
+  "next": 2963,
   "keys": {
     "[\"category\",\"linarm\",0]": 1,
     "[\"category\",\"linarm\",1]": 2,
@@ -2960,6 +2960,8 @@
     "[\"group\",\"linarm\",\"com.xueqiu.android\",4]": 2957,
     "[\"group\",\"linarm\",\"com.xueqiu.android\",5]": 2958,
     "[\"group\",\"linarm\",\"com.xueqiu.android\",6]": 2959,
-    "[\"group\",\"linarm\",\"com.xueqiu.android\",7]": 2960
+    "[\"group\",\"linarm\",\"com.xueqiu.android\",7]": 2960,
+    "[\"group\",\"linarm\",\"com.dragon.read\",22]": 2961,
+    "[\"group\",\"linarm\",\"com.jingdong.app.mall\",18]": 2962
   }
 }

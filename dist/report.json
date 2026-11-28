@@ -1,17 +1,17 @@
 {
-  "version": 37,
-  "contentHash": "fa7c9211000efdc5cf2b1d4f01024032fb02b619ff4d11df71ac80ed35932758",
+  "version": 38,
+  "contentHash": "0ffe41648d27200764fea159d3462bcaa99ad24c41e71447c7e01296ed2d31c6",
   "sources": [
     {
       "key": "linarm",
       "repository": "Lin-arm/GKD_subscription",
       "branch": "main",
       "path": "dist/gkd.json5",
-      "version": 646,
+      "version": 647,
       "id": 667,
       "apps": 1013,
-      "groups": 2544,
-      "kept": 2547,
+      "groups": 2546,
+      "kept": 2549,
       "duplicatesRemoved": 0,
       "globalGroupsIgnored": 0
     },
@@ -5019,6 +5019,12 @@
     },
     {
       "source": "linarm",
+      "app": "com.dragon.read",
+      "upstreamKey": 22,
+      "key": 2961
+    },
+    {
+      "source": "linarm",
       "app": "com.dragon.read.oversea.gp",
       "upstreamKey": 1,
       "key": 2950
@@ -6456,6 +6462,12 @@
       "app": "com.jingdong.app.mall",
       "upstreamKey": 17,
       "key": 1030
+    },
+    {
+      "source": "linarm",
+      "app": "com.jingdong.app.mall",
+      "upstreamKey": 18,
+      "key": 2962
     },
     {
       "source": "linarm",
@@ -17199,6 +17211,6 @@
     }
   ],
   "apps": 1019,
-  "appGroups": 2856,
+  "appGroups": 2858,
   "globalGroups": 3
 }
